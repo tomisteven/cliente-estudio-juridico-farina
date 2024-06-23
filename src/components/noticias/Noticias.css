@@ -1,0 +1,196 @@
+.container-noticias {
+  padding: 30px;
+  width: 100%;
+  height: 600px;
+}
+.title-noticias {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Sedan SC", serif;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.cont-noticias {
+  height: 500px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-bottom: 30px;
+  background-color: rgb(246, 246, 246);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px #00000051;
+}
+.info-p{
+  text-align: start;
+}
+.noticias-info h1 {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Sedan SC", serif;
+  text-align: start;
+}
+.carousel.carousel-slider .control-arrow{
+  background-color: red;
+}
+
+.titulo-noticias{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Sedan SC", serif;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+.fecha-info {
+  font-size: 18px;
+  border-bottom: 1px solid #5b5b5b;
+  font-family: "Sedan SC", serif;
+  color: #5b5b5b;
+}
+
+.noticias-img {
+  width: 45%;
+  height: auto;
+}
+.noticias-info {
+  width:55%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.img-noticia {
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  object-fit: auto;
+}
+
+.button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  background: none;
+  color: #0f1923;
+  cursor: pointer;
+  position: relative;
+  padding: 8px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  transition: all 0.15s ease;
+}
+
+.button::before,
+.button::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  left: 0;
+  height: calc(50% - 5px);
+  border: 1px solid #7d8082;
+  transition: all 0.15s ease;
+}
+
+.button::before {
+  top: 0;
+  border-bottom-width: 0;
+}
+
+.button::after {
+  bottom: 0;
+  border-top-width: 0;
+}
+
+.button:active,
+.button:focus {
+  outline: none;
+}
+
+.button:active::before,
+.button:active::after {
+  right: 3px;
+  left: 3px;
+}
+
+.button:active::before {
+  top: 3px;
+}
+
+.button:active::after {
+  bottom: 3px;
+}
+
+.button_lg {
+  position: relative;
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #0f1923;
+  overflow: hidden;
+  box-shadow: inset 0px 0px 0px 1px transparent;
+}
+
+.button_lg::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 2px;
+  background-color: #0f1923;
+}
+
+.button_lg::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 4px;
+  height: 4px;
+  background-color: #0f1923;
+  transition: all 0.2s ease;
+}
+
+.button_sl {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: -1px;
+  left: -8px;
+  width: 0;
+  background-color: #ff4655;
+  transform: skew(-15deg);
+  transition: all 0.2s ease;
+}
+
+.button_text {
+  position: relative;
+}
+
+.button:hover {
+  color: #0f1923;
+}
+
+.button:hover .button_sl {
+  width: calc(100% + 15px);
+}
+
+.button:hover .button_lg::after {
+  background-color: #fff;
+}
+
+/*
+ */

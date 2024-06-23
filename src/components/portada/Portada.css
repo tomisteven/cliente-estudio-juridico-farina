@@ -1,0 +1,107 @@
+.portada-principal {
+  background-image: url("../../assets/portadaoscura.png");
+
+  height: 750px; /* Ajusta la altura de la portada */
+  /* Ajusta la imagen de fondo */
+  background-size: cover;
+
+
+  /* Posiciona la imagen en el centro */ /* Ajusta el brillo de la imagen */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo_portada {
+  width: 300px;
+  height: 300px;
+}
+
+.container-info-portada {
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+  margin-top: 10px;
+  align-items: flex-end;
+  width: 80%;
+  height: 500px; /* Ajusta la altura del contenedor */
+  flex-direction: column;
+  /* Ajusta el color de fondo del contenedor */
+  transform: translate(-100%);
+  color: #ffffff; /* Ajusta el color del texto */
+  text-align: end; /* Ajusta el alineamiento del texto */
+}
+
+.container-info-portada.scroll {
+  transform: translate(0%);
+  transition: transform 1s;
+}
+
+.title-portada {
+  font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 42px;
+  width: 350px;
+  text-align: end;
+}
+.subtitulo-portada {
+  margin-top: 10px;
+  margin-bottom: 35px;
+  font-family: "Sedan SC", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  text-align: end;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 5;
+}
+.container-info-portada p {
+  width: 500px;
+  text-align: end;
+  font-family: "Sedan SC", serif;
+  /*   font-weight: bold; */
+  font-style: normal;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.btn-portada {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 40px;
+  background-color: #d9c9ba;
+  color: #000000;
+  border: none;
+  font-family: "Sedan SC", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.span img {
+  width: 20px;
+  height: 20px;
+}
+
+.span {
+  width: 230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.uno {
+  width: 90px;
+  background-color: #ffffff;
+  height: 1px;
+}
+
+.dos {
+  width: 90px;
+  background-color: #ffffff;
+  height: 1px;
+}

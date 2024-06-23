@@ -1,0 +1,27 @@
+.cont-buttons-sociales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    bottom: 195px;
+    right: 5px;
+    margin: 0;
+    z-index: 999;
+
+}
+
+.cont-buttons-sociales a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: rgb(103, 103, 103);
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    z-index: 999;
+}

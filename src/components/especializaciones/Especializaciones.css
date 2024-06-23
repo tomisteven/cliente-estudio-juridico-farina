@@ -1,0 +1,10 @@
+.especializaciones{
+    font-family: "Sedan SC", serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+margin: 40px;
+
+    margin-top: 50px;
+}

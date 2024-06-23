@@ -1,0 +1,29 @@
+.container-items-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    padding: 0 20px;
+}
+
+.cont-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.container-items-section h2{
+    font-family: "Sedan SC", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: 60px;
+
+}

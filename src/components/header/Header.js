@@ -11,7 +11,7 @@ export default function Header() {
              <img src={logo} alt="Logo" />
           </div>
           <nav>
-            <ul>
+            <ul className="header-ul">
               <li>
                 <a href="#d">Inicio</a>
               </li>

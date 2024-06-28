@@ -32,3 +32,17 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child{
     margin-bottom: 15px;
 
 }
+
+@media (max-width: 600px){
+  .cont-banner div h1{
+    top: auto;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+
+  .cont-banner{
+    background: #978675;
+  }
+}
+

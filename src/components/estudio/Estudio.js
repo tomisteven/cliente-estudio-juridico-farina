@@ -20,14 +20,6 @@ export default function Estudio() {
           </span>
           <h1
             className="title-portada"
-            style={{
-              fontSize: "3em",
-              color: "#fff",
-              textShadow: "1px 1px 2px #000",
-              textAlign: "center",
-              marginTop: "2%",
-              marginBottom: "0",
-            }}
           >
             Estudio Juridico Farina Balbi
           </h1>
@@ -35,7 +27,7 @@ export default function Estudio() {
           <h2 className="subtitulo-portada">
             Direccion: Av Simpreviva 1234, La Plata, Buenos Aires
           </h2>
-          <h2 className="subtitulo-portada" style={{ borderBottom: "none" }}>
+          <h2 className="subtitulo-portada">
             Horarios: Lunes a Sabados de 08:00 a 19:00 Hs
           </h2>
 

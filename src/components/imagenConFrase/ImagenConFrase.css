@@ -4,9 +4,8 @@
   justify-content: space-between;
   width: 90%;
 
-
   margin-top: 80px;
-    margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 .img-frase {
@@ -17,19 +16,18 @@
   width: 100%;
   height: 100%;
 }
-.frase{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.frase {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .frase img {
   width: 80px;
-    height: 80px;
-    margin-bottom: 80px;
-    text-align: center;
+  height: 80px;
+  margin-bottom: 80px;
+  text-align: center;
 }
-
 
 .p-frase {
   font-size: 36px;
@@ -37,7 +35,40 @@
   text-align: start;
 }
 
-.p-bold{
-    font-weight: bold;
+.p-bold {
+  font-weight: bold;
+}
 
+@media (max-width: 700px) {
+  .cont-imagen-frase {
+    background-image: url("../../assets/presentacion2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+  }
+  .p-frase {
+    font-size: 20px;
+    width: 100%;
+    color: white;
+  }
+  .frase img{
+    display: none;
+
+  }
+  .img-frase {
+    display: none;
+  }
+  .p-bold{
+    font-size: 16px;
+    color: white;
+  }
+  .frase{
+    width: 98%;
+    margin: 0 auto;
+    padding: 10px;
+
+    justify-content: flex-end;
+  }
 }

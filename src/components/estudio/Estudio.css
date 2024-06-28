@@ -1,22 +1,44 @@
 .parallax {
-    height: 500px;
-    background-image: url('../../assets/estudio.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
-    font-size: 2em;
-    font-weight: bold;
-    text-align: center;
+  height: 500px;
+  background-image: url("../../assets/estudio.webp");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
 }
 
 .content {
-    height: 1000px;
-    background-color: #f0f0f0;
-    padding: 20px;
+  height: 1000px;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  .title-portada {
+    width: 100%;
+    font-size: 25px;
+    margin-left: 80px;
+    border: none;
+  }
+
+  .span, .subtitulo-portada{
+    margin-left: 80px;
+    font-size: 18px;
+    text-align: start;
+  }
+  .btn-portada{
+    display: none;
+  }
+
+  .container-info-portada{
+    margin-bottom: 100px;
+  }
 }

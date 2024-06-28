@@ -24,7 +24,7 @@ export default function Especializaciones() {
     {
       nombre: "REPRESENTACION DE VICTIMAS",
       descripcion:
-        "Representamos integralmente tanto a familiares como víctimas de todo tipo de delitos. Tanto en el proceso penal como en el proceso civil y de familia, nuestro compromiso es  brindar una asesoramiento acabado que permita desde el trabajo en equipo y la confianza aportar material probatorio de peso y lograr así sentencias respetuosas de sus derechos. ",
+        "Representamos integralmente a familiares y víctimas de delitos. Tanto en el proceso penal como en el proceso civil y de familia, nuestro compromiso es brindar asesoramiento completo para lograr, desde el trabajo en equipo, identificar las mejores estrategias probatorias  para lograr así sentencias respetuosas de sus derechos.  ",
       icon: v,
     },
     {
@@ -36,7 +36,7 @@ export default function Especializaciones() {
     {
       nombre: "EXCARCELACIONES Y LIBERTAD",
       descripcion:
-        "Ante el abuso de la prisión preventiva que existe en la justicia penal, es necesario desde el minuto 1 de un proceso penal contar con una defensa preparada y activa, para controlar las medidas de investigación y para generar pruebas propias con las que sostener eficazmente la libertad del imputado durante todo el proceso. Aseguramos tus derechos en excarcelaciones, eximisión de prisión, juicios abreviados, suspensión del juicio a prueba, prisión domiciliaria y morigeraciones de la prisión preventiva",
+        "Ante el abuso de la prisión preventiva que existe en la justicia, es necesario desde el inicio del proceso contar con una defensa activa,  tanto para controlar las medidas de investigación como para generar pruebas defensivas, y desde allí sostener la libertad del imputado durante todo el proceso. Te aseguramos una defensa de excelencia en excarcelaciones, eximición de prisión, juicio abreviado, suspensión del juicio a prueba, prisión domiciliaria y morigeraciones.",
       icon: carcel,
     },
     {
@@ -48,7 +48,7 @@ export default function Especializaciones() {
     {
       nombre: "DELITOS CONTRA LAS PERSONAS",
       descripcion:
-        "Nos especializamos en litigio estratégico en casos de homicidio y lesiones. Ya sean dolosos o culposos, la gravedad de las imputaciones y las consecuencias demandan que la defensa de tus derechos esté resguarada desde el inicio de la investigación. Contamos con un equipo interdisciplinario de peritos que colaboran para crear la mejor estrategia de defensa para tu caso.",
+        "Nos especializamos en litigar estratégicamente casos de homicidio y lesiones, dolosos y culposos. La gravedad de estos casos demandan que tu defensa esté garantizada desde el inicio de la investigación. Para eso contamos con un equipo interdisciplinario de peritos capaz de brindarte la mejor defensa para tu caso.",
       icon: personas,
     },
     {
@@ -60,17 +60,17 @@ export default function Especializaciones() {
     {
         nombre: "ESTUPEFACIENTES Y NARCOTRAFICO",
         descripcion:
-            "Ofrecemos una defensa integral en casos regidos por la ley 23.737 de estupefacientes. La tenencia, producción, suministro y transporte de drogas ilegales sin autorización son solo algunas conductas que al norma castiga con severas penas. La defensa de estos casos requiere urgencia y abordaje interdisciplinario. No pierdas tiempo.",
+            "Ofrecemos una defensa completa en casos de estupefacientes. La tenencia, producción, suministro y transporte de drogas ilegales sin autorización son solo algunas conductas que la ley castiga con severas penas. La defensa de estos casos requiere urgencia y abordaje interdisciplinario para diferenciar consumos de narcotráfico.",
         icon: estupefacientes,
     },
     {
       nombre : "CIBERCRIMEN",
-      descripcion : "Los avances de la tecnología han producido un notable incremento de los delitos cometidos mediante medios informáticos: phishing, ataques ransomware, suplantación de identidad, ciberacoso, sextorsión, cripto estafas, son solo algunas de las modalidas delictivas. Ya sea que hayas sido víctima, o te estén imputando un delito de este tipo, podemos ayudarte. Somos especialistas en esta materia como en el manejo adecuado de la evidencia digital",
+      descripcion : "El avance de la tecnología ha incrementado los delitos cometidos por medios informáticos: phishing, ransomware, suplantación de identidad, ciberacoso, sextorsión, cripto estafas, son solo algunas modalidas delictivas. Ya seas víctima de un ciberataque, o imputado, podemos ayudarte. Somos especialistas en esta materia como en el manejo profesional de la evidencia digital.",
       icon : ciber
     },
     {
       nombre : "VIOLENCIA DE GENERO",
-      descripcion : "Los avances normativos permiten hoy hacer justicia en casos que antes quedaban en el olvido. La perspectiva de género es una obligación impuesta por Tratados Internacionales. Tanto las víctimas como los imputados en casos de esta especie requieren un asesoramiento legal especializado. Contamos con experiencia y formación actualizada al respecto. ",
+      descripcion : "Los avances normativos permiten hoy hacer justicia en casos que antes quedaban en el olvido. La perspectiva de género es una obligación impuesta por Tratados Internacionales. Tanto las víctimas como los imputados en casos de esta especie requieren un asesoramiento legal especializado. Contamos con experiencia y formación actualizada al respecto.",
       icon : violencia
     },
     {

@@ -194,3 +194,38 @@
 
 /*
  */
+
+
+@media (max-width: 600px){
+  .container-noticias{
+    height: auto;
+    margin-bottom: 100px;
+  }
+  .cont-noticias {
+    flex-direction: column;
+    height: auto;
+
+  }
+  .titulo-noticias{
+    margin-top: 20px;
+    margin-bottom: -20px;
+
+  }
+  .noticias-img {
+    width: 100%;
+    height: 300px;
+  }
+  .noticias-info {
+    width: 100%;
+    height: auto;
+  }
+  .info-p{
+    text-align: justify;
+  }
+  .fecha-info {
+    display: none;
+  }
+  .button {
+    margin: auto;
+  }
+}

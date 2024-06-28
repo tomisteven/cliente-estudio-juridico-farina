@@ -101,3 +101,24 @@
   color: rgb(0, 0, 0);
   cursor: pointer;
 }
+
+
+@media (max-width: 600px){
+  .title-portada{
+    font-size: 25px;
+    border-bottom:  1px solid black;
+  }
+  .container-section-presentacion{
+    margin-top: 700px;
+    width: 100%;
+    flex-direction: column;
+  }
+  .cont-img-presentacion{
+    width: 100%;
+  }
+  .cont-info-presentacion{
+    width: 100%;
+    text-align: center;
+  }
+
+}

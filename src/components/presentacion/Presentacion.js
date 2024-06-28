@@ -1,6 +1,6 @@
 import React from "react";
 import "./Presentacion.css";
-import img from "../../assets/portadaof.jpg";
+import img from "../../assets/portadaof2.webp";
 /* import img2 from "../../assets/presentacion2.jpeg";
 import logo from "../../assets/logonegro.png"; */
 
@@ -24,7 +24,6 @@ export default function Presentacion() {
         />
       </div>
       <div className="cont-info-presentacion">
-        <h2>Presentacion</h2>
         <h1 className="title-portada">Dr Julian Farina Balbi</h1>
         <p>
           El Dr. Julián Farina Balbi es abogado egresado de la Universidad

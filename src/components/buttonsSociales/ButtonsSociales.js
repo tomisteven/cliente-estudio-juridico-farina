@@ -6,14 +6,14 @@ export default function ButtonsSociales() {
 
       <div className="cont-buttons-sociales">
         <a
-          href="https://www.facebook.com/estudiofarinabalbi"
+          href="https://www.facebook.com/share/Boub9fbnnpUxuJ5k/?mibextid=LQQJ4d "
           target="_blank"
           rel="noreferrer"
         >
           <i className="fab fa-facebook-square"></i>
         </a>
         <a
-          href="https://www.instagram.com/estudiofarinabalbi/"
+          href="https://www.instagram.com/dr.julianfarinabalbi"
           rel="noreferrer"
           target="_blank"
         >

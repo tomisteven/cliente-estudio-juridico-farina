@@ -25,7 +25,7 @@ export default function Presentacion() {
       </div>
       <div className="cont-info-presentacion">
         <h1 className="title-portada">Dr Julian Farina Balbi</h1>
-        <p>
+        <p className="presentacion-descripcion">
           El Dr. Julián Farina Balbi es abogado egresado de la Universidad
           Nacional de La Plata. Es Especialista en Prueba Penal por la
           Universidad de Castilla La Mancha (España), y Docente Investigador por

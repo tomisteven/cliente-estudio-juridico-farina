@@ -25,7 +25,7 @@ export default function Estudio() {
           </h1>
 
           <h2 className="subtitulo-portada">
-            Direccion: Av Simpreviva 1234, La Plata, Buenos Aires
+            Direccion: Calle 48 Nro. 877, of. 403
           </h2>
           <h2 className="subtitulo-portada">
             Horarios: Lunes a Sabados de 08:00 a 19:00 Hs

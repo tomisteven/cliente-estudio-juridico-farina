@@ -28,7 +28,9 @@ export default function Header() {
                 <a href="#d">Blog</a>
               </li>
               <li>
-                <button className="btn-header-wapp">Chatear Whatss App </button>
+                <button className="btn-header-wapp" onClick={() => {
+            window.location.href = "https://wa.link/36t96j";
+          }}>Chatear Whatss App </button>
               </li>
             </ul>
           </nav>

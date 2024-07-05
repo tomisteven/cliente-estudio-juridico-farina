@@ -36,7 +36,7 @@ export default function Especializaciones() {
     {
       nombre: "EXCARCELACIONES Y LIBERTAD",
       descripcion:
-        "Ante el abuso de la prisión preventiva que existe en la justicia, es necesario desde el inicio del proceso contar con una defensa activa,  tanto para controlar las medidas de investigación como para generar pruebas defensivas, y desde allí sostener la libertad del imputado durante todo el proceso. Te aseguramos una defensa de excelencia en excarcelaciones, eximición de prisión, juicio abreviado, suspensión del juicio a prueba, prisión domiciliaria y morigeraciones.",
+        "El abuso actual que hace el Estado de la Prisión Preventiva hace indispensable contar desde el inicio del proceso con una defensa proactiva para controlar la investigación, generar pruebas defensivas y defender la libertad del imputado. Te aseguramos una defensa de excelencia en excarcelaciones, eximición de prisión, juicio abreviado, suspensión del juicio a prueba, y morigeraciones.",
       icon: carcel,
     },
     {
@@ -48,7 +48,7 @@ export default function Especializaciones() {
     {
       nombre: "DELITOS CONTRA LAS PERSONAS",
       descripcion:
-        "Nos especializamos en litigar estratégicamente casos de homicidio y lesiones, dolosos y culposos. La gravedad de estos casos demandan que tu defensa esté garantizada desde el inicio de la investigación. Para eso contamos con un equipo interdisciplinario de peritos capaz de brindarte la mejor defensa para tu caso.",
+        "Somos especialistas en litigio de homicidios y lesiones, dolosos y culposos. La gravedad y complejidad de estos casos demandan un enfoque global, por eso contamos con un equipo interdisciplinario de peritos capaz de brindarte la mejor defensa..",
       icon: personas,
     },
     {
@@ -65,7 +65,7 @@ export default function Especializaciones() {
     },
     {
       nombre : "CIBERCRIMEN",
-      descripcion : "El avance de la tecnología ha incrementado los delitos cometidos por medios informáticos: phishing, ransomware, suplantación de identidad, ciberacoso, sextorsión, cripto estafas, son solo algunas modalidas delictivas. Ya seas víctima de un ciberataque, o imputado, podemos ayudarte. Somos especialistas en esta materia como en el manejo profesional de la evidencia digital.",
+      descripcion : "El avance de la tecnología incrementó los delitos cometidos por medios informáticos. Phishing, ransomware, suplantación de identidad, ciberacoso, cripto estafas, son solo algunos. Ya seas víctima de un ciberataque, o imputado en delitos informáticos podemos brindarte una defensa especializada.",
       icon : ciber
     },
     {

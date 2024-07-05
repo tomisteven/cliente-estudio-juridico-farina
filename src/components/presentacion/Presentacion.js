@@ -46,7 +46,13 @@ export default function Presentacion() {
           hacen que confiar la defensa de tus derechos al Estudio Farina Balbi
           sea una garantía de calidad.
         </p>
-        <button>Asesorate con nosotros</button>
+        <button
+          onClick={() => {
+            window.location.href = "https://wa.link/36t96j";
+          }}
+        >
+          Asesorate con nosotros
+        </button>
       </div>
     </div>
   );

@@ -27,6 +27,16 @@
     height: 100%;
     top: 15px;
 }
+.cont-banner div h2{
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    position: relative;
+    height: 100%;
+    top: 15px;
+
+}
 
 h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child{
     margin-bottom: 15px;

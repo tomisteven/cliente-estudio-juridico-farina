@@ -4,7 +4,7 @@ import Slider from "react-slick";
 
 export default function Banner() {
   var settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 1000,
     slidesToShow: 1,
@@ -24,21 +24,24 @@ export default function Banner() {
         <h1>Dr. Julian Farina Balbi</h1>
       </div>
       <div>
-        <h1>Estudio Juridico Penal</h1>
+        <h1>Urgencias en Ciudad de La Plata, Dr Farina Balbi</h1>
       </div>
       <div>
-        <h1>Abogado Especialista en Derecho Penal</h1>
+        <h2>Estudio Juridico Penal</h2>
+      </div>
+      <div>
+        <h2>Abogado Especialista en Derecho Penal</h2>
       </div><div>
-        <h1>Abogado Penalista en CABA - Fuero Federal</h1>
+        <h2>Abogado Penalista en CABA - Fuero Federal</h2>
       </div>
       <div>
         <h1>Excarcelaciones - Prision Preventiva - Eximision de Prision - Asesoramiento en Comisaria </h1>
       </div>
       <div>
-        <h1>Audiencias - Investigacion Penal - Juicio Oral - Juicio por Jurados</h1>
+        <h2>Audiencias - Investigacion Penal - Juicio Oral - Juicio por Jurados</h2>
       </div>
       <div>
-        <h1>Recurso de Apelacion - Recurso de Casacion - Delitos de Genero - Falsas Denuncias</h1>
+        <h2>Recurso de Apelacion - Recurso de Casacion - Delitos de Genero - Falsas Denuncias</h2>
       </div>
     </Slider>
   );

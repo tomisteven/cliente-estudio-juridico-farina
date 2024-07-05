@@ -24,7 +24,7 @@ export default function Portada() {
         <div class="overlay"></div>
         <button
           onClick={() => {
-            window.location.href = "https://wa.link/2qy653";
+            window.location.href = "https://wa.link/36t96j";
           }}
           className="btn-portada-p"
         >

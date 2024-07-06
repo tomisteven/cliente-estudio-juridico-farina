@@ -26,7 +26,7 @@
   left: -40px;
 }
 
-.title-portada {
+/* .title-portada {
   font-family: "Sedan SC", serif;
   font-weight: 400;
   font-style: normal;
@@ -34,10 +34,10 @@
 
   border-bottom: 2px solid #00000016;
   padding-bottom: 9px;
-  text-align: start;
+  text-align: center;
   width: auto;
 }
-
+ */
 .cont-img-presentacion {
   width: 50%;
   height: 100%;
@@ -71,12 +71,13 @@
   text-align: start;
 }
 
-.cont-info-presentacion h2 {
+.cont-info-presentacion h1 {
   font-family: "Sedan SC", serif;
   font-weight: 600;
   font-style: normal;
   font-size: 35px;
   margin-top: 10px;
+  text-align: center;
 }
 
 .cont-info-presentacion p {
@@ -103,9 +104,13 @@
 }
 
 @media (max-width: 600px) {
-  .title-portada {
-    font-size: 25px;
+  .cont-info-presentacion h1 {
+    font-size: 30px;
+
     border-bottom: 1px solid black;
+    text-align: start;
+
+    width: 100%;
   }
   .container-section-presentacion {
     margin-top: 700px;

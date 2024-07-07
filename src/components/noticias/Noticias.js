@@ -174,7 +174,7 @@ export default function Noticias() {
             <img
               className="img-noticia"
               src={noticia.imagen}
-              alt={noticia.titulo}
+              alt={noticia.descripcion}
             />
           </div>
         </div>

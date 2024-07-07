@@ -8,7 +8,7 @@ export default function Header() {
       <div class="container">
         <div class="container-2">
           <div class="logo">
-             <img src={logo} alt="Logo" />
+             <img src={logo} alt="Abogado penalista en la ciudad de la plata con amplia experiencia" />
           </div>
           <nav>
             <ul className="header-ul">

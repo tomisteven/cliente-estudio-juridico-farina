@@ -15,7 +15,7 @@ export default function Estudio() {
         >
           <span className="span">
             <div className="uno"></div>
-            <img src={icon_portada} alt="" />
+            <img src={icon_portada} alt="Abogado en Ciudad de la plata" />
             <div className="dos"></div>
           </span>
           <h1

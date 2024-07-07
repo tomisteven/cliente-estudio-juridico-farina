@@ -14,7 +14,7 @@ export default function Portada() {
       <div class="container-info-portada-p">
         <span className="span-p">
           <div className="uno-p"></div>
-          <img src={icon_portada} alt="" />
+          <img alt="Abogado Penalista Julian Farina Balbi en La Plata" src={icon_portada}  />
           <div className="dos-p"></div>
         </span>
         {/* <h5 className="title-portada">Estudio Juridico Farina Balbi</h5> */}

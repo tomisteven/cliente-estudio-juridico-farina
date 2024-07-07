@@ -20,7 +20,7 @@ export default function Presentacion() {
         <img
           className="img-presentacion"
           src={img}
-          alt="imagen de presentacion"
+          alt="Abogado Penalista Julian Farina Balbi en La Plata"
         />
       </div>
       <div className="cont-info-presentacion">

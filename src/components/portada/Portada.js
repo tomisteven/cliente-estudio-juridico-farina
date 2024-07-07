@@ -18,6 +18,7 @@ export default function Portada() {
           <div className="dos-p"></div>
         </span>
         {/* <h5 className="title-portada">Estudio Juridico Farina Balbi</h5> */}
+        <h1 className="h1">Abogado en la Ciudad de la Plata</h1>
         <h3 className="title-portada-2-p">Estudio Juridico Farina Balbi</h3>
         <h2 className="subtitulo-portada-p">Especializado en Derecho Penal</h2>
 

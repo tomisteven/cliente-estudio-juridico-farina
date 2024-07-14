@@ -20,7 +20,7 @@ export default function ButtonsSociales() {
           <i className="fab fa-instagram"></i>
         </a>
         <a
-          href="https://twitter.com/estudiofarinaba"
+          href="https://x.com/drfarinabalbi"
           target="_blank"
           rel="noreferrer"
         >

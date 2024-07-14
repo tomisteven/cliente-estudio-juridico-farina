@@ -4,9 +4,11 @@ import castilla from "../../assets/castilla.jpg";
 import diarioCapital from "../../assets/diariocapital.jpg";
 import disertacion from "../../assets/disertacion.jpg";
 import investigador from "../../assets/investigador.jpg";
+import proyect from "../../assets/proyect.jpg";
 import jurados from "../../assets/jurados.jpg";
 import portacionarmas from "../../assets/portacionarmas.jpg";
 import secretario from "../../assets/secretario.jpg";
+import radio from "../../assets/radio.jpg";
 import investigacion from "../../assets/investigacion.jpeg";
 //import Carousel from "react-multi-carousel";
 
@@ -85,6 +87,23 @@ export default function Noticias() {
       fecha: "05/07/2024 ",
       imagen: investigacion,
       id: 7,
+    },{
+      titulo: "Patrocinio Juridico en Cibercrimen y Evidencia Digital",
+      descripcion:
+        "El Dr. Julián Farina Balbi fué invitado a Radio FM La Redonda el pasado 6 de julio, donde explicó la importancia de contar con un patrocinio jurídico experto en materia de cibercrimen y evidencia digital. ",
+      link: " https://www.instagram.com/p/C84XZ1IsofT/ ",
+      fecha: "14/07/2024 ",
+      imagen: radio,
+      id: 8,
+    },
+    {
+      titulo: "Innocence Project Argentina",
+      descripcion:
+        "una de las Ong más importantes y reconocidas a nivel mundial en la lucha contra las condenas a inocentes  y abusos del poder penal, recibió al Dr. Julián Farina Balbi para que expusiera y explicara en modo de Seminario a sus integrantes, las conclusiones de su investigación en materia de prueba penal ",
+      link: "https://www.instagram.com/p/C9Pbcn2RKkh/?img_index=1",
+      fecha: "14/07/2024 ",
+      imagen: proyect,
+      id: 9,
     }
   ];
 

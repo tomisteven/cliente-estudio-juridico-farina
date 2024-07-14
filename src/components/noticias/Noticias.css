@@ -67,10 +67,10 @@
 }
 
 .img-noticia {
-  width: 100%;
+  width: auto;
   height: 100%;
-  background-color: #333;
-  object-fit: auto;
+  background-color: #d1010100;
+  object-fit: contain;
 }
 
 .button {

@@ -13,7 +13,7 @@ export default function ButtonsSociales() {
           <i className="fab fa-facebook-square"></i>
         </a>
         <a
-          href="https://www.instagram.com/dr.julianfarinabalbi"
+          href="https://www.instagram.com/julianfarinabalbi?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
           rel="noreferrer"
           target="_blank"
         >
@@ -26,13 +26,13 @@ export default function ButtonsSociales() {
         >
           <i className="fab fa-twitter"></i>
         </a>
-        <a
+        {/* <a
           href="https://www.linkedin.com/in/julian-farina-balbi-7a3b1b1b4/"
           target="_blank"
           rel="noreferrer"
         >
           <i className="fab fa-linkedin"></i>
-        </a>
+        </a> */}
       </div>
 
   );

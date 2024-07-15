@@ -48,7 +48,7 @@ export default function Presentacion() {
         </p>
         <button
           onClick={() => {
-            window.location.href = "https://wa.link/36t96j";
+            window.location.href = "https://api.whatsapp.com/send?phone=5492215619155&text=Hola%20Dr.%20Julian%20Farina%20Balbi%2C%20quisiera%20hacerle%20una%C2%A0consulta";
           }}
         >
           Asesorate con nosotros

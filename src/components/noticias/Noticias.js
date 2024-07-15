@@ -65,7 +65,7 @@ export default function Noticias() {
       titulo: "Portacion de Armas de Guerra",
       descripcion:
         "En resonante caso caratulado como “Amenazas y Portación de Armas de Guerra”, seguido en base a hechos ocurridos en las afueras de la ciudad de La Plata, el Dr. Julián Farina Balbi representó al imputado en las jornadas de debate oral, obteniendo en sentencia firme su plena libertad.",
-      link: "https://www.instagram.com/p/Cif8M1cvjX3/",
+      link: "https://www.instagram.com/p/Cif8M1cvjX3/?utm_source=ig_web_copy_link",
       fecha: "14/09/2022",
       imagen: portacionarmas,
       id: 6,
@@ -91,7 +91,7 @@ export default function Noticias() {
       titulo: "Patrocinio Juridico en Cibercrimen y Evidencia Digital",
       descripcion:
         "El Dr. Julián Farina Balbi fué invitado a Radio FM La Redonda el pasado 6 de julio, donde explicó la importancia de contar con un patrocinio jurídico experto en materia de cibercrimen y evidencia digital. ",
-      link: " https://www.instagram.com/p/C84XZ1IsofT/ ",
+      link: "https://www.instagram.com/reel/C84XZ1IsofT/?utm_source=ig_web_copy_link",
       fecha: "14/07/2024 ",
       imagen: radio,
       id: 8,
@@ -100,7 +100,7 @@ export default function Noticias() {
       titulo: "Innocence Project Argentina",
       descripcion:
         "una de las Ong más importantes y reconocidas a nivel mundial en la lucha contra las condenas a inocentes  y abusos del poder penal, recibió al Dr. Julián Farina Balbi para que expusiera y explicara en modo de Seminario a sus integrantes, las conclusiones de su investigación en materia de prueba penal ",
-      link: "https://www.instagram.com/p/C9Pbcn2RKkh/?img_index=1",
+      link: "https://www.instagram.com/p/C9Pbcn2RKkh/?utm_source=ig_web_copy_link",
       fecha: "14/07/2024 ",
       imagen: proyect,
       id: 9,

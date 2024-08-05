@@ -9,7 +9,7 @@ import sexual from "../../assets/sexual.png";
 import carcel from "../../assets/carcel.png";
 import propiedad from "../../assets/propiedad.png";
 import personas from "../../assets/personas.png";
-import estupefacientes  from "../../assets/estupefacientes.png";
+import estupefacientes from "../../assets/estupefacientes.png";
 import violencia from "../../assets/violencia.png";
 import economia from "../../assets/economia.png";
 
@@ -43,7 +43,7 @@ export default function Especializaciones() {
       nombre: "DELITOS CONTRA LA INTEGRIDAD SEXUAL",
       descripcion:
         "Estos delitos requieren una defensa sumamente activa y estratégica. Las circunstancias de privacidad en la que ocurren estas conductas hacen que el manejo de la prueba y los apoyos científicos sean manejados por la defensa con máxima profesionalidad.",
-      icon:sexual,
+      icon: sexual,
     },
     {
       nombre: "DELITOS CONTRA LAS PERSONAS",
@@ -52,47 +52,53 @@ export default function Especializaciones() {
       icon: personas,
     },
     {
-        nombre: "DELITOS CONTRA LA PROPIEDAD",
-        descripcion:
-            "Ofrecemos defensas eficaces y estratégicas en casos de robo, hurto, estafas, defraudaciones, extorsión, usurpación. La defensa en estos casos requiere un examen profesional y exhaustivo del material probatorio de cargo para elegir la forma más eficaz de defensa para tu caso.",
-        icon: propiedad,
+      nombre: "DELITOS CONTRA LA PROPIEDAD",
+      descripcion:
+        "Ofrecemos defensas eficaces y estratégicas en casos de robo, hurto, estafas, defraudaciones, extorsión, usurpación. La defensa en estos casos requiere un examen profesional y exhaustivo del material probatorio de cargo para elegir la forma más eficaz de defensa para tu caso.",
+      icon: propiedad,
     },
     {
-        nombre: "ESTUPEFACIENTES Y NARCOTRAFICO",
-        descripcion:
-            "Ofrecemos una defensa completa en casos de estupefacientes. La tenencia, producción, suministro y transporte de drogas ilegales sin autorización son solo algunas conductas que la ley castiga con severas penas. La defensa de estos casos requiere urgencia y abordaje interdisciplinario para diferenciar consumos de narcotráfico.",
-        icon: estupefacientes,
+      nombre: "ESTUPEFACIENTES Y NARCOTRAFICO",
+      descripcion:
+        "Ofrecemos una defensa completa en casos de estupefacientes. La tenencia, producción, suministro y transporte de drogas ilegales sin autorización son solo algunas conductas que la ley castiga con severas penas. La defensa de estos casos requiere urgencia y abordaje interdisciplinario para diferenciar consumos de narcotráfico.",
+      icon: estupefacientes,
     },
     {
-      nombre : "CIBERCRIMEN",
-      descripcion : "El avance de la tecnología incrementó los delitos cometidos por medios informáticos. Phishing, ransomware, suplantación de identidad, ciberacoso, cripto estafas, son solo algunos. Ya seas víctima de un ciberataque, o imputado en delitos informáticos podemos brindarte una defensa especializada.",
-      icon : ciber
+      nombre: "CIBERCRIMEN",
+      descripcion:
+        "El avance de la tecnología incrementó los delitos cometidos por medios informáticos. Phishing, ransomware, suplantación de identidad, ciberacoso, cripto estafas, son solo algunos. Ya seas víctima de un ciberataque, o imputado en delitos informáticos podemos brindarte una defensa especializada.",
+      icon: ciber,
     },
     {
-      nombre : "VIOLENCIA DE GENERO",
-      descripcion : "Los avances normativos permiten hoy hacer justicia en casos que antes quedaban en el olvido. La perspectiva de género es una obligación impuesta por Tratados Internacionales. Tanto las víctimas como los imputados en casos de esta especie requieren un asesoramiento legal especializado. Contamos con experiencia y formación actualizada al respecto.",
-      icon : violencia
+      nombre: "VIOLENCIA DE GENERO",
+      descripcion:
+        "Los avances normativos permiten hoy hacer justicia en casos que antes quedaban en el olvido. La perspectiva de género es una obligación impuesta por Tratados Internacionales. Tanto las víctimas como los imputados en casos de esta especie requieren un asesoramiento legal especializado. Contamos con experiencia y formación actualizada al respecto.",
+      icon: violencia,
     },
     {
-      nombre : "PENAL ECONOMICO Y EMPRESARIAL",
-      descripcion : "Contamos con calificados peritos y profesionales para alcanzar las mejores soluciones en los casos de defraudaciones complejas, lavado de activos, delitos tributarios, económicos y de la empresa. Podemos ayudarte con una mirada integral y especializada en la materia.",
-      icon : economia
+      nombre: "PENAL ECONOMICO Y EMPRESARIAL",
+      descripcion:
+        "Contamos con calificados peritos y profesionales para alcanzar las mejores soluciones en los casos de defraudaciones complejas, lavado de activos, delitos tributarios, económicos y de la empresa. Podemos ayudarte con una mirada integral y especializada en la materia.",
+      icon: economia,
     },
     {
-      nombre : "OTRAS ESPECIALIDADES",
-      descripcion : "Te ofrecemos asesoramiento y representación integral en siniestros viales, representación ante compañía de seguros, accidentes laborales y junta médica, despidos, alimentos y divorcios, sucesiones y amparos de salud. Nuestro compromiso es encontrar junto a vos la mejor solución para tu caso.",
-      icon : balanza
-    }
+      nombre: "OTRAS ESPECIALIDADES",
+      descripcion:
+        "Te ofrecemos asesoramiento y representación integral en siniestros viales, representación ante compañía de seguros, accidentes laborales y junta médica, despidos, alimentos y divorcios, sucesiones y amparos de salud. Nuestro compromiso es encontrar junto a vos la mejor solución para tu caso.",
+      icon: balanza,
+    },
   ];
 
   return (
-    <div className="section-especilizaciones">
-      <h2 className="title-especializaciones">Especializaciones</h2>
-      <div className="especializaciones">
-        {especializaciones.map((especializacion, index) => (
-          <Item key={index} {...especializacion} />
-        ))}
+    <section id="servicios">
+      <div className="section-especilizaciones">
+        <h2 className="title-especializaciones">Especializaciones</h2>
+        <div className="especializaciones">
+          {especializaciones.map((especializacion, index) => (
+            <Item key={index} {...especializacion} />
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 }

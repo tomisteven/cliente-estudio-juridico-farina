@@ -10,6 +10,7 @@ export default function Portada() {
   }, []);
 
   return (
+    <section id="inicio">
     <div className="portada-principal-p">
       <div class="container-info-portada-p">
         <span className="span-p">
@@ -33,5 +34,6 @@ export default function Portada() {
         </button>
       </div>
     </div>
+    </section>
   );
 }

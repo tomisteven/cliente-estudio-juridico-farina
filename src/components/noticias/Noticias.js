@@ -108,7 +108,7 @@ export default function Noticias() {
   ];
 
   return (
-    <>
+    <section id="blog">
     <h2 className="titulo-noticias">Noticias Destacadas</h2>
     <Carousel
       autoPlay={true}
@@ -199,7 +199,7 @@ export default function Noticias() {
         </div>
       ))}
     </Carousel>
-    </>
+    </section>
   );
 }
 

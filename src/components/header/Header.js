@@ -13,24 +13,24 @@ export default function Header() {
           <nav>
             <ul className="header-ul">
               <li>
-                <a href="#d">Inicio</a>
+                <a href="#inicio">Inicio</a>
               </li>
               <li>
-                <a href="#d">Acerca de</a>
+                <a href="#acercade">Perfil</a>
               </li>
               <li>
-                <a href="#d">Servicios</a>
+                <a href="#servicios">Servicios</a>
               </li>
               <li>
-                <a href="#d">Contacto</a>
+                <a href="#estudio">Estudio</a>
               </li>
               <li>
-                <a href="#d">Blog</a>
+                <a href="#blog">Articulos</a>
               </li>
               <li>
                 <button className="btn-header-wapp" onClick={() => {
             window.location.href = "https://wa.link/36t96j";
-          }}>Chatear Whatss App </button>
+          }}>Chatear WhatsApp </button>
               </li>
             </ul>
           </nav>

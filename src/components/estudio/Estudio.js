@@ -5,7 +5,7 @@ import icon_portada from "../../assets/banco2.png";
 export default function Estudio() {
   return (
     <main>
-      <section class="parallax">
+      <section class="parallax" id="estudio">
         <div
           class="container-info-portada"
           style={{

@@ -6,10 +6,21 @@ body {
   font-weight: 400;
   font-style: normal;
   overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+#tm-8htd9 h2.go372176402 {
+  display: none;
 }
 
-#tm-8htd9 h2.go372176402{
-    display: none;
+@media (max-width: 600px) {
+  .footer-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
 }
-
-

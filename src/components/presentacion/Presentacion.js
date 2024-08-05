@@ -15,6 +15,7 @@ export default function Presentacion() {
   };
 
   return (
+    <section id="acercade">
     <div className="container-section-presentacion">
       <div class="cont-img-presentacion">
         <img
@@ -55,5 +56,6 @@ export default function Presentacion() {
         </button>
       </div>
     </div>
+    </section>
   );
 }

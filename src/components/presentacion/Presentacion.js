@@ -5,14 +5,7 @@ import img from "../../assets/portadaof2.webp";
 import logo from "../../assets/logonegro.png"; */
 
 export default function Presentacion() {
-  onscroll = () => {
-    console.log(window.scrollY);
-    if (window.scrollY >= 720) {
-      console.log("entro", window.scrollY);
-      document.querySelector(".cont-info-presentacion").className =
-        "cont-info-presentacion scroll";
-    }
-  };
+
 
   return (
     <section id="acercade">

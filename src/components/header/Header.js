@@ -8,7 +8,10 @@ export default function Header() {
       <div class="container">
         <div class="container-2">
           <div class="logo">
-             <img src={logo} alt="Abogado penalista en la ciudad de la plata con amplia experiencia" />
+            <img
+              src={logo}
+              alt="Abogado penalista en la ciudad de la plata con amplia experiencia"
+            />
           </div>
           <nav>
             <ul className="header-ul">
@@ -25,12 +28,23 @@ export default function Header() {
                 <a href="#estudio">Estudio</a>
               </li>
               <li>
-                <a target="_blank" rel="noreferrer" href="https://drive.google.com/drive/folders/1WSID9XdVtMUyMS6pDhY4F4XTzK9brhkG?usp=sharing">PUBLICACIONES</a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://drive.google.com/drive/folders/1WSID9XdVtMUyMS6pDhY4F4XTzK9brhkG?usp=sharing"
+                >
+                  PUBLICACIONES
+                </a>
               </li>
               <li>
-                <button className="btn-header-wapp" onClick={() => {
-            window.location.href = "https://wa.link/36t96j";
-          }}>Chatear WhatsApp </button>
+                <button
+                  className="btn-header-wapp"
+                  onClick={() => {
+                    window.location.href = "https://wa.link/36t96j";
+                  }}
+                >
+                  Chatear WhatsApp{" "}
+                </button>
               </li>
             </ul>
           </nav>

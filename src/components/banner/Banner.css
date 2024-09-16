@@ -27,7 +27,8 @@
     height: 100%;
     top: 15px;
 }
-.cont-banner div h2{
+.cont-banner div h2, .cont-banner div h3{
+    font-size: 24px;
     font-family: "Sedan SC", serif;
     font-weight: 400;
     font-style: normal;
@@ -36,6 +37,10 @@
     height: 100%;
     top: 15px;
 
+}
+
+.cont-banner div{
+  text-align: center;
 }
 
 h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child{

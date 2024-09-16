@@ -10,7 +10,7 @@ export default function ImagenConFrase() {
         <img src={img} alt="" />
       </div>
       <div class="frase">
-        <img src={educacion} alt=""/>
+        <img src={educacion} alt="abogado penalista en la plata dr julian farina balbi"/>
         <p className="p-frase">
           “Los derechos no son otorgados por los gobiernos, sino que son inherentes a la dignidad humana. Defenderlos es preservar nuestra humanidad”
         </p>

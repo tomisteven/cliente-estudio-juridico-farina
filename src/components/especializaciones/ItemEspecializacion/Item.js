@@ -1,12 +1,12 @@
-import React from 'react'
-import './Item.css'
+import React from "react";
+import "./Item.css";
 
 export default function Item({ nombre, descripcion, icon }) {
   return (
     <div className="card-diagonal">
-        <img className='icon-card' src={icon} alt="icon" />
-        <h3>{nombre}</h3>
-        <p>{descripcion}</p>
+      <img className="icon-card" src={icon} alt={descripcion} />
+      <h1>{nombre}</h1>
+      <p>{descripcion}</p>
     </div>
-  )
+  );
 }

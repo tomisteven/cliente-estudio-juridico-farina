@@ -42,7 +42,7 @@
   font-style: normal;
   margin-bottom: 10px;
 }
-.card-diagonal h3{
+.card-diagonal h1{
   font-family: "Sedan SC", serif;
   font-size: 16px;
   border-bottom: 2px solid white;
@@ -69,7 +69,7 @@
   ); /* Adjust the position of the background card */
 }
 
-.card-diagonal h2,
+
 .card-diagonal p {
   margin: 0;
   font-family: "Sedan SC", serif;

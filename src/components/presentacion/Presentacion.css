@@ -66,11 +66,19 @@
   text-align: start;
 }
 
-.cont-info-presentacion h1 {
+.cont-info-presentacion h1  {
   font-family: "Sedan SC", serif;
   font-weight: 600;
   font-style: normal;
   font-size: 35px;
+  margin-top: 10px;
+  text-align: center;
+}
+.cont-info-presentacion h2{
+  font-family: "Sedan SC", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
   margin-top: 10px;
   text-align: center;
 }

@@ -80,14 +80,16 @@ export default function Noticias() {
       id: 7,
     },
     {
-      titulo: "Disertación en la Presentación de Proyectos de Investigación 2024-2025",
+      titulo:
+        "Disertación en la Presentación de Proyectos de Investigación 2024-2025",
       descripcion:
         "En el marco del inicio del ciclo de las actividades de investigación 2024-2025 de la Facultad de Derecho de la Universidad del Este, el Dr. Julián Farina Balbi presentó ante la comunidad universitaria el proyecto que lo tiene como director titulado “La Razonabilidad de la Duda en la Casación Bonaerense”, que apunta desde el estudio jurisprudencial del Tribunal Casatorio, determinar con precisión el uso que en la práctica se aplica sobre el estándar de condena conocido como más allá de toda duda razonable.  ",
       link: "",
       fecha: "05/07/2024 ",
       imagen: investigacion,
       id: 7,
-    },{
+    },
+    {
       titulo: "Patrocinio Juridico en Cibercrimen y Evidencia Digital",
       descripcion:
         "El Dr. Julián Farina Balbi fué invitado a Radio FM La Redonda el pasado 6 de julio, donde explicó la importancia de contar con un patrocinio jurídico experto en materia de cibercrimen y evidencia digital. ",
@@ -104,103 +106,98 @@ export default function Noticias() {
       fecha: "14/07/2024 ",
       imagen: proyect,
       id: 9,
-    }
+    },
   ];
 
   return (
     <section id="blog">
-    <h2 className="titulo-noticias">Noticias Destacadas</h2>
-    <Carousel
-      autoPlay={true}
-      infiniteLoop={true}
-      showArrows={true}
-      showStatus={false}
-      showThumbs={false}
-      stopOnHover={true}
-      thumbWidth={200}
-      interval={5000}
-      renderArrowNext={(onClickHandler, hasNext, label) =>
-        hasNext && (
-          <button
-            type="button"
-            onClick={onClickHandler}
-            title={label}
-            style={{
-              position: "absolute",
-              top: "50%",
-              right: "0",
-              zIndex: "2000",
-
-              backgroundColor: "rgba(0, 0, 0)",
-              border: "none",
-              cursor: "pointer",
-              color: "white",
-              fontSize: "2rem",
-            }}
-          >
-            <i class="fas fa-chevron-right"></i>
-          </button>
-        )
-      }
-      renderArrowPrev={(onClickHandler, hasPrev, label) =>
-        hasPrev && (
-          <button
-            type="button"
-            onClick={onClickHandler}
-            title={label}
-            style={{
-              position: "absolute",
-              top: "50%",
-              left: "0",
-              zIndex: "2",
-
-              backgroundColor: "rgba(0, 0, 0)",
-              border: "none",
-              cursor: "pointer",
-              color: "white",
-              fontSize: "2rem",
-            }}
-          >
-            <i class="fas fa-chevron-left"></i>
-          </button>
-        )
-      }
-      className="container-noticias"
-    >
-      {noticias.map((noticia) => (
-        <div key={noticia.id} className="cont-noticias">
-          <div className="noticias-info">
-            <h1>
-
-              <p className="fecha-info">
-                {noticia.fecha}
-              </p>
-            </h1>
-
-            <p className="info-p">{noticia.descripcion}</p>
-
+      <h2 className="titulo-noticias">Noticias Destacadas</h2>
+      <Carousel
+        autoPlay={true}
+        infiniteLoop={true}
+        showArrows={true}
+        showStatus={false}
+        showThumbs={false}
+        stopOnHover={true}
+        thumbWidth={200}
+        interval={5000}
+        renderArrowNext={(onClickHandler, hasNext, label) =>
+          hasNext && (
             <button
-              class="button"
-              onClick={() => window.open(noticia.link, "_blank")}
+              type="button"
+              onClick={onClickHandler}
+              title={label}
+              style={{
+                position: "absolute",
+                top: "50%",
+                right: "0",
+                zIndex: "2000",
+
+                backgroundColor: "rgba(0, 0, 0)",
+                border: "none",
+                cursor: "pointer",
+                color: "white",
+                fontSize: "2rem",
+              }}
             >
-              <span class="button_lg">
-                <span class="button_sl"></span>
-                <span class="button_text">Ver Noticia</span>
-              </span>
+              <i class="fas fa-chevron-right"></i>
             </button>
+          )
+        }
+        renderArrowPrev={(onClickHandler, hasPrev, label) =>
+          hasPrev && (
+            <button
+              type="button"
+              onClick={onClickHandler}
+              title={label}
+              style={{
+                position: "absolute",
+                top: "50%",
+                left: "0",
+                zIndex: "2",
+
+                backgroundColor: "rgba(0, 0, 0)",
+                border: "none",
+                cursor: "pointer",
+                color: "white",
+                fontSize: "2rem",
+              }}
+            >
+              <i class="fas fa-chevron-left"></i>
+            </button>
+          )
+        }
+        className="container-noticias"
+      >
+        {noticias.map((noticia) => (
+          <div key={noticia.id} className="cont-noticias">
+            <div className="noticias-info">
+              <h1>
+                {noticia.titulo} - {noticia.fecha}
+              </h1>
+
+              <p className="info-p">{noticia.descripcion}</p>
+
+              <button
+                class="button"
+                onClick={() => window.open(noticia.link, "_blank")}
+              >
+                <span class="button_lg">
+                  <span class="button_sl"></span>
+                  <span class="button_text">Ver Noticia</span>
+                </span>
+              </button>
+            </div>
+            <div className="noticias-img">
+              <img
+                className="img-noticia"
+                src={noticia.imagen}
+                alt={noticia.descripcion}
+              />
+            </div>
           </div>
-          <div className="noticias-img">
-            <img
-              className="img-noticia"
-              src={noticia.imagen}
-              alt={noticia.descripcion}
-            />
-          </div>
-        </div>
-      ))}
-    </Carousel>
+        ))}
+      </Carousel>
     </section>
   );
 }
-
-

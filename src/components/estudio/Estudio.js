@@ -18,11 +18,8 @@ export default function Estudio() {
             <img src={icon_portada} alt="Abogado en Ciudad de la plata" />
             <div className="dos"></div>
           </span>
-          <h1
-            className="title-portada"
-          >
-            Estudio Juridico Farina Balbi
-          </h1>
+          <h1 className="title-portada">FARINA BALBI</h1>
+          <p>ESTUDIO JURIDICO PENAL</p>
 
           <h2 className="subtitulo-portada">
             Direccion: Calle 48 Nro. 877, of. 403

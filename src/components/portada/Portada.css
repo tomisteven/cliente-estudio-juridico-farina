@@ -127,13 +127,14 @@
     width: 50%;
 
     height: 30px;
-    font-size: 12px;
+    font-size: 15px;
     position: relative;
     bottom: 10px;
   }
   .span-p {
     width: 100%;
   }
+
   .uno-p {
     width: 40%;
   }
@@ -148,13 +149,18 @@
     align-items: flex-start;
   }
   .title-portada-2-p {
-    font-size: 25px;
+    font-size: 29px;
     width: 100%;
     text-align: start;
   }
 
   .subtitulo-portada-p {
-    font-size: 14px;
+    font-size: 18px;
+    width: 100%;
+    text-align: start;
+  }
+
+  .container-info-portada-p p{
     width: 100%;
     text-align: start;
   }

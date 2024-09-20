@@ -40,7 +40,7 @@
   font-family: "Sedan SC", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 15px;
+  font-size: 18px;
   width: auto;
   text-align: end;
 
@@ -61,11 +61,12 @@
   font-family: "Sedan SC", serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 16px;
+  font-size: 35px;
   text-align: end;
   border-bottom: 1px solid #ffffff;
   padding-bottom: 16px;
 }
+
 .container-info-portada-p p {
   width: 500px;
   text-align: end;
@@ -73,7 +74,7 @@
   font-style: normal;
   letter-spacing: 0.5px;
   font-size: 16px;
-  margin-top: 20px;
+  margin-top: -10px;
 }
 .btn-portada-p {
   display: flex;

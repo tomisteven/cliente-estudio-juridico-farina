@@ -115,8 +115,11 @@
 
     width: 100%;
   }
+  .cont-info-presentacion h2{
+    text-align: start;
+  }
   .container-section-presentacion {
-    margin-top: 700px;
+    margin-top: 850px;
     width: 100%;
     flex-direction: column;
   }
@@ -127,4 +130,5 @@
     width: 100%;
     text-align: center;
   }
+
 }

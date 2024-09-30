@@ -10,6 +10,8 @@ import portacionarmas from "../../assets/portacionarmas.jpg";
 import secretario from "../../assets/secretario.jpg";
 import radio from "../../assets/radio.jpg";
 import investigacion from "../../assets/investigacion.jpeg";
+import titulo from "../../assets/titulo2.jpeg";
+import autoridad from "../../assets/autoridad.jpeg";
 //import Carousel from "react-multi-carousel";
 
 import { Carousel } from "react-responsive-carousel";
@@ -106,6 +108,24 @@ export default function Noticias() {
       fecha: "14/07/2024 ",
       imagen: proyect,
       id: 9,
+    },
+    {
+      titulo: "Obtención del Título de Magister en Derecho Penal ",
+      descripcion:
+        "El Dr. Julián Faria Balbi, defendió su tesis con la mayor calificación ante el prestigioso jurado constituido por los Dres. Leonardo Filippini, Carolina Maglione y Agustina Emiliossi en la Universidad de Palermo, obteniendo el título de Magister en Derecho Penal y la distinción SUMA CUM LAUDE.",
+      link: "",
+      fecha: "24/07/2024 ",
+      imagen: titulo,
+      id: 10,
+    },
+    {
+      titulo: "Secretario del Instituto de Derecho Penal",
+      descripcion:
+        "El Dr. Julian Farina Balbi, ha sido distinguido como autoridad del Area Académica del Colegio de Abogado de La Plata, como Secretario del Instituto de Derecho Penal, a cargo de la Secretaría de Cibercrimen.",
+      link: "https://www.calp.org.ar/derecho-penal/",
+      fecha: "14/09/2024 ",
+      imagen: autoridad,
+      id: 11,
     },
   ];
 

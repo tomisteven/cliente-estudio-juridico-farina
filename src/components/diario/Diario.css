@@ -1,0 +1,67 @@
+.container-diario {
+  max-width: 90%;
+
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Sedan SC", serif;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Sedan SC", serif;
+
+}
+
+.cont-noticia-diario {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #ccc;
+    border-radius: 5px;
+
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.127);
+
+  margin-bottom: 10px;
+}
+
+.imagen-noticia-diario {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.info-noticia-diario {
+  flex: 1;
+}
+
+.info-noticia-diario h2 {
+  font-size: 1.5rem;
+  margin: 0 0 10px;
+  font-family: "Sedan SC", serif;
+}
+
+.info-noticia-diario p {
+  font-size: 0.9rem;
+  color: #555;
+  font-family: "Sedan SC", serif;
+}
+
+.boton-noticia-diario {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.boton-noticia-diario:hover {
+  background-color: #0056b3;
+}

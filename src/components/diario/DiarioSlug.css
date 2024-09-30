@@ -1,0 +1,153 @@
+.container-slug {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 190px;
+
+  padding-top: 130px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.cont-noticia-info {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 600px;
+}
+
+.cont-imagenes-info {
+  width: 40%;
+
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.imagen-slug {
+  width: 100%;
+
+  height: auto;
+  object-fit: contain;
+}
+
+.cont-ruta-slug {
+  width: 80%;
+  border-bottom: #00000065 solid 1px;
+  height: 20px;
+}
+
+.ruta-slug {
+  font-family: monospace;
+  font-size: 13px;
+  font-weight: 400;
+  color: #000;
+}
+
+.cont-titulo-slug {
+  margin-top: 20px;
+  width: 80%;
+  text-align: start;
+}
+
+.titulo-slug {
+  font-size: 40px;
+  font-weight: 700;
+  color: #000;
+  text-align: start;
+}
+
+.fecha-slug {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #9c9c9c;
+}
+
+.cont-texto-slug {
+  width: 80%;
+  margin-top: 20px;
+}
+.cont-sub-texto-slug {
+  width: 80%;
+  margin-top: 60px;
+}
+
+.texto-slug {
+  font-weight: 200;
+  color: #000;
+  text-align: start;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.titulo-texto-slug {
+  font-size: 17px;
+  font-weight: 700;
+  color: #000;
+  text-align: start;
+}
+
+.button-noticia-link {
+  width: 80%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+.button-noticia {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 5px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.button-noticia:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+
+.ver-mas-noticias {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap; /* Permite que los cuadros bajen a la siguiente fila cuando no hay espacio */
+  gap: 20px; /* Espacio entre los cuadros */
+  justify-content: space-between; /* Distribuye los cuadros uniformemente */
+  padding: 20px;
+}
+
+.cont-mas-noticia {
+  width: 250px; /* Fija el tamaño de los cuadros a 300px */
+  flex: 1 1 250px; /* Hace que los cuadros mantengan este tamaño */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera para modernizar */
+  border-radius: 10px; /* Bordes redondeados */
+  overflow: hidden; /* Evita desbordes de contenido */
+  transition: transform 0.3s ease; /* Transición para hover */
+}
+
+.cont-mas-noticia:hover {
+  transform: translateY(-10px); /* Efecto hover que levanta el cuadro ligeramente */
+}
+
+.imagen-mas-noticia {
+  width: 100%;
+  height: 200px; /* Define un tamaño fijo para la imagen */
+  object-fit: contain; /* Asegura que la imagen cubra el espacio sin deformarse */
+}
+
+.titulo-noticia {
+  text-align: center;
+  padding: 8px 10px;
+  font-size: 13px;
+
+  color: #000000;
+  background-color: #f4f4f4;
+}

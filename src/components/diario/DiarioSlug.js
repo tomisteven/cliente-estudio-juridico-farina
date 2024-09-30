@@ -19,7 +19,6 @@ export default function DiarioSlug() {
   if (!noticia) return <div>Noticia no encontrada</div>;
 
   if (loading)
-    //const reseñas = document.querySelector(".reseñas");
     return (
       <div
         style={{

@@ -29,7 +29,7 @@ const noticias = [
     imagen: loan,
     imagen2: loan2,
     id: 11,
-    slug : "secretario-del-instituto-de-derecho-penal"
+    slug : "caso-loan-derecho-penal-y-fracasos",
   },
 ];
 

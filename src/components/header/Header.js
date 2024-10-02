@@ -9,13 +9,16 @@ export default function Header() {
         <div class="container-2">
           <div class="logo">
             <img
+              onClick={() => {
+                window.location.href = "/";
+              }}
               src={logo}
               alt="Abogado penalista en la ciudad de la plata con amplia experiencia"
             />
           </div>
           <nav>
             <ul className="header-ul">
-            <li>
+              <li>
                 <a href="/diario">Blog Noticias</a>
               </li>
               <li>

@@ -85,18 +85,6 @@ export default function DiarioSlug() {
           ) : null;
         })}
       </section>
-
-      <aside className="cont-imagenes-info">
-        <img
-          className="imagen-slug"
-          src={noticia.imagen}
-          alt={noticia.titulo}
-        />
-        {noticia.imagen2 && (
-          <img className="imagen-slug" src={noticia.imagen2} alt={noticia.titulo} />
-        )}
-      </aside>
-
       <footer className="contact-slug">
         <CommentGroup className="contact-slug-comment">
           <Comment>
@@ -133,6 +121,21 @@ export default function DiarioSlug() {
           </Comment>
         </CommentGroup>
       </footer>
+
+      <aside className="cont-imagenes-info">
+        <img
+          className="imagen-slug"
+          src={noticia.imagen}
+          alt={noticia.titulo}
+        />
+        {noticia.imagen2 && (
+          <img
+            className="imagen-slug"
+            src={noticia.imagen2}
+            alt={noticia.titulo}
+          />
+        )}
+      </aside>
 
       <section className="ver-mas-noticias">
         <h2 className="titulo-ver-mas">Ver más noticias</h2>

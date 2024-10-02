@@ -12,7 +12,7 @@ export default function Portada() {
     <section id="inicio" aria-label="Portada del Estudio Jurídico Farina Balbi">
       <div className="portada-principal-p">
         <div className="container-info-portada-p">
-        <h1 className="h1">Abogado Penalista en La Plata</h1>
+          <h1 className="h1">Abogado Penalista en La Plata</h1>
           <span className="span-p">
             <div className="uno-p"></div>
             <img
@@ -24,7 +24,9 @@ export default function Portada() {
 
           <h3 className="title-portada-2-p">Farina Balbi</h3>
           <h2 className="subtitulo-portada-p">Estudio Jurídico Penal</h2>
-          <p className="expertos-p">Expertos en delitos sexuales y falsas denuncias.</p>
+          <p className="expertos-p">
+            Expertos en delitos sexuales y falsas denuncias.
+          </p>
           <div className="overlay"></div>
           <button
             aria-label="Ver las publicaciones del Estudio Farina Balbi"
@@ -35,6 +37,15 @@ export default function Portada() {
             className="btn-portada-p"
           >
             Publicaciones
+          </button>
+          <button
+            aria-label="Ver blog del Estudio Farina Balbi"
+            onClick={() => {
+              window.location.href = "/diario";
+            }}
+            className="btn-portada-p"
+          >
+            Blog
           </button>
         </div>
       </div>

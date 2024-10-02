@@ -3,6 +3,18 @@ import { useParams } from "react-router-dom";
 import noticias from "../Data/Noticias";
 import "./DiarioSlug.css";
 import { Oval } from "react-loader-spinner";
+import {
+  Comment,
+  CommentAvatar,
+  CommentContent,
+  CommentGroup,
+  CommentAuthor,
+  CommentText,
+  CommentActions,
+  CommentAction,
+  Icon,
+} from "semantic-ui-react";
+import doc from "../../assets/portadacelular.png";
 
 export default function DiarioSlug() {
   const [noticia, setNoticia] = React.useState({});
@@ -64,8 +76,33 @@ export default function DiarioSlug() {
             <p className="texto-slug">{noticia.descripcion}</p>
           </div>
           <div class="cont-sub-texto-slug">
-            <h5 className="titulo-texto-slug">{noticia.subTitulo}</h5>
-            <p className="texto-slug">{noticia.subDescripcion}</p>
+            <p className="texto-slug">{noticia.subDescripcion1}</p>
+          </div>
+          <div class="cont-sub-texto-slug">
+            <p className="texto-slug">{noticia.subDescripcion2}</p>
+          </div>
+          <div class="cont-sub-texto-slug">
+            <p className="texto-slug">{noticia.subDescripcion3}</p>
+          </div>
+          <div class="cont-sub-texto-slug">
+            <p className="texto-slug">{noticia.subDescripcion4}</p>
+          </div>
+          <div class="cont-sub-texto-slug">
+            <p className="texto-slug">{noticia.subDescripcion5}</p>
+          </div>
+          <div class="cont-sub-texto-slug">
+            <p className="texto-slug">{noticia.subDescripcion6}</p>
+          </div>
+          <div class="cont-sub-texto-slug">
+            <p className="texto-slug">{noticia.subDescripcion7}</p>
+          </div>
+          <div class="cont-sub-texto-slug">
+            <p className="texto-slug">{noticia.subDescripcion8}</p>
+          </div>
+          <div class="cont-sub-texto-slug">
+            <p className="texto-slug">{noticia.subDescripcion9}</p>
+          </div><div class="cont-sub-texto-slug">
+            <p className="texto-slug">{noticia.subDescripcion10}</p>
           </div>
           <div class="button-noticia-link">
             <a href={noticia.link} target="_blank" rel="noreferrer">
@@ -79,6 +116,45 @@ export default function DiarioSlug() {
             src={noticia.imagen}
             alt={noticia.titulo}
           />
+          <img
+            className="imagen-slug"
+            src={noticia.imagen2}
+            alt={noticia.titulo}
+          />
+          <div class="contact-slug">
+            <CommentGroup className="contact-slug-comment">
+              <Comment>
+                <CommentAvatar as="a" src={doc} />
+                <CommentContent>
+                  <CommentAuthor>Julian Farina Balbi</CommentAuthor>
+                  <CommentText>
+                    Abogado UNLP. Especialista en Prueba Penal por la U. de
+                    Castilla La Mancha. Director Legal en Estudio Farina Balbi
+                  </CommentText>
+                  <CommentActions>
+                    <CommentAction>
+                      <a
+                        href={noticia.datosContactoTelefono}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <Icon name="whatsapp" size="big" />
+                      </a>
+                    </CommentAction>
+                    <CommentAction>
+                      <a
+                        href={noticia.datosContactoIG}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <Icon name="instagram" size="big" />
+                      </a>
+                    </CommentAction>
+                  </CommentActions>
+                </CommentContent>
+              </Comment>
+            </CommentGroup>
+          </div>
         </div>
       </div>
 

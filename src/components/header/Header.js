@@ -15,8 +15,11 @@ export default function Header() {
           </div>
           <nav>
             <ul className="header-ul">
+            <li>
+                <a href="/diario">Blog Noticias</a>
+              </li>
               <li>
-                <a href="#inicio">Inicio</a>
+                <a href="/">Inicio</a>
               </li>
               <li>
                 <a href="#acercade">Perfil</a>

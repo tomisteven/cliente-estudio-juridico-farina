@@ -1,158 +1,33 @@
-import castilla from "../../assets/castilla.jpg";
-import diarioCapital from "../../assets/diariocapital.jpg";
-import disertacion from "../../assets/disertacion.jpg";
-import investigador from "../../assets/investigador.jpg";
-import proyect from "../../assets/proyect.jpg";
-import jurados from "../../assets/jurados.jpg";
-import portacionarmas from "../../assets/portacionarmas.jpg";
-import secretario from "../../assets/secretario.jpg";
-import radio from "../../assets/radio.jpg";
-import investigacion from "../../assets/investigacion.jpeg";
-import titulo from "../../assets/titulo2.jpeg";
-import autoridad from "../../assets/autoridad.jpeg";
+import loan from "../../assets/loan.png";
+import loan2 from "../../assets/loan2.jpg";
 
 const noticias = [
-  {
-    id: 1,
-    titulo: "Castilla",
-    descripcion:
-      "La Universidad de Castilla La Mancha (Toledo, España), reconoció al Dr. Julián Farina Balbi como “Especialista en Prueba Penal” y extendió la invitación para formalizar una investigación autónoma por el profesional en su sede en Toledo.",
-      subDescripcion: "La Universidad de Castilla La Mancha (Toledo, España), reconoció al Dr. Julián Farina Balbi como “Especialista en Prueba Penal” y extendió la invitación para formalizar una investigación autónoma por el profesional en su sede en Toledo.",
-    link: "https://www.instagram.com/p/CaShJ4ruQXB/",
 
-    fecha: "22/02/2022",
-    imagen: castilla,
-    slug : "universidad-de-castilla-la-mancha"
-  },
   {
-    id: 2,
-    titulo: "Diario Capital",
+    titulo: "Caso Loan. Derecho penal y fracasos",
+    fecha: "1 de Octubre de 2024",
+    tituloTexto: "El caso “Loan” y los fracasos del Sistema Penal. “El rey está desnudo”",
     descripcion:
-      "El Dr. Julián Farina Balbi fue entrevistado por Diario Capital.24 sobre el caso “Jey Mammón”. En la nota el especialista aporta claridad sobre la discusión referente a Inocencia y Prescripción.",
-      subDescripcion: "La Universidad de Castilla La Mancha (Toledo, España), reconoció al Dr. Julián Farina Balbi como “Especialista en Prueba Penal” y extendió la invitación para formalizar una investigación autónoma por el profesional en su sede en Toledo.",
-    link: "https://capital24.com.ar/contenido/5836/el-caso-jey-mammon-podemos-decir-que-es-inocente",
-    fecha: "24/04/2024",
-    imagen: diarioCapital,
-    slug : "caso-jey-mammon-claridad-sobre-la-discusion-referente-a-inocencia-y-prescripcion"
-
-
-  },
-  {
-    titulo: "Diplomatura en Cibercrimen y Evidencia Digital",
-    id: 3,
-    descripcion:
-      "En el marco de la Diplomatura en Cibercrimen y Evidencia Digital, organizada por el Colegio de la Abogacia de La Plata, el Dr. Julián Farina Balbi, en su calidad de docente, disertó sobre “Prueba, evidencia digital, y garantías”.",
-      subDescripcion: "La Universidad de Castilla La Mancha (Toledo, España), reconoció al Dr. Julián Farina Balbi como “Especialista en Prueba Penal” y extendió la invitación para formalizar una investigación autónoma por el profesional en su sede en Toledo.",
-    link: "En el marco de la Diplomatura en Cibercrimen y Evidencia Digital, organizada por el Colegio de la Abogacia de La Plata, el Dr. Julián Farina Balbi, en su calidad de docente, disertó sobre “Prueba, evidencia digital, y garantías”.",
-    fecha: "02/06/2023",
-    imagen: disertacion,
-    slug : "diplomatura-en-cibercrimen-y-evidencia-digital"
-  },
-  {
-    id: 4,
-    titulo: "Designacion de Investigador Titular de esa casa de Estudios",
-    descripcion:
-      "La Universidad del Este de la ciudad de La Plata formalizó la designación del Sr. Profesor Adjunto de Derecho Penal parte Especial, Dr. Julián Farina Balbi, como Investigador Titular de esa casa de Estudios.",
-      subDescripcion: "La Universidad de Castilla La Mancha (Toledo, España), reconoció al Dr. Julián Farina Balbi como “Especialista en Prueba Penal” y extendió la invitación para formalizar una investigación autónoma por el profesional en su sede en Toledo.",
-    link: "https://www.instagram.com/p/Cs9bsKJPAmI/?utm_source=ig_web_copy_link",
-    fecha: "01/06/2023",
-    imagen: investigador,
-    slug : "designacion-de-investigador-titular-de-esa-casa-de-estudios"
-
-  },
-  {
-    titulo: "Jurados",
-    descripcion:
-      "La Asociación Argentina de Juicio por Jurados ha publicado en su sección de Doctrina, el aporte realizado por el Dr. Julián Farina Balbi, originalmente publicado en la Revista La Ley, sobre la relación entre Instrucciones Técnicas al Jurado y principio de imparcialidad en el sistema Acusatorio Adversarial.",
-      subDescripcion: "La Universidad de Castilla La Mancha (Toledo, España), reconoció al Dr. Julián Farina Balbi como “Especialista en Prueba Penal” y extendió la invitación para formalizar una investigación autónoma por el profesional en su sede en Toledo.",
-    id: 5,
-    link: "https://www.juicioporjurados.org/p/blog-page.html",
-    fecha: "20/03/2021",
-    imagen: jurados,
-    slug : "aporte-a-la-asociacion-argentina-de-juicio-por-jurados"
-
-
-  },
-  {
-    titulo: "Portacion de Armas de Guerra",
-    descripcion:
-      "En resonante caso caratulado como “Amenazas y Portación de Armas de Guerra”, seguido en base a hechos ocurridos en las afueras de la ciudad de La Plata, el Dr. Julián Farina Balbi representó al imputado en las jornadas de debate oral, obteniendo en sentencia firme su plena libertad.",
-      subDescripcion: "La Universidad de Castilla La Mancha (Toledo, España), reconoció al Dr. Julián Farina Balbi como “Especialista en Prueba Penal” y extendió la invitación para formalizar una investigación autónoma por el profesional en su sede en Toledo.",
-    link: "https://www.instagram.com/p/Cif8M1cvjX3/?utm_source=ig_web_copy_link",
-    fecha: "14/09/2022",
-    imagen: portacionarmas,
-    id: 6,
-    slug : "portacion-de-armas-de-guerra"
-  },
-  {
-    titulo: "Secretario a cargo de la Secretaria de Cibercrimen.",
-    descripcion:
-      "El Consejo Directivo del Colegio de la Abogacía de La Plata ha designado al Dr. Julián Farina Balbi como Secretario a cargo de la Secretaría de Cibercrimen y Evidencia Digital, en el marco del Instituto de Derecho Penal del prestigioso Colegio local.",
-      subDescripcion: "La Universidad de Castilla La Mancha (Toledo, España), reconoció al Dr. Julián Farina Balbi como “Especialista en Prueba Penal” y extendió la invitación para formalizar una investigación autónoma por el profesional en su sede en Toledo.",
+      "El derecho penal suele fracasar en la obtención de soluciones concretas. El sistema penal y su funcionamiento actual es una muestra de ello. Aqui una mirada de un abogado penalista sobre la realidad del caso Loan",
     link: "https://www.calp.org.ar/derecho-penal/",
-    fecha: "29/08/2022",
-    imagen: secretario,
-    id: 7,
-    slug : "secretaio-a-cargo-de-la-secretaria-de-cibercrimen"
-
-  },
-  {
-    titulo:
-      "Disertación en la Presentación de Proyectos de Investigación 2024-2025",
-    descripcion:
-      "En el marco del inicio del ciclo de las actividades de investigación 2024-2025 de la Facultad de Derecho de la Universidad del Este, el Dr. Julián Farina Balbi presentó ante la comunidad universitaria el proyecto que lo tiene como director titulado “La Razonabilidad de la Duda en la Casación Bonaerense”, que apunta desde el estudio jurisprudencial del Tribunal Casatorio, determinar con precisión el uso que en la práctica se aplica sobre el estándar de condena conocido como más allá de toda duda razonable.  ",
-      subDescripcion: "La Universidad de Castilla La Mancha (Toledo, España), reconoció al Dr. Julián Farina Balbi como “Especialista en Prueba Penal” y extendió la invitación para formalizar una investigación autónoma por el profesional en su sede en Toledo.",
-    link: "",
-    fecha: "05/07/2024 ",
-    imagen: investigacion,
-    id: 7,
-    slug : "disertacion-en-la-presentacion-de-proyectos-de-investigacion-2024-2025"
-
-  },
-  {
-    titulo: "Patrocinio Juridico en Cibercrimen y Evidencia Digital",
-    descripcion:
-      "El Dr. Julián Farina Balbi fué invitado a Radio FM La Redonda el pasado 6 de julio, donde explicó la importancia de contar con un patrocinio jurídico experto en materia de cibercrimen y evidencia digital. ",
-      subDescripcion: "La Universidad de Castilla La Mancha (Toledo, España), reconoció al Dr. Julián Farina Balbi como “Especialista en Prueba Penal” y extendió la invitación para formalizar una investigación autónoma por el profesional en su sede en Toledo.",
-    link: "https://www.instagram.com/reel/C84XZ1IsofT/?utm_source=ig_web_copy_link",
-    fecha: "14/07/2024 ",
-    imagen: radio,
-    id: 8,
-    slug : "patrocinio-juridico-en-cibercrimen-y-evidencia-digital"
-
-  },
-  {
-    titulo: "Innocence Project Argentina",
-    descripcion:
-      "una de las Ong más importantes y reconocidas a nivel mundial en la lucha contra las condenas a inocentes  y abusos del poder penal, recibió al Dr. Julián Farina Balbi para que expusiera y explicara en modo de Seminario a sus integrantes, las conclusiones de su investigación en materia de prueba penal ",
-      subDescripcion: "La Universidad de Castilla La Mancha (Toledo, España), reconoció al Dr. Julián Farina Balbi como “Especialista en Prueba Penal” y extendió la invitación para formalizar una investigación autónoma por el profesional en su sede en Toledo.",
-    link: "https://www.instagram.com/p/C9Pbcn2RKkh/?utm_source=ig_web_copy_link",
-    fecha: "14/07/2024 ",
-    imagen: proyect,
-    id: 9,
-    slug : "innocence-project-argentina"
-
-  },
-  {
-    titulo: "Obtención del Título de Magister en Derecho Penal ",
-    descripcion:
-      "El Dr. Julián Faria Balbi, defendió su tesis con la mayor calificación ante el prestigioso jurado constituido por los Dres. Leonardo Filippini, Carolina Maglione y Agustina Emiliossi en la Universidad de Palermo, obteniendo el título de Magister en Derecho Penal y la distinción SUMA CUM LAUDE.",
-      subDescripcion: "La Universidad de Castilla La Mancha (Toledo, España), reconoció al Dr. Julián Farina Balbi como “Especialista en Prueba Penal” y extendió la invitación para formalizar una investigación autónoma por el profesional en su sede en Toledo.",
-    link: "",
-    fecha: "24/07/2024 ",
-    imagen: titulo,
-    id: 10,
-    slug : "obtencion-del-titulo-de-magister-en-derecho-penal"
-  },
-  {
-    titulo: "Secretario del Instituto de Derecho Penal",
-    tituloTexto: "Designación como Secretario del Instituto de Derecho Penal",
-    descripcion:
-      "El Dr. Julian Farina Balbi, ha sido distinguido como autoridad del Area Académica del Colegio de Abogado de La Plata, como Secretario del Instituto de Derecho Penal, a cargo de la Secretaría de Cibercrimen.",
-    link: "https://www.calp.org.ar/derecho-penal/",
-    subTitulo: "Culpa esse nesciunt, officiis earum deserunt",
-    subDescripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium aliquid vel, velit dicta, nostrum dolores dolor alias, nihil itaque placeat reiciendis? Magnam veritatis deserunt corporis ad sequi incidunt adipisci facere. Mollitia, illo voluptatum placeat optio quae necessitatibus modi, eos, praesentium minima nihil eveniet. Quasi, accusamus, nobis voluptatibus dolor eius non suscipit doloribus optio, tempore harum reiciendis obcaecati at nostrum fuga! Sint nam ipsam, alias excepturi omnis laboriosam ad dolore incidunt perferendis cupiditate tempora accusantium nihil necessitatibus eum porro commodi veritatis ipsum accusamus dicta. Asperiores, vel ipsam! Nihil doloribus sapiente impedit! Culpa esse nesciunt, officiis earum deserunt, quidem repellendus fugit, nisi veniam dolore praesentium asperiores laboriosam inventore beatae doloremque? Voluptate alias qui, quas magni ad laboriosam quo maxime laborum modi temporibus? ",
-    imagen: autoridad,
+    subTitulo: "Todavía no hay respuestas para esta pregunta.",
+    subDescripcion1: "La desaparición de Loan mantiene expectante y angustiado a todo un país. Seguramente por la características del caso: hablamos de un niño de apenas 5 años de edad, humilde e inocente que, arrancado de las entrañas de su entorno más íntimo, habría sido entregado por sus propios familiares a una red de trata de personas, para ser sometido a prácticas innombrables.",
+    subDescripcion2: "Pero cuando se observa el caso más detenidamente, notamos que hay otros elementos que perturban fuertemente a la sociedad: hablo de posibles entramados de corrupción política y policial, de zonas liberadas para cometer los delitos más aberrantes, de absoluta desprotección de los más vulnerables, y sobre todo, del miedo; miedo que se palpa y brota desde las palabras de toda la gente de Nueve de Julio (Corrientes), quienes con el avance del caso, se van dando cuenta de una realidad dolorosa: Loan son todos los niños; hoy fue él, mañana será cualquier otro.",
+    subDescripcion3: "Sobre este punto quisiera que reflexionemos. No sobre las hipótesis del caso, los responsables, o los posibles finales; lo cierto es que hoy Loan sigue desaparecido y todos esperamos su encuentro con vida. Pero si quiero destacar algo sobre la sensación que percibe la gente del pueblo y en definitiva todos los argentinos, y esto tiene que ver con los fracasos del sistema penal.",
+    subDescripcion4: "“El rey esta desnudo” dice el título de esta nota, y según el cuento, unos estafadores habían prometido a un poderoso rey coser las ropas y trajes más bellos para vestirlo, con la advertencia de que estaban hechos de una tela tan especial, que solo podía ser vista por personas dignas e inteligentes. Lo cierto es que nadie se atrevía a contarle la verdad al rey, nadie quería ser el tonto que no lograba ver la tela mágica, y así todos decían ver la ropa que no existía, incluso el propio rey. Solo un inocente niño despojado de toda esa mentira libremente gritó al verlo: “el rey está desnudo”!",
+    subDescripcion5: "El caso de Loan, además de conmovernos profundamente, es también un motivo para reflexionar sobre nuestro sistema penal, es una buena manera de pensar sobre con qué ropa esta vestido nuestro sistema de justicia.",
+    subDescripcion6: "Sabemos que el Estado tiene la potestad de avanzar sobre las libertades más preciadas de los ciudadanos; puede detener, puede incautar, puede interrogar, y puede encarcelar gente en prisiones. Todo esto siempre respetando el debido proceso, y sobre todo, justificado bajo el objetivo de la seguridad y la paz social. Concedemos ese poder al Estado para sentirnos seguros; seguros de que ante la comisión de un delito el autor será penado, y seguros en que por ese motivo también el delito será desalentado, habrá menos delitos.",
+    subDescripcion7: "Ahora bien, evidentemente la realidad es otra. El sistema penal históricamente ha fracasado en muchos de sus objetivos: nunca ofreció verdaderas soluciones a las víctimas del delito más allá del padecimiento del imputado; las cifras de seguridad muestran que el fenómeno delictivo no se ha reducido, todo lo contrario; los procesos penales resultan cada vez más largos y dolorosos, aumentando escandalosamente el uso de la prisión preventiva y el hacinamiento carcelario; y los casos que procesa el sistema tienden a ser cada vez más simples y rutinarios, sin atender formas de criminalidad más compleja, concentrando el castigo en los sujetos de jerarquía más baja, casualmente los más vulnerables. No obstante esa realidad, todos los días vemos detenidos por consumir marihuana o su venta al menudeo, por el robo de un celular o una bicicleta, por lesiones leves o amenazas en una discusión de tránsito, por vender indumentaria o tecnología trucha; incluso estamos acostumbrados a ver cierta publicidad del propio Estado en estos actos mostrando cual trofeos algunos porros incautados, algunas zapatillas truchas, o algunos pibes detenidos por el robo de un celular, bajo operativos y movilizaciones policiales dignas de películas.",
+    subDescripcion8: "odo eso esta bien, nadie dice que no debamos ocuparnos de los delitos menores contra la propiedad, que hay que permitir la falsificación de marcas o desatender el consumo de drogas; pero la pregunta es otra ¿Qué estamos haciendo realmente con todo ese poder y recursos que le damos al Estado? ¿Estamos ocupándonos realmente de combatir el narcotráfico? ¿Esas medidas repercuten realmente en los objetivos del sistema penal? Las bandas de criminalidad organizada, muchas veces multinacional, secuestros y extorsiones, toda la criminalidad económica, el cibercrimen, el terrorismo y la evasión empresarial, las causas de corrupción, y por supuesto, las grandes redes de trata de personas ¿sufren alguna consecuencia desde la persecución estatal? ¿Qué capacidad real puede mostrar el sistema penal frente a esto?, es prácticamente nula.",
+    subDescripcion9: "Por eso me pregunto -desde la analogía del cuento- ¿será cierto que el sistema penal está vestido con las mejores ropas; trajes de eficiencia, de justicia y de seguridad como se pretende muchas veces mostrar? Tal vez, ante casos como el de Loan (y muchos otros similares) que exigen profesionalismo en las investigaciones y rigor en el manejo de información, se demuestra como en el cuento, que esa ropa que se nos pretende mostrar no existe, el sistema es totalmente incapaz de brindar alguna seguridad mínima ante los casos que producen más daño. Y además, en el mientras tanto, permanecemos silenciosamente asombrados ante la burocracia, ineficiencia y discriminación con que el sistema procesa los casos más simples y burdos.",
+    subDescripcion10: "Ese miedo que expresa la gente de Nueve de Julio, la sensación genuina de que Loan mañana será otro niño, nos permite abrir los ojos a todos los argentinos y darnos cuenta de que lo único que el sistema penal nos está ofreciendo son ropas invisibles. Nos permite reflexionar sobre qué justicia penal queremos y qué destino queremos darle al poder de castigar del Estado. El caso de Loan nos transforma a todos en el niño del cuento, nos permite exclamar que “el rey está desnudo”.",
+    datosContactoNombre: "Julián Farina Balbi",
+    datosContactoCargo: "Abogado UNLP. Especialista en Prueba Penal por la U. de Castilla La Mancha. Director Legal en Estudio Farina Balbi",
+    datosContactoTelefono: "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
+    datosContactoIG: "https://www.instagram.com/julianfarinabalbi",
+    datosContactoMail: "drfarinabalbi@gmail.com",
+    imagen: loan,
+    imagen2: loan2,
     id: 11,
     slug : "secretario-del-instituto-de-derecho-penal"
   },

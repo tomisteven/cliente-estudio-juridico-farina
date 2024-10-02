@@ -96,11 +96,11 @@
   background-color: #ffffff;
   height: 1px;
 }
-.content {
+/* .content {
   height: 1000px;
   background-color: #f0f0f0;
   padding: 20px;
-}
+} */
 
 @media (max-width: 600px) {
   .title-portada {

@@ -2,62 +2,63 @@
   max-width: 1200px;
   margin: 0 auto;
   margin-bottom: 190px;
-
   padding-top: 130px;
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.cont-noticia-info {
-  display: flex;
-  flex-direction: column;
-  width: 60%;
-  height: auto;
-}
+.header-slug{
 
-.cont-imagenes-info {
-  width: 40%;
-
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin: 10px;
-}
-.imagen-slug {
   width: 100%;
-
-  margin-bottom: 100px;
-  height: auto;
-  object-fit: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.nav-breadcrumb{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: -30px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ababab85;
+}
+.breadcrumb {
+  width: 100%;
+  display: flex;
+  padding: 0;
+  font-size: 14px;
 }
 
-.cont-ruta-slug {
-  width: 80%;
-  border-bottom: #00000065 solid 1px;
-  height: 20px;
+.breadcrumb-item {
+  margin-right:-25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
 }
 
-.ruta-slug {
-  font-family: monospace;
-  font-size: 13px;
-  font-weight: 400;
-  color: #000;
+.breadcrumb-item a {
+  text-decoration: none;
+  color: #007bff;
 }
 
-.cont-titulo-slug {
-  margin-top: 20px;
-  width: 80%;
-  text-align: start;
+.breadcrumb-item a:hover {
+  text-decoration: underline;
+  color: #000
+}
+
+.breadcrumb-item.active {
+  color: #6c757d;
 }
 
 .titulo-slug {
   font-size: 40px;
   font-weight: 700;
   color: #000;
-  text-align: start;
+  margin: 20px 0;
 }
 
 .fecha-slug {
@@ -68,12 +69,15 @@
 }
 
 .cont-texto-slug {
-  width: 80%;
+  width: 60%;
   margin-top: 20px;
 }
-.cont-sub-texto-slug {
-  width: 80%;
-  margin-top: 10px;
+
+.titulo-texto-slug {
+  font-size: 17px;
+  font-weight: 700;
+  color: #000;
+  text-align: start;
 }
 
 .texto-slug {
@@ -83,84 +87,80 @@
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
   font-style: normal;
-}
-.titulo-texto-slug {
-  font-size: 17px;
-  font-weight: 700;
-  color: #000;
-  text-align: start;
+  margin-bottom: 10px;
 }
 
-.button-noticia-link {
-  width: 80%;
-  margin-top: 20px;
+.cont-imagenes-info {
+  width: 35%;
+  margin-left: 5%;
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
 }
-.button-noticia {
-  background-color: #000;
-  color: #fff;
-  border: none;
-  padding: 5px 19px;
-  font-size: 14px;
-  font-weight: 600;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: all 0.3s;
+
+.imagen-slug {
+  width: 100%;
+  margin-bottom: 20px;
+  height: auto;
+  object-fit: contain;
 }
-.button-noticia:hover {
-  background-color: #fff;
-  color: #000;
-  border: 1px solid #000;
+
+.contact-slug {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.contact-slug-comment {
+  width: 100%;
+  margin-top: 20px;
 }
 
 .ver-mas-noticias {
-  margin: 0 auto;
-  width: 90%;
+  margin: 50px auto 0;
+  width: 100%;
   display: flex;
-  flex-wrap: wrap; /* Permite que los cuadros bajen a la siguiente fila cuando no hay espacio */
-  gap: 20px; /* Espacio entre los cuadros */
-  justify-content: space-between; /* Distribuye los cuadros uniformemente */
-  padding: 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.titulo-ver-mas {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
 .cont-mas-noticia {
-  width: 270px; /* Fija el tamaño de los cuadros a 300px */
-  flex: 1 1 270px; /* Hace que los cuadros mantengan este tamaño */
-
-  border-radius: 2px; /* Bordes redondeados */
-  overflow: hidden; /* Evita desbordes de contenido */
-  transition: transform 0.3s ease; /* Transición para hover */
+  width: 270px;
+  flex: 1 1 270px;
+  border-radius: 2px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
 }
 
 .cont-mas-noticia:hover {
-  transform: translateY(
-    -10px
-  ); /* Efecto hover que levanta el cuadro ligeramente */
+  transform: translateY(-10px);
 }
 
 .imagen-mas-noticia {
   width: 100%;
-  height: 290px; /* Define un tamaño fijo para la imagen */
-  object-fit: cover; /* Asegura que la imagen cubra el espacio sin deformarse */
+  height: 290px;
+  object-fit: cover;
 }
 
 .titulo-noticia {
   text-align: center;
   padding: 5px;
   font-size: 13px;
-
   color: #000000;
 }
 
-.contact-slug {
-  width: 100%;
-
-  margin-top: 50px;
+.breadcrumb-item::after {
+  content: "/";
+  margin-left: 10px;
 }
 
-.contact-slug-comment{
-  width:100%;
-  height: 100px;
-  margin-top: 20px;
+.breadcrumb-item:last-child::after {
+  content: "";
 }

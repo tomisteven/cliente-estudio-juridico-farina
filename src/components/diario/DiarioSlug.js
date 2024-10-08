@@ -136,7 +136,7 @@ export default function DiarioSlug() {
         </CommentGroup>
       </footer>
 
-      
+
 
       <section className="ver-mas-noticias">
         <h2 className="titulo-ver-mas">Ver más noticias</h2>

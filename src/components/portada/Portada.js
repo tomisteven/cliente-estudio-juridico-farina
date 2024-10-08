@@ -28,16 +28,7 @@ export default function Portada() {
             Expertos en delitos sexuales y falsas denuncias.
           </p>
           <div className="overlay"></div>
-          <button
-            aria-label="Ver las publicaciones del Estudio Farina Balbi"
-            onClick={() => {
-              window.location.href =
-                "https://drive.google.com/drive/folders/1WSID9XdVtMUyMS6pDhY4F4XTzK9brhkG?usp=sharing";
-            }}
-            className="btn-portada-p"
-          >
-            Publicaciones
-          </button>
+
           <button
             aria-label="Ver blog del Estudio Farina Balbi"
             onClick={() => {

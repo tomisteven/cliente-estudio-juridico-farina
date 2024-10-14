@@ -84,6 +84,17 @@ export default function DiarioSlug() {
             </p>
           ) : null;
         })}
+
+        {noticia.link && (
+          <a
+            href={noticia.link}
+            target="_blank"
+            rel="noreferrer"
+            className="link-slug"
+          >
+            Leer más
+          </a>
+        )}
       </section>
       <aside className="cont-imagenes-info">
         <img
@@ -135,8 +146,6 @@ export default function DiarioSlug() {
           </Comment>
         </CommentGroup>
       </footer>
-
-
 
       <section className="ver-mas-noticias">
         <h2 className="titulo-ver-mas">Ver más noticias</h2>

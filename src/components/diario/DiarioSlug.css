@@ -132,8 +132,9 @@
 }
 
 .cont-mas-noticia {
-  width: 270px;
-  flex: 1 1 270px;
+  width: auto;
+display: flex;
+  flex-direction: row;
   border-radius: 2px;
   overflow: hidden;
   transition: transform 0.3s ease;
@@ -142,11 +143,21 @@
 .cont-mas-noticia:hover {
   transform: translateY(-10px);
 }
-
+.link-slug{
+  text-decoration: none;
+  color: #ffffff;
+  background-color: rgb(181, 157, 131);
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  position: relative;
+  top: 20px;
+}
 .imagen-mas-noticia {
-  width: 100%;
+  width: 300px;
   height: 290px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .titulo-noticia {

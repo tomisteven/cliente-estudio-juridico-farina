@@ -12,6 +12,8 @@ import radio from "../../assets/radio.jpg";
 import investigacion from "../../assets/investigacion.jpeg";
 import titulo from "../../assets/titulo2.jpeg";
 import autoridad from "../../assets/autoridad.jpeg";
+import disertacion2 from "../../assets/disertacion.jpeg";
+import instructor from "../../assets/instructor.jpeg";
 //import Carousel from "react-multi-carousel";
 
 import { Carousel } from "react-responsive-carousel";
@@ -126,6 +128,25 @@ export default function Noticias() {
       fecha: "14/09/2024 ",
       imagen: autoridad,
       id: 11,
+    },
+    {
+      titulo: "Disertación en la Universidad Católica de La Plata",
+      descripcion:
+        "La Universidad Católica de La Plata ha invitado al Dr. Julián Farina Balbi a disertar en la VIII Diplomatura Internacional de Derecho Penal. La exposición a realizarse el 7 de noviembre de 2024 se titula “Evidencia Digital y Admisibilidad Probatoria a la luz de la teoría del caso”. Es un verdadero honor participar de tan prestigioso evento.",
+      link: "https://www.ucalp.edu.ar/viii-diplomatura-internacional-en-derecho-penal/",
+      fecha: "21/10/2024 ",
+      imagen: disertacion2,
+      id: 12,
+    },
+    {
+      titulo:
+        "Instructor del cuerpo de Instrucción de la Secretaría Permanente del Jurado de Enjuiciamiento de Magistrados y Funcionarios de la Pcia. De Buenos Aires",
+      descripcion:
+        "El Dr. Julián Farina Balbi, en su calidad de Instructor del cuerpo de Instrucción de la Secretaría Permanente del Jurado de Enjuiciamiento de Magistrados y Funcionarios de la Pcia. De Buenos Aires, participó en el Salón Dorado del Honorable Senado provincial, en el marco de su función, de la audiencia de admisión de la acusación.",
+      link: "",
+      fecha: "21/10/2024 ",
+      imagen: instructor,
+      id: 13,
     },
   ];
 

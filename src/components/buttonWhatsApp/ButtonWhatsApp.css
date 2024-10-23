@@ -26,7 +26,8 @@
 
 @media (max-width: 550px) {
   .cont-button-whats {
-    right: 5px;
+    right: 18px;
+    bottom: 20px;
     z-index: 9999;
   }
 }

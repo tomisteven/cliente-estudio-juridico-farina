@@ -46,7 +46,7 @@ const noticias = [
     slug: "caso-loan-derecho-penal-y-fracasos",
   },
   {
-    titulo: "¿ Cuanto cobra un Abogado Penalista por caso ? ",
+    titulo: "Cuanto cobra un Abogado Penalista por caso ? ",
     fecha: "14/10/2024",
     tituloTexto:
       "Valor de la consulta abogado penalista ¿ Cuanto se cobra por un caso penal ?",

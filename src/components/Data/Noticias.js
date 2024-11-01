@@ -94,7 +94,7 @@ const noticias = [
     tituloTexto:
       "Derecho penal - Falsa denuncia - Causas armadas - Corrupción policial",
     descripcion:
-      "A pesar de lo que mucha gente cree, no todos los abogados penalistas, ni todos los casos penales deben costar una fortuna.",
+      "El caso de Daniel Bussón es un claro ejemplo de cómo el sistema penal puede fallar en su objetivo de condenar a los culpables y absolver a los inocentes. La historia de un joven que lleva 11 años preso siendo inocente.",
 
     subDescripcion1:
       "En la sociedad existen muchos mitos sobre la justicia, y aun más sobre el fuero penal. Uno de los más arraigados es el de pensar que las condenas (y por qué no también las absoluciones) son siempre acertadas, correctas; que el sistema no se equivoca. Nada podría ser más falso!",

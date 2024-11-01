@@ -33,15 +33,7 @@ export default function Header() {
               <li>
                 <a href="#estudio">Estudio</a>
               </li>
-              <li>
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://drive.google.com/drive/folders/1WSID9XdVtMUyMS6pDhY4F4XTzK9brhkG?usp=sharing"
-                >
-                  PUBLICACIONES
-                </a>
-              </li>
+
               <li>
                 <button
                   className="btn-header-wapp"

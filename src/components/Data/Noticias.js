@@ -127,7 +127,7 @@ const noticias = [
     datosContactoMail: "drfarinabalbi@gmail.com",
     imagen: inocente,
     imagen2: culpable,
-    link: "https://normas.gba.gob.ar/documentos/BOa6XTk0.html",
+    link: "https://www.pagina12.com.ar/526477-la-condena-a-perpetua-plantada-por-la-policia",
     id: 13,
     slug: "caso-daniel-busson-inocente-o-culpable",
   },

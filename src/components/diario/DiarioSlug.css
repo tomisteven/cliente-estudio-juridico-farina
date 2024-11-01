@@ -57,7 +57,8 @@
   font-size: 40px;
   font-weight: 700;
   color: #000;
-  margin: 20px 0;
+  margin: 10px 0;
+  text-align: start;
 }
 
 .fecha-slug {
@@ -73,8 +74,10 @@
 }
 
 .titulo-texto-slug {
-  font-size: 17px;
+  font-size: 19px;
   font-weight: 700;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ababab85;
   color: #000;
   text-align: start;
 }

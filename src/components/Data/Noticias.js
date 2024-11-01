@@ -2,6 +2,8 @@ import loan from "../../assets/loan.png";
 import loan2 from "../../assets/loan2.jpg";
 import honorarios1 from "../../assets/honorarios1.webp";
 import honorarios2 from "../../assets/honorarios2.jpg";
+import inocente from "../../assets/inocente.JPG";
+import culpable from "../../assets/culpable.JPG";
 
 const noticias = [
   {
@@ -84,6 +86,50 @@ const noticias = [
     link: "https://normas.gba.gob.ar/documentos/BOa6XTk0.html",
     id: 12,
     slug: "cuanto-cobra-un-abogado-penalista-por-caso",
+  },
+  {
+    titulo:
+      "Inocente o Culpable: el `juego` del Proceso Penal. El caso de Daniel BUSSON ",
+    fecha: "01/11/2024",
+    tituloTexto:
+      "Derecho penal - Falsa denuncia - Causas armadas - Corrupción policial",
+    descripcion:
+      "A pesar de lo que mucha gente cree, no todos los abogados penalistas, ni todos los casos penales deben costar una fortuna.",
+
+    subDescripcion1:
+      "En la sociedad existen muchos mitos sobre la justicia, y aun más sobre el fuero penal. Uno de los más arraigados es el de pensar que las condenas (y por qué no también las absoluciones) son siempre acertadas, correctas; que el sistema no se equivoca. Nada podría ser más falso!",
+    subDescripcion2:
+      "Solo si empezamos a entender la debilidad de esa creencia será posible comenzar a controlar con más rigor los procesos y decisiones de los jueces criminales; vale agregar: decisiones que atraviesan a las personas en su sentir más humano; lo que está en juego aquí es la vida y la libertad de las personas.",
+    subDescripcion3:
+      "Pero hay más. El problema no es solo que el sistema en su conjunto es sumamente falible, imperfecto y dependiente de la debilidad del conocimiento de los seres humanos de carne y hueso como cualquiera de nosotros; como cualquiera que está leyendo estas líneas; sino que además, depende fuertemente de un proceso prolongado de investigación burocrática, en el que intervienen muchos actores, todos diversos y con diferentes intereses. Estos actores le ponen al proceso sus matices, sus características, y muchas veces sus vicios y defectos.",
+    subDescripcion4:
+      "Abogados, víctimas, familiares, fiscales, policías, peritos, jueces de grado, jueces revisores, cortes, etc. Cada uno tiene diferentes funciones en este “juego” y también cada uno ve su lado de la moneda, muchas veces opacando su contracara.",
+    subDescripcion5:
+      "Pero afortunadamente, al menos en teoría, se supone que ese “juego” tiene ciertas reglas básicas que son aceptadas y compartidas por todos los jugadores. Tal vez la más importante de ellas es la que establece un “principio de oro”, el objetivo del proceso es condenar a todos los culpables, pero a ningún inocente. Partimos de una base que todos los jugadores deben defender: ¡No queremos condenar inocentes! Si la trampa viene por este lado, entonces el juego pierde todo sentido.",
+    subDescripcion6:
+      "Esta introducción sirve para repensar la función de la policía, los valores que debe respetar en la investigación, y la actividad de los funcionarios judiciales en su control.",
+    subDescripcion7:
+      "Justamente esta parte del juego es la que tuvo gravísimas fallas en el caso de Daniel Busson. Como abogado penalista Director de FARINA BALBI Estudio Jurídico, conocí a Lucía, la compañera de Daniel Bussón, cuando por redes me pidió una opinión del caso. Ella sostuvo una titánica tarea de difundir la injusticia sufrida por Daniel en su causa. Luego tuve el privilegio de asesorar a la defensa del coimputado, y a la propia Lucia para conseguir la libertar de Daniel. Pero veamos como “este juego” lo perjudicó a Daniel de por vida:",
+    subDescripcion8:
+      "Daniel tiene hoy 33 años, y fue detenido siendo un pibe de 23. Fue condenado a prisión perpetua en 2017, y hoy lleva 11 años preso siendo inocente. En su causa, “el juego” que presentamos arriba se jugó muy mal. La policía lo detuvo sin razón aparente, llevándolo a una rueda de reconocimiento sin justificación o nexo que lo involucre con el hecho. Los testigos que apuntan a Daniel habían declarado originalmente que no podían reconocer a nadie, pero sin embargo, la policía los llevó igual a intentar identificar a alguien, en esa rueda se contaminó a los testigos con información y no hubo ningún control de garantías. Como si fuera poco, uno de los policías intervinientes hoy se encuentra condenado a 9 años de prisión por cometer el delito de corrupción en otra causa similar.Como si fuera poco, uno de los policías intervinientes hoy se encuentra condenado a 9 años de prisión por cometer el delito de corrupción en otra causa similar.",
+    subDescripcion9:
+      "De la prueba surgían otras líneas de investigación: se secuestró una moto con las características que habían dado varios testigos, sin embargo no se profundizó y ni se logró descartar. Todo este cuadro de duda, fue además receptado por uno de los jueces, ya que el fallo no fue unánime, sino que para uno de ellos correspondía la libertad.",
+    subDescripcion10:
+      "Al día de hoy la Corte nacional está revisando la situación de Daniel. Pero estas líneas no las escribo en soledad, todo lo contrario. Su pedido de justicia ha sido acompañado por reconocidas organizaciones dedicadas a detectar este tipo de injusticias: Comisión por la Memoria, Innocence Project, Cels, Pensamiento Penal, Apdh, Serpaj, entre otras.",
+    subDescripcion11:
+      "Un día me dijo un conocido profesor al saber de mi pasión por el derecho penal: “Mira Julián… el derecho penal es muy ingrato”. Estoy seguro que en sus palabras había mucho de verdad, también algo de advertencia casi paternalista. Tenía toda la razón! Pero también hay muchas satisfacciones en esta lucha.Las pequeñas victorias que uno siente arrebatar a la injusticia, acá valen el doble. Conocer a Lucía y a Daniel, sin dudas fue un trago agridulce, sentí propio su dolor e incertidumbre, pero hoy, habiendo podido aportar un granito de arena en su causa desde mi asesoramiento, y sabiendo el enorme apoyo que lograron, puedo decir que se ha convertido en una victoria, una grande. Ojala que “el ultimo jugador” note la violación de las reglas de juego ocurridas en la causa de Daniel, y termine esta partida con una solución justa, SU LIBERTAD.",
+    datosContactoNombre: "Julián Farina Balbi",
+    datosContactoCargo:
+      "Abogado UNLP. Especialista en Prueba Penal por la U. de Castilla La Mancha. Director Legal en Estudio Farina Balbi",
+    datosContactoTelefono:
+      "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
+    datosContactoIG: "https://www.instagram.com/julianfarinabalbi",
+    datosContactoMail: "drfarinabalbi@gmail.com",
+    imagen: inocente,
+    imagen2: culpable,
+    link: "https://normas.gba.gob.ar/documentos/BOa6XTk0.html",
+    id: 13,
+    slug: "caso-daniel-busson-inocente-o-culpable",
   },
 ];
 

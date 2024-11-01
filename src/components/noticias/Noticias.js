@@ -148,6 +148,7 @@ export default function Noticias() {
       imagen: instructor,
       id: 13,
     },
+    
   ];
 
   return (

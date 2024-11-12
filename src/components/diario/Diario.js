@@ -28,7 +28,7 @@ export default function Diario() {
             </button>
           </div>
         </div>
-      ))}
+      )).reverse()}
     </div>
   );
 }

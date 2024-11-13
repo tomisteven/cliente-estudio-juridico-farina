@@ -148,7 +148,6 @@ export default function Noticias() {
       imagen: instructor,
       id: 13,
     },
-    
   ];
 
   return (
@@ -211,34 +210,36 @@ export default function Noticias() {
         }
         className="container-noticias"
       >
-        {noticias.map((noticia) => (
-          <div key={noticia.id} className="cont-noticias">
-            <div className="noticias-info">
-              <h1>
-                {noticia.titulo} - {noticia.fecha}
-              </h1>
+        {noticias
+          .map((noticia) => (
+            <div key={noticia.id} className="cont-noticias">
+              <div className="noticias-info">
+                <h1>
+                  {noticia.titulo} - {noticia.fecha}
+                </h1>
 
-              <p className="info-p">{noticia.descripcion}</p>
+                <p className="info-p">{noticia.descripcion}</p>
 
-              <button
-                class="button"
-                onClick={() => window.open(noticia.link, "_blank")}
-              >
-                <span class="button_lg">
-                  <span class="button_sl"></span>
-                  <span class="button_text">Ver Noticia</span>
-                </span>
-              </button>
+                <button
+                  class="button"
+                  onClick={() => window.open(noticia.link, "_blank")}
+                >
+                  <span class="button_lg">
+                    <span class="button_sl"></span>
+                    <span class="button_text">Ver Noticia</span>
+                  </span>
+                </button>
+              </div>
+              <div className="noticias-img">
+                <img
+                  className="img-noticia"
+                  src={noticia.imagen}
+                  alt={noticia.descripcion}
+                />
+              </div>
             </div>
-            <div className="noticias-img">
-              <img
-                className="img-noticia"
-                src={noticia.imagen}
-                alt={noticia.descripcion}
-              />
-            </div>
-          </div>
-        ))}
+          ))
+          .reverse()}
       </Carousel>
     </section>
   );

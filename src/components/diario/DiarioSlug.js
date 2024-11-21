@@ -89,7 +89,7 @@ export default function DiarioSlug() {
           <a
             href={noticia.link}
             target="_blank"
-            rel="noreferrer"
+            rel="nofollow noopener noreferrer"
             className="link-slug"
           >
             Leer más
@@ -125,7 +125,7 @@ export default function DiarioSlug() {
                   <a
                     href={noticia.datosContactoTelefono}
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noreferrer nofollow noopener"
                     aria-label="Contacto por WhatsApp"
                   >
                     <Icon name="whatsapp" color="green" size="big" />
@@ -135,7 +135,7 @@ export default function DiarioSlug() {
                   <a
                     href={noticia.datosContactoIG}
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noreferrer nofollow noopener"
                     aria-label="Instagram"
                   >
                     <Icon name="instagram" color="purple" size="big" />

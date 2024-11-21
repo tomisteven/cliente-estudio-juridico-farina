@@ -4,6 +4,7 @@ import honorarios1 from "../../assets/honorarios1.webp";
 import honorarios2 from "../../assets/honorarios2.jpg";
 import inocente from "../../assets/inocente.JPG";
 import culpable from "../../assets/culpable.JPG";
+import falsasdenuncias from "../../assets/falsasdenuncias.jpg";
 
 const noticias = [
   {
@@ -130,6 +131,46 @@ const noticias = [
     link: "https://www.pagina12.com.ar/526477-la-condena-a-perpetua-plantada-por-la-policia",
     id: 13,
     slug: "caso-daniel-busson-inocente-o-culpable",
+  },
+  {
+    titulo:
+      "¿Cómo actuar ante falsas denuncias? Experiencia y Asesoramiento de un abogado penalista en La Plata",
+    fecha: "20/11/2024",
+    tituloTexto:
+      "Defensa penal en casos de falsas denuncias.",
+    descripcion:
+      "¿Qué es una falsa denuncia? ¿Qué hago si me denuncian falsamente? El derecho penal y la justicia penal, se supone que deben ocuparse de atender los conflictos más graves: los hechos que afectan lo que más preciamos. Esto se vé claramente en los delitos contra la vida, contra la libertad, la propiedad o la libertad sexual.",
+
+    subDescripcion1:
+      "Pero además, debería recurrirse al derecho penal, a la fuerza del sistema penal solamente cuando existe un daño a ese bien protegido, y no existe una solución más pacífica posible. Dicho esto, la denuncia penal, es una de las formas principales que el Estado tiene para iniciar una investigación penal. La otra es la actuación de la policía en la prevención de los delitos, que al tomar conocimiento del hecho actúa e informa al fiscal para que tome intervención.",
+    subDescripcion2:
+      "Pero no puede olvidarse que la facultad y derecho de denunciar que tiene todo ciudadano mayor de 16 años, descansa en un mandato de buena fé, de colaboración con la justicia. En camio, quien denuncia un delito a sabiendas de su falsedad está cometiendo un hecho delictivo en sí mismo. Pero ¿Qué es una falsa denuncia? La falsa denuncia es un delito tipificado en el código penal. Pero hay que comprender algunas diferencias: una cosa es una denuncia formulada de buena fé, que por cualquier motivo no puede llegar a acreditarse, o incluso el fiscal decide su archivo. Vale decir que el hecho denunciado no puede probarse o bien el denunciado no ha tenido participación delictiva.",
+    subDescripcion3:
+      "Otra cosa muy distinta es la que refiere al delito de falsa denuncia. Para hablar de este delito, es necesario que se sigan estos pasos: que un particular haga una denuncia en contra de una persona determinada, que esa denuncia se apoye en un hecho inexistente o del que no he tenido participación el sujeto indicado (falsedad), sobre todo, que el denunciante realice el acto conociendo la falsedad que afirma ante la justicia, engañando a los funcionarios para hacerlos creer que el relato es verdadero; y finalmente debe constituir una denuncia en sentido estricto -identificar al autor, el hecho, el delito y dirigirse con las formalidades necesarias ante la autoridad con competencia para ello. Vale decir que exclamar, contar o referir a alguien de un hecho falso no constituye el delito mientras no se formule formalmente ante la administración.",
+    subDescripcion4:
+      "¿Que hago si me denunciaron falsamente? ¿Qué debo hacer ante una falsa denuncia? Lo primero es actuar con mucha calma, pero al mismo tiempo, rápidamente consultar un abogado penalista, o estudio jurídico penal especializado en esta materia.",
+    subDescripcion5:
+      "Un abogado penalista experto en falsas denuncias podrá mostrarte las formas más viables y rápidas de demostrar el delito. Esto quiere decir que es imprescindible tomar acción rápido. Cuando toda la fuerza del derecho penal se vuelca sobre una persona inocente, peligra seriamente su libertad, y las únicas emociones cercanas son funestas, es muy difícil encontrar tranquilidad o esperanza, y a ese escenario de terror se le suman todos los padecimientos de la familia, los seres queridos y la condena social que la gente y los medios suelen aplicar sin ningún remordimiento. Esto ocurre en todos los casos en que un inocente se ve injustamente sometido a esta maquinaria de encarcelar. Pero en el caso de las falsas denuncias es aun peor, porque el acto generador, el inicio proviene de la mala fé de otra persona, de la intención conciente de engañar al sistema penal y con ello causar directa o indirectamente un grave perjuicio al imputado.",
+    subDescripcion6:
+      "Todo esto se ve además impulsado por la falta de atención que la justicia pone a estos casos. El delito de falsa denuncia tiene penas muy bajas! de 2 meses a 1 año de prisión, o incluso solo multa. Son casos que raramente son denunciados y mucho menos perseguidos, así la condena por una falsa denuncia es una rareza. ",
+    subDescripcion7:
+      "Por eso, si temes ser víctima de una denuncia falsa o estás enfrentando una, recuerda que actuar rápido marca la diferencia. Las pruebas y los testimonios se desvanecen con el tiempo, y un abogado penalista experto en estos temas puede ayudarte a estructurar tu defensa desde el primer momento.Enfrentar una falsa denuncia es muy duro, pero no estás solo! Mi objetivo es ayudarte a superar esta etapa con claridad y justicia. ",
+    subDescripcion8:
+      "Si tenes dudas, necesitas orientación o estás atravesando un caso así, no dudes en escribirme para que analicemos tu caso juntos.",
+    subDescripcion9:
+      "Descubre cómo un abogado penalista puede ayudarte a enfrentar acusaciones falsas. Contactame para hablar de tu caso! La Plata, Provincia de Buenos Aires y CABA. ",
+    datosContactoNombre: "Julián Farina Balbi",
+    datosContactoCargo:
+      "Abogado UNLP. Especialista en Prueba Penal por la U. de Castilla La Mancha. Director Legal en Estudio Farina Balbi",
+    datosContactoTelefono:
+      "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
+    datosContactoIG: "https://www.instagram.com/julianfarinabalbi",
+    datosContactoMail: "drfarinabalbi@gmail.com",
+    imagen: falsasdenuncias,
+    /* imagen2: culpable, */
+    link: "https://www.lanacion.com.ar/editoriales/deleznables-falsas-denuncias-nid22092022/",
+    id: 14,
+    slug: "como-actuar-ante-falsas-denuncias",
   },
 ];
 

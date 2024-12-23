@@ -5,6 +5,8 @@ import honorarios2 from "../../assets/honorarios2.jpg";
 import inocente from "../../assets/inocente.JPG";
 import culpable from "../../assets/culpable.JPG";
 import falsasdenuncias from "../../assets/falsasdenuncias.jpg";
+import quehaceabogado from "../../assets/quehaceabogado.jpg";
+import quehaceabogado2 from "../../assets/quehaceabogado2.jpg";
 
 const noticias = [
   {
@@ -171,6 +173,45 @@ const noticias = [
     link: "https://www.lanacion.com.ar/editoriales/deleznables-falsas-denuncias-nid22092022/",
     id: 14,
     slug: "como-actuar-ante-falsas-denuncias",
+  },
+  {
+    titulo:
+      "¿¿Qué hace un ABOGADO PENALISTA ?",
+    fecha: "22/12/2024",
+    tituloTexto:
+      "¿Qué diferencia hay entre un abogado y un abogado penalista?",
+    descripcion:
+      "Un estudio jurídico penal debe contar con abogados especialistas en todas las ramas del dereco penal.",
+
+    subDescripcion1:
+      "El abogado penalista se ocupa de la defensa y representación de víctimas en todos los delitos del Código Penal argentino.",
+    subDescripcion2:
+      "Abogado penalista es el profesional del derecho que se desempeña en el fuero penal. Nuestra organización de justicia, en la Nación argentina y las provincias se encuentra dividida por fueros, estas son ramas del derecho específicas que se apegan a un tipo de temas determinado. El derecho penal en general se corresponde con el fuero penal o criminal y correccional. También esta el fuero civil, comercial, de familia, laboral, etc.",
+    subDescripcion3:
+      "En la provincia de Buenos Aires, los delitos correccionales son aquellos que tienen prevista una pena de hasta 6 años; los que superan ese límite son delitos criminales. Ambos tienen diferencias principalmente en la forma de juzgamiento, los primeros ante un juez correccional, y los segundos ante un Tribunal Oral compuesto por tres jueces penales.",
+    subDescripcion4:
+      "Un estudio jurídico especializado en derecho penal debe contar con profesionales abogados expertos en las distintas ramas del derecho penal y procesal penal. La demanda de servicios de este siglo exige a los penalistas un grado de especialización superior en cada uno de las sub categorías que conforman el derecho penal, por ejemplo: delitos contra las personas, delitos de género, delitos patrimoniales, o bien en el aspecto procesal: excarcelaciones, morigeraciones a la prisión preventiva, recursos de apelación y casación, o juicio por jurados.",
+    subDescripcion5:
+      "Un buen abogado penalista debe poder ofrecer respuestas eficiente en todos los delitos tipificados en el Código Penal. Cada uno de ellos implica diferentes estrategias de defensa, maneras de trabajar y grados de complejidad.",
+    subDescripcion6:
+      "Lo más importante a tener en cuenta es que el abogado penalista es un profesional que debe tener una mirada conglobante de todo el proceso penal, y trabajar en conjunto con profesionales de otras disciplinas. Esto es: el abogado penalista interviene desde los primeros minutos de la investigación, antes de que exista una declaración indagatoria o un imputado penalmente. Y además se desempeña defendiendo a su cliente en un gran número de actos procesales, como declaraciones testimoniales, indagatorias, pericias, reconocimientos de personas, de cosas, etc.",
+    subDescripcion7:
+      "Por otro lado, cualquier abogado especialista en derecho penal, hoy debe trabajar con un equipo interdisciplinario. La actualidad del proceso penal exige que, para ofrecer a nuestros clientes un servicio de defensa penal de alta calidad, sea imprescindible tener un equipo de profesionales a nuestro lado: peritos en psicología, psiquiatría, medicina, informática, mecánica, son solo algunos de los más frecuentes. Por ultimo, el abogado penalista es un profesional que acompaña al cliente en los momentos más difíciles de su vida. Esto requiere dos cosas, además de una alta capacitación profesional: primero empatía con la situación que atraviesa la otra persona, escuchar atentamente su realidad y comprometerse con sus vivencias personales; segundo explicar cada uno de los detalles de la estrategia de defensa y la realidad procesa en lenguaje claro y entendible. La comunicación eficiente, que el cliente entienda su realidad en el proceso penal es clave para que tenga una defensa efectiva y eficiente. ",
+    subDescripcion8:
+      "Si estás pasando por un proceso penal, o buscando un abogado penalista, no dejes de tener en cuenta estas explicaciones, y ante cualquier asesórate rápidamente. No olvides que lo más importante es la confianza que tenes con tu abogado. Al fin de cuentas será quien te acompañará hasta las últimas consecuencias.",
+    datosContactoNombre: "Julián Farina Balbi",
+    datosContactoCargo:
+      "Abogado UNLP. Especialista en Prueba Penal por la U. de Castilla La Mancha. Director Legal en Estudio Farina Balbi",
+    datosContactoTelefono:
+      "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
+    datosContactoIG: "https://www.instagram.com/julianfarinabalbi",
+    datosContactoMail: "drfarinabalbi@gmail.com",
+    imagen: quehaceabogado,
+
+   imagen2: quehaceabogado2,
+    link: "https://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/16546/texact.htm",
+    id: 15,
+    slug: "que-hace-un-abogado-penalista",
   },
 ];
 

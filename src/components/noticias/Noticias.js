@@ -150,7 +150,7 @@ export default function Noticias() {
     },
     {
       titulo:
-        " Derecho penal y pruebz pericial",
+        " Derecho penal y prueba pericial",
       descripcion:
         "El Dr. Juliàn Farina Balbi participó como disertante de la Jornada sobre prueba pericial en el proceso penal y civil. En ese marco aportó reflexiones desde la práctica de la defensa penal y el trabajo del abogado penalista en relaciòn a las pericias. ",
       link: "https://www.calp.org.ar/events/pericias-mecanicas-e-informaticas-perspectivas-penal-y-civil/",

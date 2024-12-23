@@ -176,7 +176,7 @@ const noticias = [
   },
   {
     titulo:
-      "¿¿Qué hace un ABOGADO PENALISTA ?",
+      "¿ Qué hace un ABOGADO PENALISTA ?",
     fecha: "22/12/2024",
     tituloTexto:
       "¿Qué diferencia hay entre un abogado y un abogado penalista?",

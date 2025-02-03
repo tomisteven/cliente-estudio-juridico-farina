@@ -7,6 +7,7 @@ import culpable from "../../assets/culpable.JPG";
 import falsasdenuncias from "../../assets/falsasdenuncias.jpg";
 import quehaceabogado from "../../assets/quehaceabogado.jpg";
 import quehaceabogado2 from "../../assets/quehaceabogado2.jpg";
+import legitima from "../../assets/legitima.jpg";
 
 const noticias = [
   {
@@ -138,8 +139,7 @@ const noticias = [
     titulo:
       "¿Cómo actuar ante falsas denuncias? Experiencia y Asesoramiento de un abogado penalista en La Plata",
     fecha: "20/11/2024",
-    tituloTexto:
-      "Defensa penal en casos de falsas denuncias.",
+    tituloTexto: "Defensa penal en casos de falsas denuncias.",
     descripcion:
       "¿Qué es una falsa denuncia? ¿Qué hago si me denuncian falsamente? El derecho penal y la justicia penal, se supone que deben ocuparse de atender los conflictos más graves: los hechos que afectan lo que más preciamos. Esto se vé claramente en los delitos contra la vida, contra la libertad, la propiedad o la libertad sexual.",
 
@@ -175,11 +175,9 @@ const noticias = [
     slug: "como-actuar-ante-falsas-denuncias",
   },
   {
-    titulo:
-      "¿ Qué hace un ABOGADO PENALISTA ?",
+    titulo: "¿ Qué hace un ABOGADO PENALISTA ?",
     fecha: "22/12/2024",
-    tituloTexto:
-      "¿Qué diferencia hay entre un abogado y un abogado penalista?",
+    tituloTexto: "¿Qué diferencia hay entre un abogado y un abogado penalista?",
     descripcion:
       "Un estudio jurídico penal debe contar con abogados especialistas en todas las ramas del dereco penal.",
 
@@ -208,10 +206,46 @@ const noticias = [
     datosContactoMail: "drfarinabalbi@gmail.com",
     imagen: quehaceabogado,
 
-   imagen2: quehaceabogado2,
+    imagen2: quehaceabogado2,
     link: "https://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/16546/texact.htm",
     id: 15,
     slug: "que-hace-un-abogado-penalista",
+  },
+  {
+    titulo: "La Legítima Defensa en el Código Penal Argentino",
+    fecha: "13/01/2025",
+    tituloTexto: "¿Qué es actuar en Legítima Defensa en Argentina? ",
+    descripcion:
+      "Exploraremos esta causa de justificación penal, sus elementos esenciales y las implicancias de su exceso como defensas penales efectivas, con el objetivo de brindar claridad a quienes puedan enfrentarse a una situación penal relacionada.",
+
+    subDescripcion1: "Qué se considera Legítima Defensa en Argentina?",
+    subDescripcion2:
+      "Muchas personas involucradas en una causa penal se preguntan frecuentemente ¿qué significa actuar en legítima defensa? Lo cierto es que esta figura está contemplada en el artículo 34 inciso 6 del Código Penal argentino, es una causa de justificación, como el estado de necesidad justificante, y su objeto es el de eximir de responsabilidad penal a quien comete un acto que, bajo circunstancias normales, sería considerado delictivo, siempre y cuando se cumplan ciertos requisitos legales. Esto quiere decir que bajo esas exigencias, la conducta -aparentemente delictiva, como matar o lesionar a otro- será irreprochable, no merecerá ningún tipo de pena o sanción. ",
+    subDescripcion3:
+      "La legítima defensa es un derecho reconocido por la ley que permite a una persona protegerse de una agresión ilegítima, ya sea hacia su propia integridad, la de terceros, o incluso cualquiera de sus derechos; utilizando medios necesarios para repeler la agresión. Esta eximente busca equilibrar la reacción de la persona frente a un ataque, evitando que sea condenada penalmente por proteger sus derechos fundamentales. Esto quiere decir que la legitima defensa puede ampararte no solo si estaba en riesgo tu vida, sino también tu integridad física, tu libertad sexual, tu propiedad o tu honor, por ejemplo",
+    subDescripcion4:
+      "Requisitos legales para la legítima defensa; Para que se configure la legítima defensa como causa de justificación, es imprescindible que concurran ciertos elementos, establecidos en el artículo 34 inciso 6 del Código Penal: Agresión ilegítima: Debe tratarse de un ataque injustificado, actual o inminente. No es válido actuar en legítima defensa ante una agresión que ya ha cesado o que no representa un peligro real. Necesidad racional del medio empleado para repelerla: La respuesta debe guardar una relación de cierta proporcionalidad con el ataque; no es necesario que exista una paridad exacta, pero no puede justificarse una diferencia escandalosa entre los medios usados por las partes. Por ejemplo, no podría -en principio- justificarse a quien dispara de muerte a quien le profirió un insulto. Si la defensa supera el daño que buscaba evitar, podría considerarse un exceso. Falta de provocación suficiente por parte del defensor: Quien se defiende no debe haber incitado deliberadamente la agresión. Este punto refuerza la legitimidad de su accionar.",
+    subDescripcion5:
+      "¿Qué ocurre con el exceso en la legítima defensa? El exceso en la legítima defensa se presenta cuando el medio empleado para repeler la agresión supera los límites de lo razonable. Según el artículo 35 del Código Penal, este exceso puede ser excusable si se demuestra que fue producto de un estado de emoción violenta o de miedo insuperable ante la agresión. Este tipo de casos pueden derivar en una atenuación de la pena o incluso en la absolución, dependiendo de las circunstancias concretas. También es posible argumentar que el exceso de defensa puede darse en los límites temporales y no en la intensidad. Esto quiere decir que, quien actúa en principio justificado y logra hacer cesar la agresión, luego se excede por su continuidad en la acción defensiva, yendo más allá de lo necesario. ",
+    subDescripcion6:
+      "Reflexiones sobre la importancia de la legítima defensa; Entender la figura de la legítima defensa y sus límites es esencial para cualquier persona, ya que un error en su aplicación podría llevar a consecuencias legales graves. Por otro lado, tanto la legítima defensa como el exceso en su ejercicio tienen el potencial de modificar significativamente el curso de una causa penal. Una defensa jurídica adecuada puede resultar en una absolución completa o una reducción considerable de la pena, dependiendo de cómo se argumenten los hechos ante la justicia. ",
+    subDescripcion7:
+      "La clave está en el asesoramiento legal oportuno desde un profesional experto. Enfrentarse a una causa penal, ya sea por legítima defensa o exceso, es una situación que requiere el acompañamiento de un abogado penalista especializado. En nuestro estudio jurídico penal en La Plata, Provincia de Buenos Aires y CABA, contamos con la experiencia y el conocimiento necesarios para analizar cada caso en profundidad, defender tus derechos y buscar la mejor solución posible para tu caso penal ",
+    subDescripcion8:
+      "Si tiene dudas sobre un caso de legítima defensa o necesita asesoramiento en derecho penal, no dude en contactarnos. Estamos aquí para proteger sus derechos y garantizar una defensa penal efectiva. Contacto: Para más información o para programar una consulta, comuníquese con nuestro estudio jurídico penal. Estamos disponibles para ayudarle en este momento crítico.",
+    datosContactoNombre: "Julián Farina Balbi",
+    datosContactoCargo:
+      "Abogado UNLP. Especialista en Prueba Penal por la U. de Castilla La Mancha. Director Legal en Estudio Farina Balbi",
+    datosContactoTelefono:
+      "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
+    datosContactoIG: "https://www.instagram.com/julianfarinabalbi",
+    datosContactoMail: "drfarinabalbi@gmail.com",
+    imagen2: quehaceabogado,
+
+    imagen: legitima,
+    link: "https://www.saij.gob.ar/federico-borzi-cirilli-legitima-defensa-diez-aspectos-clave-para-comprender-su-alcance-dacf190074-2019-04-22/123456789-0abc-defg4700-91fcanirtcod?q=fecha",
+    id: 16,
+    slug: "legitima-defensa-en-argentina",
   },
 ];
 

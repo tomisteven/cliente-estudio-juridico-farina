@@ -8,6 +8,9 @@ import falsasdenuncias from "../../assets/falsasdenuncias.jpg";
 import quehaceabogado from "../../assets/quehaceabogado.jpg";
 import quehaceabogado2 from "../../assets/quehaceabogado2.jpg";
 import legitima from "../../assets/legitima.jpg";
+import estafa1 from "../../assets/estafa1.jpg"
+import estafa2 from "../../assets/estada2.jpg"
+
 
 const noticias = [
   {
@@ -246,6 +249,44 @@ const noticias = [
     link: "https://www.saij.gob.ar/federico-borzi-cirilli-legitima-defensa-diez-aspectos-clave-para-comprender-su-alcance-dacf190074-2019-04-22/123456789-0abc-defg4700-91fcanirtcod?q=fecha",
     id: 16,
     slug: "legitima-defensa-en-argentina",
+  },
+  {
+    titulo: "Estafa y Defraudaciones en Derecho Penal",
+    fecha: "20 de febrero de 2025",
+    tituloTexto: "Me acusan de estafa. Soy víctima de estafa: ¿tengo un problema penal? ",
+    descripcion:
+      "La estafa es un delito tipificado en el art. 172 del Código Penal, y preve una pena de prisión de 1 mes a 6 años. Pero no todos los hechos de la vida cotidiana que aparentan estafa, son realmente tal delito. Si estas en causa penal por este motivo, te puede interesar lo que sigue.",
+
+    subDescripcion1: "Un abogado penalista entiende en materia de estafas: ¿cuando consultarlo?",
+    subDescripcion2:
+      "Estafa y defraudaciones son sin lugar a dudas modalidades delictivas. Esto quiere decir que usualmente, en todo ordenamiento, están calificados como delitos. Pero también son términos que son usados muchas veces, en lenguaje cotidiano por las persona, sin referirse necesariamente al delito: esto es una estafa! Me siento defraudado! Son expresiones cotidianas usadas sin pensar en la teoría del delito, sin siquiera conocer los requisitos que cada delito exige para considerarse consumado. Claramente no toda situación que es usada en esos términos puede configurar el delito penal.",
+    subDescripcion3:
+      "Por estos motivos es importante conocer que exigencias deben cumplirse para hablar de estafa o defraudación como delito. Solo en estos casos puede avanzar un proceso penal y por este motivo es vital consultar con un abogado penalista para asesorarse correctamente. Tanto desde la víctima como desde el imputado, estas pautas pueden ayudarte a evitar un problema mayor para vos y tus intereses. ",
+    subDescripcion4:
+      "Desde e derecho penal estrictamente, la estafa y la defraudación son modalidades delictivas dirigidas contra la propiedad. Entre los dos delitos existe un parentesco de genero a especie, esto es porque la estafa es un tipo de defraudación pero también existen muchos otros además de la estafa. Para que quede claro, toda estafa es una defraudación, pero no toda defraudación es una estafa. Esto queda evidenciado en el Titulo del Capitulo que se denomina “Estafas y Otras Defraudaciones”. Justamente se destaca la idea que además de la estafa existen otras formas defraudatorias. Esta situación es vital a tener en cuenta, como defensa y como denunciante, ya que las exigencias no son idénticas en cada delito y forma de defraudación. ",
+    subDescripcion5:
+      "Puede sorprender al lector no experimentado que nuestro Código Penal, no aporta una definición de estafa. Por el contrario la ley penal aporta en el art. 172 un acercamiento enunciativo, y entre ellos resalta: el que defraudare a otro con nombre supuesto, calidad simulada, falsos títulos, influencia mentida, abuso de confianza o aparentando bienes, crédito, comisión, empresa o negociación o valiéndose de cualquier otro ardid o engaño. El articulo 172 sí incluye un requisito elemental, la necesidad de que existe un ardid o engaño. Al ser la estafa y defraudación un delito que afecta la propiedad de la víctima, es necesario que el delincuente se valga, utilice o se apoye en una maniobra engañosa para provocar un perjuicio patrimonial. Este perjuicio (dinero, cosas de valor, crédito, etc) no cambia su situación delictiva por el hecho de que sea la víctima quien “voluntariamente”, bajo error, haga por sí misma la disposición. Todo lo contrario, esto es justamente la nota característica de estos delitos. ",
+    subDescripcion6:
+      "La protección se extiende a todo el patrimonio, siendo este un concepto más amplio que el de propiedad, por tal motivo es posible incluir en su versión más amplia situaciones que afectan por ejemplo créditos o derechos. En este grupo de delitos podemos incluir los tipos de fraude, en los que mediante un engaño se produce la disposición patrimonial perjudicial. Los casos de abuso de confianza, donde la disposición es válida inicialmente, no está viciada, sino que es en la ejecución posterior que el sujeto incumple de mala fe (por ejemplo la administración fraudulenta); y también los casos donde el autor se aprovecha de situaciones anteriores que facilitan su apropiación (por ejemplo los casos de apropiación indebida arts. 175 inc 1 y 2). ",
+    subDescripcion7:
+      "¿Qué es la estafa? Según Fontán Balestra, el concepto de la estafa se estructura, pues, con un ataque a la propiedad, consistente en una disposición de carácter patrimonial perjudicial, viciada en su motivación por el error que provoca el ardid o el engaño del sujeto activo, que persigue el logro de un beneficio indebido para sí o para un tercero.",
+    subDescripcion8:
+      "¿Qué requisitos exige la estafa? En resumen, es necesario siempre estar atentos al cumplimiento de los siguientes requisitos: 1. Una conducta engañosa, también llamada maquinación o ardid. 2. El error de otra persona, causado por la conducta anterior. 3. Una disposición patrimonial causada por ese error. 4. Un perjuicio económico para el engañado o para un tercero, a resultas de esa disposición patrimonial.",
+      subDescripcion9:
+      "De todas maneras, no todo engaño o intento de ardid puede conllevar al delito de estafa. Es necesario verificar la situación concreta del caso en relación a las practicas sociales aceptadas en ese lugar y momento, y delimitar si esa actividad produce o no un aumento en el riesgo aceptado por la ley. Para evitar este tipo de situaciones, siempre es recomendable asesorarse previamente con un abogado penalista especialista en materia de delitos patrimoniales, estafas y defraudaciones. Si sos acusado de un delito de estafa, o defraudación; como si sos víctima de alguna maniobra que crees puede ser una estafa; es importante que consultes con tu abogado penalista, o un estudio jurídico penal (gente especializada) La atención profesional en los detalles del caso, la prueba y la imputación penal, pueden producir notables resultados en la causa o investigación penal.",
+    datosContactoNombre: "Julián Farina Balbi",
+    datosContactoCargo:
+      "Abogado UNLP. Especialista en Prueba Penal por la U. de Castilla La Mancha. Director Legal en Estudio Farina Balbi",
+    datosContactoTelefono:
+      "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
+    datosContactoIG: "https://www.instagram.com/julianfarinabalbi",
+    datosContactoMail: "drfarinabalbi@gmail.com",
+    imagen2: estafa2,
+
+    imagen: estafa1,
+    link: "https://www.enre.gov.ar/web/bibliotd.nsf/58d19f48e1cdebd503256759004e862f/2ebfcc293286a9d4032580a3003eaaa4?OpenDocument",
+    id: 17,
+    slug: "estafas-y-defraudaciones-en-derecho-penal",
   },
 ];
 

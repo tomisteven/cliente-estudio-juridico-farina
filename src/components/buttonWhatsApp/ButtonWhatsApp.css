@@ -29,5 +29,15 @@
     right: 18px;
     bottom: 20px;
     z-index: 9999;
+    opacity: 0.5;
+  }
+}
+
+
+@media (max-width: 435px){
+  .cont-button-whats{
+      bottom: 70px;
+      right: 35px;
+      opacity: 0.5;
   }
 }

@@ -36,5 +36,14 @@
     .cont-buttons-sociales{
         bottom: 275px;
         right: 5px;
+        opacity: 0.5;
+    }
+}
+
+@media (max-width: 435px){
+    .cont-buttons-sociales{
+        bottom: 275px;
+        right: 35px;
+        opacity: 0.5;
     }
 }

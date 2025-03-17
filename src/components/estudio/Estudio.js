@@ -22,7 +22,7 @@ export default function Estudio() {
           <p>ESTUDIO JURIDICO PENAL</p>
 
           <h2 className="subtitulo-portada">
-            Direccion: Calle 48 Nro. 877, of. 403
+            Direccion: Plaza Paso Nro. 159, Piso 5to. “B” La Plata
           </h2>
           <h2 className="subtitulo-portada">
             Horarios: Lunes a Sabados de 08:00 a 19:00 Hs

@@ -22,7 +22,10 @@ export default function Estudio() {
           <p>ESTUDIO JURIDICO PENAL</p>
 
           <h2 className="subtitulo-portada">
-            Direccion: Plaza Paso Nro. 159, Piso 5to. “B” La Plata
+            Plaza Paso Nro. 159, Piso 5to. “B” La Plata
+          </h2>
+          <h2 className="subtitulo-portada">
+            Avenida Callao Nro. 569, Piso 3ro. CABA.
           </h2>
           <h2 className="subtitulo-portada">
             Horarios: Lunes a Sabados de 08:00 a 19:00 Hs

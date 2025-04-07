@@ -8,9 +8,10 @@ import falsasdenuncias from "../../assets/falsasdenuncias.jpg";
 import quehaceabogado from "../../assets/quehaceabogado.jpg";
 import quehaceabogado2 from "../../assets/quehaceabogado2.jpg";
 import legitima from "../../assets/legitima.jpg";
-import estafa1 from "../../assets/estafa1.jpg"
-import estafa2 from "../../assets/estada2.jpg"
-
+import estafa1 from "../../assets/estafa1.jpg";
+import estafa2 from "../../assets/estada2.jpg";
+import piramidales1 from "../../assets/piramidales1.jpg";
+import piramidales2 from "../../assets/piramidales2.jpeg";
 
 const noticias = [
   {
@@ -253,11 +254,13 @@ const noticias = [
   {
     titulo: "Estafa y Defraudaciones en Derecho Penal",
     fecha: "20 de febrero de 2025",
-    tituloTexto: "Me acusan de estafa. Soy víctima de estafa: ¿tengo un problema penal? ",
+    tituloTexto:
+      "Me acusan de estafa. Soy víctima de estafa: ¿tengo un problema penal? ",
     descripcion:
       "La estafa es un delito tipificado en el art. 172 del Código Penal, y preve una pena de prisión de 1 mes a 6 años. Pero no todos los hechos de la vida cotidiana que aparentan estafa, son realmente tal delito. Si estas en causa penal por este motivo, te puede interesar lo que sigue.",
 
-    subDescripcion1: "Un abogado penalista entiende en materia de estafas: ¿cuando consultarlo?",
+    subDescripcion1:
+      "Un abogado penalista entiende en materia de estafas: ¿cuando consultarlo?",
     subDescripcion2:
       "Estafa y defraudaciones son sin lugar a dudas modalidades delictivas. Esto quiere decir que usualmente, en todo ordenamiento, están calificados como delitos. Pero también son términos que son usados muchas veces, en lenguaje cotidiano por las persona, sin referirse necesariamente al delito: esto es una estafa! Me siento defraudado! Son expresiones cotidianas usadas sin pensar en la teoría del delito, sin siquiera conocer los requisitos que cada delito exige para considerarse consumado. Claramente no toda situación que es usada en esos términos puede configurar el delito penal.",
     subDescripcion3:
@@ -272,7 +275,7 @@ const noticias = [
       "¿Qué es la estafa? Según Fontán Balestra, el concepto de la estafa se estructura, pues, con un ataque a la propiedad, consistente en una disposición de carácter patrimonial perjudicial, viciada en su motivación por el error que provoca el ardid o el engaño del sujeto activo, que persigue el logro de un beneficio indebido para sí o para un tercero.",
     subDescripcion8:
       "¿Qué requisitos exige la estafa? En resumen, es necesario siempre estar atentos al cumplimiento de los siguientes requisitos: 1. Una conducta engañosa, también llamada maquinación o ardid. 2. El error de otra persona, causado por la conducta anterior. 3. Una disposición patrimonial causada por ese error. 4. Un perjuicio económico para el engañado o para un tercero, a resultas de esa disposición patrimonial.",
-      subDescripcion9:
+    subDescripcion9:
       "De todas maneras, no todo engaño o intento de ardid puede conllevar al delito de estafa. Es necesario verificar la situación concreta del caso en relación a las practicas sociales aceptadas en ese lugar y momento, y delimitar si esa actividad produce o no un aumento en el riesgo aceptado por la ley. Para evitar este tipo de situaciones, siempre es recomendable asesorarse previamente con un abogado penalista especialista en materia de delitos patrimoniales, estafas y defraudaciones. Si sos acusado de un delito de estafa, o defraudación; como si sos víctima de alguna maniobra que crees puede ser una estafa; es importante que consultes con tu abogado penalista, o un estudio jurídico penal (gente especializada) La atención profesional en los detalles del caso, la prueba y la imputación penal, pueden producir notables resultados en la causa o investigación penal.",
     datosContactoNombre: "Julián Farina Balbi",
     datosContactoCargo:
@@ -287,6 +290,53 @@ const noticias = [
     link: "https://www.enre.gov.ar/web/bibliotd.nsf/58d19f48e1cdebd503256759004e862f/2ebfcc293286a9d4032580a3003eaaa4?OpenDocument",
     id: 17,
     slug: "estafas-y-defraudaciones-en-derecho-penal",
+  },
+  {
+    titulo: "Derecho Penal y Estafas Piramidales",
+    fecha: "7 de abril de 2025",
+    tituloTexto: "¿Qué hacer si soy víctima de una estafa piramidal?",
+    descripcion:
+      "En los tiempos de crisis los abogados penalistas estamos acostumbrados a ver que determinados delitos se repiten una y otra vez. Uno de ellos es la comisión de ilícitos por defraudación mediante la forma de estafas piramidales.",
+
+    subDescripcion1:
+      "¿Qué es una Estafa Piramidal? Como saber cuando denunciar estas estafas?",
+    subDescripcion2:
+      "Esta práctica fraudulenta, que generalmente suele resurgir en tiempos de crisis, no es nada novedosa. Es una metodología que se repite con diferentes “maquillajes”, pero en general, se basa en la promesa de obtener grandes ganancias con la inversión de una suma de dinero, y además, usualmente se suelen también prometer a la víctima mayores rendimiento para el caso de atraer nuevos clientes a la organización.",
+    subDescripcion3:
+      "Si bien tiene diferencias con el llamado “Esquema Ponzi”, este método ha recibido el nombre de su creador, Carlo Ponzi, quien durante los años 20, en los Estados Unidos, logró desde un capital muy reducido, acumular una inmensa fortuna como resultado de un procedimiento que posteriormente se conociera con su nombre. El método es tan sencillo como atractivo para ciertas victimas excesivamente crédulas.",
+    subDescripcion4:
+      "El sistema consiste en la obtención de inversores, generalmente de forma directa y bajo el pretexto de determinados conocimientos o habilidades exclusivas del estafador, quien promete mediante el uso de esos dotes únicos, réditos y ganancias sensiblemente más altas que las disponibles en el mercado, generalmente a plazos relativamente cortos, y bajo el ofrecimiento y demostración de supuestas seguridades evidentes. Siempre ocurre que son negocios que “parecen demasiado buenos para ser reales”, y adivinen que, los son!",
+    subDescripcion5:
+      "Como lo hiciera el mismo Ponzi, el estafador usualmente comienza con un círculo pequeño de víctimas, con las que cumple puntualmente su propuesta, y de esta manera da inicio a circulo de publicidad o “contagio”, que lleva rápidamente al aumento de participantes en la estafa. Se paga a los primeros para atraer a los siguientes. En el diseño original de Ponzi, se incentiva a las víctimas a convocar y atraer más inversores, incluso a cambio de pagos o aumentos en los intereses.",
+    subDescripcion6:
+      "El falso negocio, solo se mantiene durante el tiempo que el flujo de ingreso de víctimas aumenta, ya que el corazón del fraude, consiste en pagar a las víctimas más viejas, con el aporte de las más nuevas. No existe un negocio real de fondo que pueda sustentar mediante un proceso de producción o de comercio el resultado prometido, mínimamente necesario para responder a la totalidad de las obligaciones contraídas. Por lo tanto, cuando ese entusiasmo generalizado por ingresar en un negocio increíblemente seguro y rentable disminuye por cualquier motivo, la estructura sencillamente se desmorona por falta de sustento, y comienza el “sálvese quien pueda”; la estructura cae como un castillo de cartas y claro, el único que tiene acceso a esa salvación es el creador del negocio.",
+    subDescripcion7: "Diferencias entre estafa piramidal y esquema Ponzi",
+    subDescripcion8:
+      "En primer lugar, en un esquema Ponzi, la actividad defraudatoria es desarrollada en forma directa por el estafador, se conecta sucesivamente con cada potencial víctima, a fin de ingresarlo en la estructura; mientras que, en la figura piramidal, esa función es consecutivamente desplegada por los diferentes integrantes, quienes a su vez actúan como ingresantes y receptores de nuevos miembros, con quienes entablan directamente el negocio por sí mismos. Los diferentes escalones de la pirámide son a su vez víctimas y estafadores, algunas veces inconscientes, otras cómplices del delito.",
+    subDescripcion9:
+      "Por otro lado, el esquema Ponzi, como ocurriera en el caso de su creador, requiere para la captación de miembros, la ilusión de un conocimiento exclusivo, una virtud, o capacidad que, por algún motivo, solo esa persona posee; mientras que en un negocio piramidal -por el contrario- se revela abiertamente a los nuevos ingresantes, sobre el aumento exponencial de sus ganancias por efecto del reclutamiento permanente. Finalmente, en un esquema Ponzi, el circuito de fraude puede subsistir bastante tiempo en la medida que sus integrantes mantengan la reinversión de su capital, y se sumen al menos un número reducido de nuevos miembros; mientras que la estructura piramidal, indefectiblemente colapsará en un tiempo relativamente más reducido, al menos en lo que respecta a los peldaños más bajos, ya que la multiplicación de miembros, tornará cada vez más difícil el objetivo de conseguirlos en forma sostenida.",
+    subDescripcion10:
+      "Diferencias con los negocios Multinivel; Muchas practicas comerciales, incluso de reconocidas marcas internacionales, se basan en gran medida en la práctica multinivel. Esto quiere decir que la empresa permite y fomenta la participación de sus usuarios como parte de la cadena comercial. El usuario que confía en la marca, además tiene la posibilidad de realizar una inversión que le permite acceder a determinados productos del catálogo y al mismo tiempo revenderlos hacia sus propios clientes. Al mismo tiempo, esas prácticas permiten que esos usuarios formen sus propios equipos de venta y de esta manera la rama de ventas se va abriendo más y más. ",
+    subDescripcion11:
+      "Han existido casos emblemáticos en los que las autoridades de otros países como EEUU han aplicado severas sanciones a las empresas, como los casos de Herbal Life y Nu Sking, sin embargo, la problemática en estos casos se basa en la determinación de la procedencia de los fondos que mantienen el negocio con vida. Es necesario que esos fondos provengan en su mayoría de una actividad productiva o comercial genuina. Si esos ingresos son sustentados con el reclutamiento, pues entonces estaremos ante una práctica prohibida de tipo piramidal.",
+    subDescripcion12:
+      "Qué puedo hacer si fui víctima de una estafa piramidal ? Las personas que fueron seducidas para ingresar en este tipo de prácticas, generalmente tienden a mantener la esperanza de que su dinero les sea devuelto. Esto pasa por la necesidad de creer en la persona que apoyaron desde el inicio, y también por la experiencia previa de haber recibido los fondos prometidos. Sin embargo, como ya vimos, esto no puede nunca sostenerse en el tiempo, y más temprano que tarde, la pirámide se termina derrumbando. Lo importante en estos casos pasa por dos puntos. Uno de tipo penal y otro de tipo moral. En el aspecto moral, es muy importante que las personas que sospechan de este tipo de prácticas, en primer lugar no hagan ingresar a más personas, que no difundan ni hagan propaganda de esa práctica, ya que de lo contrario, es probable que se conviertan en cómplices de esa estafa y luego no solo no puedan recuperar su dinero, sino que además, tengan el riesgo de ser también condenados. En segundo lugar, desde el punto de vista procesal penal, es importante que ante la sospecha de esta estafa, consultes rápido con un abogado penalista experto en derecho penal.",
+    subDescripcion13:
+      "Un estudio jurídico penal es la mejor opción para asesorarse correctamente y poder saber si estamos ante un negocio o inversión que puede salir mal, o bien ante una estafa. No toda inversión fallida es un delito, pero en caso de que estés ante un tipo de maniobra como la que describimos, no dudes en consultar rápidamente con un especialista. La rapidez con la que actúes será muchas veces la clave para poder recuperar tu dinero, y al mismo tiempo, que a los responsables se les aplique la correspondiente sanción penal. Cuando el caso demuestra que estamos ante una estafa penal, el abogado especialista en derecho penal podrá aconsejarte los pasos a seguir, para tomar acción rápidamente y maximizar las posibilidades de recuperar el dinero, además de no permitir que más personas sigan siendo perjudicadas. Para esto es importante hacer rápidamente un estudio de la situación. Son importantes los documentos que puedan haber sido firmados, los mensajes de chat, mails y hasta posteos en redes sociales. El abogado penalista tiene que estudiar toda la situación, el contexto y las relaciones para determinar ante que tipo de relación nos encontramos. En caso de que ser factible la existencia de una estafa, el abogado penalista te asesorará en cada paso para realizar la denuncia penal, ya sea ante la policía del lugar, o ante la propia Fiscalía especializada, y además, tenés la posibilidad de que el experto en derecho penal te acompañe durante todo el proceso, representándote como particular damnificado, y de esta forma, que vos como víctima, seas parte en el proceso penal, puedas aportar pruebas, controlar todas las medidas e incluso requerir la elevación a juicio de los responsables.",
+    datosContactoNombre:
+      "Si tenés consultas o dudas sobre este tipo de casos, contáctame y analizamos juntos tu caso! Dr. Julián Farina Balbi",
+    datosContactoCargo:
+      "Abogado UNLP. Especialista en Prueba Penal por la U. de Castilla La Mancha. Director Legal en Estudio Farina Balbi",
+    datosContactoTelefono:
+      "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
+    datosContactoIG: "https://www.instagram.com/julianfarinabalbi",
+    datosContactoMail: "drfarinabalbi@gmail.com",
+    imagen2:piramidales1,
+
+    imagen: piramidales2,
+    link: "https://www.argentina.gob.ar/economia/igualdadygenero/recursos-y-herramientas/inclusion-financiera",
+    id: 18,
+    slug: "estafas-piramidales-en-derecho-penal",
   },
 ];
 

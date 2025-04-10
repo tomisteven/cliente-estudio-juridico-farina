@@ -16,6 +16,7 @@ import disertacion2 from "../../assets/disertacion.jpeg";
 import instructor from "../../assets/instructor.jpeg";
 import pruebapericial from "../../assets/pruebapericial.jpeg";
 import analista from "../../assets/analista.jpeg";
+import edificio from "../../assets/edificio.jpeg";
 
 import { Carousel } from "react-responsive-carousel";
 
@@ -166,6 +167,15 @@ export default function Noticias() {
       fecha: "07/02/2025",
       imagen: analista,
       id: 15,
+    },
+    {
+      titulo: "El Estudio Jurídico Penal abre nuevas oficinas en la Ciudad de la Plata",
+      descripcion:
+        "El Dr. Farina Balbi ha sido convocado por El Analista a disertar sobre derecho penal y falsas denuncias",
+      link: "https://www.google.com/maps/place/Pl.+Paso+159+Piso+5to.+%E2%80%9CB,+B1900+La+Plata,+Provincia+de+Buenos+Aires/@-34.9164618,-57.9607995,3a,75y,119.84h,102.84t/data=!3m7!1e1!3m5!1s-b-LK9spJLznwQWGtkoy4g!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-12.842077813937863%26panoid%3D-b-LK9spJLznwQWGtkoy4g%26yaw%3D119.83531932747559!7i16384!8i8192!4m13!1m7!3m6!1s0x95a2e634a32c953f:0x69b24e7686cd3513!2sPl.+Paso+159+Piso+5to.+%E2%80%9CB,+B1900+La+Plata,+Provincia+de+Buenos+Aires!3b1!8m2!3d-34.9164745!4d-57.9604985!3m4!1s0x95a2e634a32c953f:0x69b24e7686cd3513!8m2!3d-34.9164745!4d-57.9604985?entry=ttu&g_ep=EgoyMDI1MDQwOC4wIKXMDSoASAFQAw%3D%3D",
+      fecha: "10/04/2025",
+      imagen: edificio,
+      id: 16,
     },
   ];
 

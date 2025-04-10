@@ -48,7 +48,7 @@ const noticias = [
       "Abogado UNLP. Especialista en Prueba Penal por la U. de Castilla La Mancha. Director Legal en Estudio Farina Balbi",
     datosContactoTelefono:
       "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
-    datosContactoIG: "https://www.instagram.com/julianfarinabalbi",
+    datosContactoIG: "https://www.instagram.com/abogado.penalista.farina.balbi/",
     datosContactoMail: "drfarinabalbi@gmail.com",
     imagen: loan,
     imagen2: loan2,
@@ -87,7 +87,7 @@ const noticias = [
       "Abogado UNLP. Especialista en Prueba Penal por la U. de Castilla La Mancha. Director Legal en Estudio Farina Balbi",
     datosContactoTelefono:
       "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
-    datosContactoIG: "https://www.instagram.com/julianfarinabalbi",
+    datosContactoIG: "https://www.instagram.com/abogado.penalista.farina.balbi/",
     datosContactoMail: "drfarinabalbi@gmail.com",
     imagen: honorarios1,
     imagen2: honorarios2,
@@ -131,7 +131,7 @@ const noticias = [
       "Abogado UNLP. Especialista en Prueba Penal por la U. de Castilla La Mancha. Director Legal en Estudio Farina Balbi",
     datosContactoTelefono:
       "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
-    datosContactoIG: "https://www.instagram.com/julianfarinabalbi",
+    datosContactoIG: "https://www.instagram.com/abogado.penalista.farina.balbi/",
     datosContactoMail: "drfarinabalbi@gmail.com",
     imagen: inocente,
     imagen2: culpable,
@@ -170,7 +170,7 @@ const noticias = [
       "Abogado UNLP. Especialista en Prueba Penal por la U. de Castilla La Mancha. Director Legal en Estudio Farina Balbi",
     datosContactoTelefono:
       "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
-    datosContactoIG: "https://www.instagram.com/julianfarinabalbi",
+    datosContactoIG: "https://www.instagram.com/abogado.penalista.farina.balbi/",
     datosContactoMail: "drfarinabalbi@gmail.com",
     imagen: falsasdenuncias,
     /* imagen2: culpable, */
@@ -206,7 +206,7 @@ const noticias = [
       "Abogado UNLP. Especialista en Prueba Penal por la U. de Castilla La Mancha. Director Legal en Estudio Farina Balbi",
     datosContactoTelefono:
       "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
-    datosContactoIG: "https://www.instagram.com/julianfarinabalbi",
+    datosContactoIG: "https://www.instagram.com/abogado.penalista.farina.balbi/",
     datosContactoMail: "drfarinabalbi@gmail.com",
     imagen: quehaceabogado,
 
@@ -242,7 +242,7 @@ const noticias = [
       "Abogado UNLP. Especialista en Prueba Penal por la U. de Castilla La Mancha. Director Legal en Estudio Farina Balbi",
     datosContactoTelefono:
       "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
-    datosContactoIG: "https://www.instagram.com/julianfarinabalbi",
+    datosContactoIG: "https://www.instagram.com/abogado.penalista.farina.balbi/",
     datosContactoMail: "drfarinabalbi@gmail.com",
     imagen2: quehaceabogado,
 
@@ -282,7 +282,7 @@ const noticias = [
       "Abogado UNLP. Especialista en Prueba Penal por la U. de Castilla La Mancha. Director Legal en Estudio Farina Balbi",
     datosContactoTelefono:
       "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
-    datosContactoIG: "https://www.instagram.com/julianfarinabalbi",
+    datosContactoIG: "https://www.instagram.com/abogado.penalista.farina.balbi/",
     datosContactoMail: "drfarinabalbi@gmail.com",
     imagen2: estafa2,
 
@@ -329,7 +329,7 @@ const noticias = [
       "Abogado UNLP. Especialista en Prueba Penal por la U. de Castilla La Mancha. Director Legal en Estudio Farina Balbi",
     datosContactoTelefono:
       "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
-    datosContactoIG: "https://www.instagram.com/julianfarinabalbi",
+    datosContactoIG: "https://www.instagram.com/abogado.penalista.farina.balbi/",
     datosContactoMail: "drfarinabalbi@gmail.com",
     imagen2:piramidales1,
 

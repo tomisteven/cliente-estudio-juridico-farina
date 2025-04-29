@@ -351,7 +351,7 @@ const noticias = [
   {
     titulo:
       "Canosa Vs. Lizy Tagliani: El Derecho Penal entre el rating y los delitos graves",
-    fecha: "7 de abril de 2025",
+    fecha: "29 de abril de 2025",
     tituloTexto:
       "Denuncia penal de Viviana Canosa. Posibles delitos de calumnia, injuría y falsa denuncia. ",
     descripcion:

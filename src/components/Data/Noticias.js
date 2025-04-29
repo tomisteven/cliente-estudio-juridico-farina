@@ -12,6 +12,8 @@ import estafa1 from "../../assets/estafa1.jpg";
 import estafa2 from "../../assets/estada2.jpg";
 import piramidales1 from "../../assets/piramidales1.jpg";
 import piramidales2 from "../../assets/piramidales2.jpeg";
+import doc from "../../assets/doc.jpg";
+import canosa from "../../assets/canosa.webp";
 
 const noticias = [
   {
@@ -48,7 +50,8 @@ const noticias = [
       "Abogado UNLP. Especialista en Prueba Penal por la U. de Castilla La Mancha. Director Legal en Estudio Farina Balbi",
     datosContactoTelefono:
       "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
-    datosContactoIG: "https://www.instagram.com/abogado.penalista.farina.balbi/",
+    datosContactoIG:
+      "https://www.instagram.com/abogado.penalista.farina.balbi/",
     datosContactoMail: "drfarinabalbi@gmail.com",
     imagen: loan,
     imagen2: loan2,
@@ -87,7 +90,8 @@ const noticias = [
       "Abogado UNLP. Especialista en Prueba Penal por la U. de Castilla La Mancha. Director Legal en Estudio Farina Balbi",
     datosContactoTelefono:
       "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
-    datosContactoIG: "https://www.instagram.com/abogado.penalista.farina.balbi/",
+    datosContactoIG:
+      "https://www.instagram.com/abogado.penalista.farina.balbi/",
     datosContactoMail: "drfarinabalbi@gmail.com",
     imagen: honorarios1,
     imagen2: honorarios2,
@@ -131,7 +135,8 @@ const noticias = [
       "Abogado UNLP. Especialista en Prueba Penal por la U. de Castilla La Mancha. Director Legal en Estudio Farina Balbi",
     datosContactoTelefono:
       "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
-    datosContactoIG: "https://www.instagram.com/abogado.penalista.farina.balbi/",
+    datosContactoIG:
+      "https://www.instagram.com/abogado.penalista.farina.balbi/",
     datosContactoMail: "drfarinabalbi@gmail.com",
     imagen: inocente,
     imagen2: culpable,
@@ -170,7 +175,8 @@ const noticias = [
       "Abogado UNLP. Especialista en Prueba Penal por la U. de Castilla La Mancha. Director Legal en Estudio Farina Balbi",
     datosContactoTelefono:
       "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
-    datosContactoIG: "https://www.instagram.com/abogado.penalista.farina.balbi/",
+    datosContactoIG:
+      "https://www.instagram.com/abogado.penalista.farina.balbi/",
     datosContactoMail: "drfarinabalbi@gmail.com",
     imagen: falsasdenuncias,
     /* imagen2: culpable, */
@@ -206,7 +212,8 @@ const noticias = [
       "Abogado UNLP. Especialista en Prueba Penal por la U. de Castilla La Mancha. Director Legal en Estudio Farina Balbi",
     datosContactoTelefono:
       "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
-    datosContactoIG: "https://www.instagram.com/abogado.penalista.farina.balbi/",
+    datosContactoIG:
+      "https://www.instagram.com/abogado.penalista.farina.balbi/",
     datosContactoMail: "drfarinabalbi@gmail.com",
     imagen: quehaceabogado,
 
@@ -242,7 +249,8 @@ const noticias = [
       "Abogado UNLP. Especialista en Prueba Penal por la U. de Castilla La Mancha. Director Legal en Estudio Farina Balbi",
     datosContactoTelefono:
       "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
-    datosContactoIG: "https://www.instagram.com/abogado.penalista.farina.balbi/",
+    datosContactoIG:
+      "https://www.instagram.com/abogado.penalista.farina.balbi/",
     datosContactoMail: "drfarinabalbi@gmail.com",
     imagen2: quehaceabogado,
 
@@ -282,7 +290,8 @@ const noticias = [
       "Abogado UNLP. Especialista en Prueba Penal por la U. de Castilla La Mancha. Director Legal en Estudio Farina Balbi",
     datosContactoTelefono:
       "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
-    datosContactoIG: "https://www.instagram.com/abogado.penalista.farina.balbi/",
+    datosContactoIG:
+      "https://www.instagram.com/abogado.penalista.farina.balbi/",
     datosContactoMail: "drfarinabalbi@gmail.com",
     imagen2: estafa2,
 
@@ -329,14 +338,57 @@ const noticias = [
       "Abogado UNLP. Especialista en Prueba Penal por la U. de Castilla La Mancha. Director Legal en Estudio Farina Balbi",
     datosContactoTelefono:
       "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
-    datosContactoIG: "https://www.instagram.com/abogado.penalista.farina.balbi/",
+    datosContactoIG:
+      "https://www.instagram.com/abogado.penalista.farina.balbi/",
     datosContactoMail: "drfarinabalbi@gmail.com",
-    imagen2:piramidales1,
+    imagen2: piramidales1,
 
     imagen: piramidales2,
     link: "https://www.argentina.gob.ar/economia/igualdadygenero/recursos-y-herramientas/inclusion-financiera",
     id: 18,
     slug: "estafas-piramidales-en-derecho-penal",
+  },
+  {
+    titulo:
+      "Canosa Vs. Lizy Tagliani: El Derecho Penal entre el rating y los delitos graves",
+    fecha: "7 de abril de 2025",
+    tituloTexto:
+      "Denuncia penal de Viviana Canosa. Posibles delitos de calumnia, injuría y falsa denuncia. ",
+    descripcion:
+      "El pasado 21 de abril, Viviana Canosa ratificó en los Tribunales de Comodoro Py su mediática denuncia. Desde entonces, se discute si sus afirmaciones respondieron a la búsqueda de rating o a la genuina defensa de víctimas de delitos graves. ¿Estaba obligada a aportar pruebas? ¿Qué sucede si sus dichos fueran falsos? ¿Tienen los denunciados derecho a actuar contra ella? Analicemos",
+
+    subDescripcion1:
+      "¿Denucia penal y pruebas. Acción por calumnias, injurias y delito de falsa denuncia",
+    subDescripcion2:
+      "Una de las críticas más difundidas fue: ¡No presentó ninguna prueba!. Sin embargo, en el proceso penal, el denunciante no está jurídicamente obligado a aportar pruebas. Técnicamente, las `pruebas` son aquellas evidencias que, tras ser presentadas en un juicio oral y debatidas entre las partes, son valoradas por el juez para confirmar o desestimar los hechos alegados. Algo recién se convierte en `prueba` al integrarse, con validez, al fundamento de una sentencia.",
+    subDescripcion3:
+      "Denunciar un delito es un derecho de cualquier ciudadano que toma conocimiento de un hecho ilícito. No implica, sin embargo, la obligación de aportar evidencias que respalden la acusación, ya que de exigirse, las condiciones de la denuncia serían tan estrictas como las de una condena.",
+    subDescripcion4:
+      "¿Qué puede pasar a futuro? Si, tras la investigación, surgen elementos que justifiquen sospechas fundadas sobre la comisión del hecho y la participación de los implicados, se dispondrá su procesamiento y posterior juzgamiento. Según lo denunciado, los delitos en cuestión son de gravedad: abusos sexuales y trata de menores.",
+    subDescripcion5:
+      "Si, por el contrario, no se logra alcanzar certeza suficiente sobre su responsabilidad, deberá dictarse la absolución y cerrar la causa. Ahora bien, ¿qué derechos tienen los denunciados frente a esta situación? En primer lugar: defenderse. Toda persona que se entera de una investigación en su contra debe ejercer su defensa técnica con el asesoramiento de un abogado de confianza, buscando demostrar su inocencia.",
+    subDescripcion6:
+      "Además, los afectados podrían denunciar penalmente a Canosa si los hechos denunciados resultaran falsos y ella hubiera mentido deliberadamente. Existen diversas figuras jurídicas que podrían imputársele: •	Calumnias: Se configura cuando alguien atribuye falsamente a otro la comisión de un delito de acción pública. Tipificada en el artículo 109 del Código Penal, prevé una multa de hasta $30.000. Para configurarse, deben precisarse el autor, el hecho y las circunstancias del delito falso. La calumnia puede cometerse ante terceros, como ocurrió en este caso a través de la televisión. Fundamentalmente, quien calumnia debe saber que lo que afirma es falso. No obstante, siempre es posible ofrecer la `prueba de la verdad` como defensa: si el acusado demuestra que sus dichos son ciertos, queda eximido de responsabilidad. •	Injurias: Consisten en expresiones que deshonren o desacrediten a otro. Previstas en el artículo 110 del Código Penal, se sancionan con multa de hasta $20.000. Aquí también es necesario que el autor haya tenido intención de agraviar. •	Falsa denuncia: La conducta de formular una denuncia falsa ante la autoridad judicial puede configurar el delito tipificado en el artículo 245 del Código Penal, sancionado con prisión de 1 mes a 1 año o multa de hasta $12.000. A diferencia de las calumnias e injurias, aquí no se protege el honor individual, sino el correcto funcionamiento de la administración de justicia. Se castiga el desvío de recursos públicos mediante investigaciones infundadas. Distinto a la calumnia, aquí no es necesario identificar a persona específica como autor del delito, pero sí que quien denuncia sepa que los hechos son falsos. ",
+    subDescripcion8:
+      "Estos delitos pueden excluirse mutuamente, o bien, pueden concurrir, ya sea sumándose sus respectivas sanciones, o aplicando las más alta. Hay diversas posturas.  Finalmente, los damnificados podrían iniciar acciones civiles para reclamar daños y perjuicios derivados de la afectación a su honor. Este reclamo es independiente del resultado de los procesos penales por calumnias o injurias. El único escenario donde no prosperaría una demanda civil es si lo afirmado por Canosa fuera veraz y se dictara una condena contra los denunciados.",
+    subDescripcion9:
+      "Este es el tablero actual en el caso de Viviana Canosa y Lizy Tagliani. Varias jugadas posibles, resultados aún inciertos. ¿Qué carta jugarán los protagonistas? ¿Quién vencerá? El tiempo y la justicia lo dirán..",
+
+    datosContactoNombre:
+      "Si tenés consultas o dudas sobre este tipo de casos, contáctame y analizamos juntos tu caso! Dr. Julián Farina Balbi",
+    datosContactoCargo:
+      "Abogado UNLP. Especialista en Prueba Penal por la U. de Castilla La Mancha. Director Legal en Estudio Farina Balbi",
+    datosContactoTelefono:
+      "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
+    datosContactoIG:
+      "https://www.instagram.com/abogado.penalista.farina.balbi/",
+    datosContactoMail: "drfarinabalbi@gmail.com",
+    imagen2: doc,
+
+    imagen: canosa,
+    link: "https://www.lanacion.com.ar/espectaculos/personajes/que-paso-con-la-denuncia-de-viviana-canosa-el-escandalo-que-convulsiono-a-la-television-nid19042025/",
+    id: 19,
+    slug: "canosa-vs-lizy-tagliani",
   },
 ];
 

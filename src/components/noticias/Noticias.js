@@ -17,6 +17,7 @@ import instructor from "../../assets/instructor.jpeg";
 import pruebapericial from "../../assets/pruebapericial.jpeg";
 import analista from "../../assets/analista.jpeg";
 import edificio from "../../assets/edificio.jpeg";
+import lizy from "../../assets/lizy.jpeg";
 
 import { Carousel } from "react-responsive-carousel";
 
@@ -177,6 +178,16 @@ export default function Noticias() {
       fecha: "",
       imagen: edificio,
       id: 16,
+    },
+    {
+      titulo:
+        "Derecho Penal y casos mediaticos; Entrevista al Dr. Juliàn Farina Balbi",
+      descripcion:
+        "El Dr. Julián Farina Balbi fué entevistado en Diario Capital 24 sobre el derech penal y los casos mediaticos. En este caso, el abogado penalista explicó la situación penal del caso Viviana Canosa y Lizy Tagliani, en relación a los delitos de falsa denuncia, calumnia e injurias.",
+      link: "https://estudiofarinabalbi.com/diario/canosa-vs-lizy-tagliani",
+      fecha: "",
+      imagen: lizy,
+      id: 17,
     },
   ];
 

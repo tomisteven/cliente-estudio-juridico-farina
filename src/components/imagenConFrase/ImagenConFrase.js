@@ -16,6 +16,7 @@ export default function ImagenConFrase() {
         </p>
         <p className="p-bold">Eleanor Roosevelt</p>
       </div>
+
     </div>
   );
 }

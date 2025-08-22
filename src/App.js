@@ -17,7 +17,6 @@ import ImagenConFrase from "./components/imagenConFrase/ImagenConFrase.js";
 function App() {
   return (
     <div className="App">
-
       <Portada />
       <Banner />
       <Especializaciones />
@@ -25,6 +24,22 @@ function App() {
       <Noticias />
       <Estudio />
       <ImagenConFrase />
+      <div className="container-mapa">
+        <h5 className="title-ubicacion">Ubicacion</h5>
+        <iframe
+          title="Ubicación del Estudio Jurídico"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.5988880718037!2d-57.96308132460843!3d-34.91651427408431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6148252aa858410f%3A0x44bbe75e580a6723!2sFarina%20Balbi%20%7C%20Estudio%20Jur%C3%ADdico%20Penal!5e0!3m2!1ses-419!2sar!4v1755879042675!5m2!1ses-419!2sar"
+          style={{
+            border: 0,
+            width: "100%",
+            height: "100%",
+            maxWidth: "100%",
+          }}
+          allowfullscreen={true}
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
       <Reseñas />
       <ButtonsSociales />
       <ButtonWhatsApp />

@@ -92,7 +92,7 @@ export default function DiarioSlug() {
             rel="nofollow noopener noreferrer"
             className="link-slug"
           >
-            Leer más
+            {noticia.textBtn ? noticia.textBtn : "Ver más"}
           </a>
         )}
       </section>

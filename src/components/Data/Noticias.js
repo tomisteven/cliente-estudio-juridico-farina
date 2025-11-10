@@ -14,6 +14,7 @@ import piramidales1 from "../../assets/piramidales1.jpg";
 import piramidales2 from "../../assets/piramidales2.jpeg";
 import doc from "../../assets/doc.jpg";
 import canosa from "../../assets/canosa.webp";
+import logo from "../../assets/logobeige.jpg";
 
 const noticias = [
   {
@@ -390,6 +391,40 @@ const noticias = [
     id: 19,
     slug: "canosa-vs-lizy-tagliani",
   },
+  {
+    titulo: "Cámara Gesell en proceso penal",
+    fecha: "10 de Noviembre de 2025",
+    tituloTexto:
+      "La declaración de niños y niñas en denuncias de abuso sexual y delitos sexuales",
+    descripcion:
+      "Recepción de testimonio de víctimas o testigos niños, niñas, adolescentes o personas con padecimientos mentales",
+    subDescripcion1: "1. Primer contacto con la autoridad • No se toma testimonio formal al menor o persona con discapacidad. • Se toma declaración al adulto acompañante sobre lo que sabe o lo que el niño contó. • Si el adulto tiene vínculo con el posible agresor, se debe evaluar posibles distorsiones. • Se coordina una única evaluación médica para evitar revictimización.",
+    subDescripcion2: "2. Comunicaciones obligatorias. Se deben realizar dentro de las 24 hs a: - Directivos de la institución. - Padres o familiares (si no están involucrados). - Autoridad judicial o policial. - Ministerio Público Pupilar. - Oficina de Asistencia a la Víctima. En casos urgentes, las comunicaciones son inmediatas. ",
+    subDescripcion3:"3. Fase preliminar antes del testimonio. Evaluación médica: ordenada por el Fiscal y realizada por médico especializado. Evaluación psicológica: determina si la víctima/testigo puede declarar. Incluye entrevistas y análisis emocional. Si está apto, la declaración se toma con rapidez. Si no, el perito lo fundamenta. Coordinación: el Fiscal fija día y hora, notifica a las partes y presenta las preguntas al Juez de Garantías. " ,
+    subDescripcion4:"4. Recepción del testimonio • La sala debe ser neutral, sin contacto visual con el imputado. • Solo están el psicólogo y el niño; las partes observan por video. • El cierre incluye un resumen y aclaraciones al niño. " ,
+    subDescripcion5:" 5. Modalidad alternativa. El Juez o Fiscal puede realizar la entrevista, asistido por el psicólogo. Se privilegia una narrativa libre, evitando preguntas sugestivas. ",
+    subDescripcion6:"6. Después de la declaración. Se labra acta y se guarda el material audiovisual en la Fiscalía. Si hay juicio, se incorpora al expediente. ",
+    subDescripcion7:"7. Consideraciones finales. La Suprema Corte y la Procuración designan responsables técnicos y exigen capacitación para los operadores. ",
+    subDescripcion8:"Objetivo central: proteger a las víctimas vulnerables, evitar su revictimización y asegurar un testimonio único, válido y respetuoso de las garantías constitucionales. ",
+    subDescripcion9 :"FARINA BALBI | Estudio Jurídico Penal.",
+    subDescripcion10: "En situaciones de abuso, acusaciones o declaraciones en Cámara Gesell, la intervención temprana de un equipo especializado en derecho penal y evidencia infantil es fundamental. ",
+    subDescripcion11: "Si vos o alguien cercano atraviesa una situación así, contactanos de inmediato. Actuar con asesoramiento penal capacitado puede marcar la diferencia entre proteger tu inocencia o perder oportunidades clave en tu causa. ",
+    datosContactoNombre:
+      "Si tenés consultas o dudas sobre este tipo de casos, contáctame y analizamos juntos tu caso! Dr. Julián Farina Balbi",
+    datosContactoCargo:
+      "Abogado UNLP. Especialista en Prueba Penal por la U. de Castilla La Mancha. Director Legal en Estudio Farina Balbi",
+    datosContactoTelefono:
+      "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
+    datosContactoIG:
+      "https://www.instagram.com/abogado.penalista.farina.balbi/",
+    datosContactoMail: "drfarinabalbi@gmail.com",
+    imagen2: doc,
+
+    imagen: logo,
+    link: "https://drive.google.com/file/d/1i7xskoPIvnnzaPBwhV8CvrhmTxsfncZo/view",
+    id: 20,
+    slug: "camara-gesell-en-proceso-penal",
+  }
 ];
 
 export default noticias;

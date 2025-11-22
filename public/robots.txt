@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: /build/
+Disallow: /*.map$
+Crawl-delay: 1
 
 Sitemap: https://www.estudiofarinabalbi.com/sitemap.xml

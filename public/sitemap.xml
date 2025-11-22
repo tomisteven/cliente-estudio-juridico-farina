@@ -1,70 +1,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.estudiofarinabalbi.com/</loc>
-    <lastmod>2024-09-30</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2025-11-22</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.estudiofarinabalbi.com/diario</loc>
-    <lastmod>2024-09-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2025-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.estudiofarinabalbi.com/diario/caso-loan-derecho-penal-y-fracasos</loc>
-    <lastmod>2024-10-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2025-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.estudiofarinabalbi.com/diario/caso-daniel-busson-inocente-o-culpable</loc>
-    <lastmod>2024-10-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2025-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.estudiofarinabalbi.com/diario/como-actuar-ante-falsas-denuncias</loc>
-    <lastmod>2024-11-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2025-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
    <url>
     <loc>https://www.estudiofarinabalbi.com/diario/que-hace-un-abogado-penalista</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2025-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.estudiofarinabalbi.com/diario/legitima-defensa-en-argentina</loc>
-    <lastmod>2025-02-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2025-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.estudiofarinabalbi.com/diario/estafas-y-defraudaciones-en-derecho-penal
     </loc>
-    <lastmod>2025-04-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2025-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.estudiofarinabalbi.com/diario/estafas-piramidales-en-derecho-penal</loc>
-    <lastmod>2025-04-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2025-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
    <url>
     <loc>https://www.estudiofarinabalbi.com/diario/canosa-vs-lizy-tagliani</loc>
-    <lastmod>2025-04-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2025-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
    <url>
     <loc>https://www.estudiofarinabalbi.com/diario/camara-gesell-en-proceso-penal</loc>
-    <lastmod>2025-11-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2025-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
 </urlset>

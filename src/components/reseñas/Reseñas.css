@@ -84,6 +84,10 @@
     transition: all 0.3s ease;
 }
 
+.button-agregar-reseña a {
+    color: #fff;
+}
+
 .button-agregar-reseña:hover {
     background-color: #357ab6;
 }

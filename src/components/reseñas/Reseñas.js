@@ -67,7 +67,7 @@ export default function Reseñas() {
         </div>
         <button
           className="button-agregar-reseña"
-        >Agregar Reseña en Google</button>
+        ><a target="blank" href="https://maps.app.goo.gl/m1u85vf44bN8GSCr5">Agregar Reseña en Google</a></button>
       </div>
 
       <div className="reviews-carousel">

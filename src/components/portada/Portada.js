@@ -22,8 +22,8 @@ export default function Portada() {
             <div className="dos-p"></div>
           </span>
 
-          <h3 className="title-portada-2-p">Farina Balbi</h3>
           <h2 className="subtitulo-portada-p">Estudio Jurídico Penal</h2>
+          <h3 className="title-portada-2-p">Farina Balbi</h3>
           <p className="expertos-p">
             Expertos en delitos sexuales y falsas denuncias.
           </p>

@@ -59,7 +59,7 @@ export default function Reseñas() {
       <div className="reviews-header">
         <h2>Reseñas de Google</h2>
         <div className="reviews-rating">
-          <span className="rating-number">4.9</span>
+          <span className="rating-number">5</span>
           <div className="stars-display">
             {renderStars(5)}
           </div>

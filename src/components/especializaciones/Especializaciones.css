@@ -1,17 +1,111 @@
-.especializaciones {
-  font-family: "Sedan SC", serif;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
+/* ============================================
+   SECCIÓN DE ESPECIALIZACIONES
+   ============================================ */
 
-  margin: 60px;
-  margin-top: 50px;
-  
+.section-especilizaciones {
+  width: 100%;
+  padding: var(--spacing-3xl) var(--spacing-lg);
+  background: linear-gradient(to bottom,
+      var(--color-blanco-soft) 0%,
+      var(--color-beige-light) 100%);
+  position: relative;
+  overflow: hidden;
 }
 
-@media (max-width: 700px) {
-    .especilizaciones{
-        margin-bottom:1000px;
-    }
+/* Patrón decorativo de fondo */
+.section-especilizaciones::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image:
+    radial-gradient(circle, rgba(117, 94, 81, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+}
+
+.title-especializaciones {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-4xl);
+  font-weight: var(--font-weight-bold);
+  text-align: center;
+  margin-bottom: var(--spacing-2xl);
+  color: var(--color-negro);
+  position: relative;
+  padding-bottom: var(--spacing-md);
+  z-index: 1;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.title-especializaciones::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 4px;
+  background: var(--gradient-primary);
+  border-radius: var(--radius-full);
+  box-shadow: var(--shadow-glow);
+}
+
+.especializaciones {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--spacing-xl);
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 1400px) {
+  .especializaciones {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-lg);
+  }
+}
+
+@media (max-width: 1024px) {
+  .title-especializaciones {
+    font-size: var(--font-size-3xl);
+  }
+
+  .especializaciones {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-md);
+  }
+}
+
+@media (max-width: 768px) {
+  .section-especilizaciones {
+    padding: var(--spacing-2xl) var(--spacing-md);
+  }
+
+  .title-especializaciones {
+    font-size: var(--font-size-2xl);
+    margin-bottom: var(--spacing-xl);
+  }
+
+  .especializaciones {
+    gap: var(--spacing-lg);
+  }
+}
+
+@media (max-width: 600px) {
+  .especializaciones {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+  }
+
+  .title-especializaciones {
+    font-size: var(--font-size-xl);
+  }
 }

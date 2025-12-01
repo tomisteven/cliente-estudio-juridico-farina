@@ -18,6 +18,7 @@ import pruebapericial from "../../assets/pruebapericial.jpeg";
 import analista from "../../assets/analista.jpeg";
 import edificio from "../../assets/edificio.jpeg";
 import lizy from "../../assets/lizy.jpeg";
+import libro from "../../assets/libro.jpeg";
 
 import { Carousel } from "react-responsive-carousel";
 
@@ -188,6 +189,16 @@ export default function Noticias() {
       fecha: "",
       imagen: lizy,
       id: 17,
+    },
+    {
+      titulo:
+        "El Dr. Farina Balbi publicó nuevo libro en materia penal",
+      descripcion:
+        "En noviembre de 2025 ha sido publicado por la prestigiosa editorial Ad Hoc el nuevo libro del Dr. Farina Balbi titulado `El peso de la prueba como grantía`. La obra aporta herramientas fundamentales para tabajar con la prueba en los proceso penales, y asesgurar estándares mínimos de racionalidad en las decisiones. Podes adquirirlo en la pagina de la editorial con evio gratis a todo el pais",
+      link: "https://editorialadhoc.com/producto/el-peso-de-la-prueba-como-garantia/",
+      fecha: "01/12/2025",
+      imagen: libro,
+      id: 18,
     },
   ];
 

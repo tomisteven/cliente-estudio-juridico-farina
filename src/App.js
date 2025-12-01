@@ -34,6 +34,7 @@ function App() {
         <Noticias />
         <Estudio />
         <ImagenConFrase />
+        <Reseñas />
         <div className="container-mapa">
           <h5 className="title-ubicacion">Ubicacion</h5>
           <iframe
@@ -50,7 +51,7 @@ function App() {
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
-        <Reseñas />
+
         <ButtonsSociales />
         <ButtonWhatsApp />
       </div>

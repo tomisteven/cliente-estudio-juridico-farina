@@ -19,6 +19,7 @@ import analista from "../../assets/analista.jpeg";
 import edificio from "../../assets/edificio.jpeg";
 import lizy from "../../assets/lizy.jpeg";
 import libro from "../../assets/libro.jpeg";
+import diplomatura from "../../assets/noticia29.jpeg";
 
 import { Carousel } from "react-responsive-carousel";
 
@@ -199,6 +200,16 @@ export default function Noticias() {
       fecha: "01/12/2025",
       imagen: libro,
       id: 18,
+    },
+    {
+      titulo:
+        "Mención académcia como Profesor Invitado en Diplomatura Internacional en Derecho Penal - UCALP",
+      descripcion:
+        " El Dr. Julian Farina Balbi ha sido distinguido por su participación como Profesor Invitado en la IX Diplomatura Internacional en Derecho Penal de la Universidad Catolica de La Plata.",
+      link: "https://www.ucalp.edu.ar/diplo-delito-caso-penal/",
+      fecha: "11/12/2025",
+      imagen: diplomatura,
+      id: 19,
     },
   ];
 

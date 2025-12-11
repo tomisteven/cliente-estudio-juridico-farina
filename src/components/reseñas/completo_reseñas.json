@@ -1,4 +1,21 @@
-[ {
+[ 
+  {
+  "Nombre del Reseñador" : "Andrea Polizzi",
+  "Foto de Perfil del Reseñador" : "https://lh3.googleusercontent.com/a/ACg8ocKo6qE6yNDGJ1eQO4_mEaXq79eafwRdnHmsDajMsF8w2YgJEQ=w94-h94-p-rp-mo-br100",
+  "Calificación (Max 5)" : "5",
+  "Fecha de la Reseña" : "Hace una semana",
+  "Texto de la Reseña" : "Fue muy claro en la explicación!!! Gracias",
+  "Me Gusta" : "0",
+  "Respuesta del Propietario" : "Un placer ayudarte! gracias por la confianza!"
+}, {
+  "Nombre del Reseñador" : "Mariano Biasi",
+  "Foto de Perfil del Reseñador" : "https://lh3.googleusercontent.com/a/ACg8ocLULkWnkeRZ1NfC3SrB18QtlPnRn9mg4GxEfhYgrBBTjbzBAQ=w94-h94-p-rp-mo-ba3-br100",
+  "Calificación (Max 5)" : "5",
+  "Fecha de la Reseña" : "18 Horas",
+  "Texto de la Reseña" : "Resolvió mi problema muy rápido. Siempre atento y al pié del cañon. Explicando de forma clara las posibilidades y salidas. Gracias Julián!...",
+  "Me Gusta" : "0",
+  "Respuesta del Propietario" : "Gracias Mariano! fue un placer poder ayudar en tu caso. Gracias por la confianza!"
+}, {
   "Nombre del Reseñador" : "Manuel Bonifacino",
   "Foto de Perfil del Reseñador" : "https://lh3.googleusercontent.com/a-/ALV-UjVm3qQmpb3t4QEOM3IvKzs24N6qiZh8j1lfJbomxEWaEvJmHEQw=w47-h47-p-rp-mo-br100",
   "Calificación (Max 5)" : "5",

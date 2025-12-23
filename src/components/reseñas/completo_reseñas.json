@@ -1,4 +1,47 @@
 [ 
+   {
+  "Nombre del Reseñador" : "Cristobal Saravia",
+  "Foto de Perfil del Reseñador" : "https://lh3.googleusercontent.com/a/ACg8ocLfyENUHntjI60roz_zHP8F9-WFqS9Q0OTLFXVmNxRtODIiCw=w94-h94-p-rp-mo-br100",
+  "Calificación (Max 5)" : "5",
+  "Fecha de la Reseña" : "Hace 1 semana",
+  "Texto de la Reseña" : "Muy buena predisposicion a la hora de resolver consultas",
+  "Me Gusta" : "0",
+  "Respuesta del Propietario" : ""
+}, {
+  "Nombre del Reseñador" : "Mariano Biasi",
+  "Foto de Perfil del Reseñador" : "https://lh3.googleusercontent.com/a/ACg8ocLULkWnkeRZ1NfC3SrB18QtlPnRn9mg4GxEfhYgrBBTjbzBAQ=w94-h94-p-rp-mo-ba3-br100",
+  "Calificación (Max 5)" : "5",
+  "Fecha de la Reseña" : "Hace 1 semana",
+  "Texto de la Reseña" : "Resolvió mi problema muy rápido. Siempre atento y al pié del cañon. Explicando de forma clara las posibilidades y salidas. Gracias Julián!",
+  "Me Gusta" : "0",
+  "Respuesta del Propietario" : ""
+},
+   {
+  "Nombre del Reseñador" : "Mauricio A. Bustos",
+  "Foto de Perfil del Reseñador" : "https://lh3.googleusercontent.com/a/ACg8ocIzXGhHhXu4-nYDRAUC2BX4lPLanK8QwDaqfBpMGC2Rgm31Vg=w94-h94-p-rp-mo-br100",
+  "Calificación (Max 5)" : "5",
+  "Fecha de la Reseña" : "Hace 5 dias",
+  "Texto de la Reseña" : "Muy buen profesional asesorando en temas de Derecho Penal. Referente para consultas de análisis de casos y tuve buen resultado en la defensa de una penal. Muy recomendable",
+  "Me Gusta" : "0",
+  "Respuesta del Propietario" : ""
+},{
+  "Nombre del Reseñador" : "Guido Xp",
+  "Foto de Perfil del Reseñador" : "https://lh3.googleusercontent.com/a/ACg8ocKrLS3COLwMxfWkLU4TcppyIAmapp0RXq1U18TTkH6kOEmWww=w94-h94-p-rp-mo-br100",
+  "Calificación (Max 5)" : "5",
+  "Fecha de la Reseña" : "Hace 5 dias",
+  "Texto de la Reseña" : "Muy buen equipo.. estoy muy agradecido!! Me solucionaron todo mejor de lo que esperaba y muy atentos",
+  "Me Gusta" : "0",
+  "Respuesta del Propietario" : ""
+},
+  {
+  "Nombre del Reseñador" : "Ike Zavala",
+  "Foto de Perfil del Reseñador" : "https://lh3.googleusercontent.com/a/ACg8ocIFUqAFS6stXMDEOGBfyp9Yfkpms7c07TQw77yDakrf_5Rdzg=w94-h94-p-rp-mo-br100",
+  "Calificación (Max 5)" : "5",
+  "Fecha de la Reseña" : "Hace 2 horas",
+  "Texto de la Reseña" : "Muy profesionales y sobre todo muy buenas personas, te contienen qué es muy importante cuando no tenemos ni idea como solucionar cualquier tema judicial. Mi experiencia fue buena y quedé conforme como solucionaron mi problema y me representaron.",
+  "Me Gusta" : "0",
+  "Respuesta del Propietario" : ""
+},
   {
   "Nombre del Reseñador" : "Andrea Polizzi",
   "Foto de Perfil del Reseñador" : "https://lh3.googleusercontent.com/a/ACg8ocKo6qE6yNDGJ1eQO4_mEaXq79eafwRdnHmsDajMsF8w2YgJEQ=w94-h94-p-rp-mo-br100",

@@ -103,14 +103,7 @@ export default function Reseñas() {
                 <p className="review-text">{reseña["Texto de la Reseña"]}</p>
               )}
 
-              {reseña["Respuesta del Propietario"] && (
-                <div className="owner-response">
-                  <div className="response-header">
-                    <span className="response-label">Respuesta del propietario</span>
-                  </div>
-                  <p className="response-text">{reseña["Respuesta del Propietario"]}</p>
-                </div>
-              )}
+
 
               {parseInt(reseña["Me Gusta"]) > 0 && (
                 <div className="review-helpful">

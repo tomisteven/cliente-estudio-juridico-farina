@@ -19,7 +19,7 @@ import analista from "../../assets/analista.jpeg";
 import edificio from "../../assets/edificio.jpeg";
 import lizy from "../../assets/lizy.jpeg";
 import libro from "../../assets/libro.jpeg";
-import diplomatura from "../../assets/noticia29.jpeg";
+import diplomatura from "../../assets/diplomatura.jpeg";
 
 import { Carousel } from "react-responsive-carousel";
 

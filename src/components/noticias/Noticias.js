@@ -16,9 +16,9 @@ import disertacion2 from "../../assets/disertacion.jpeg";
 import instructor from "../../assets/instructor.jpeg";
 import pruebapericial from "../../assets/pruebapericial.jpeg";
 import analista from "../../assets/analista.jpeg";
-import edificio from "../../assets/edificio.jpeg";
+import edificio from "../../assets/edificio.png";
 import lizy from "../../assets/lizy.jpeg";
-import libro from "../../assets/libro.jpeg";
+import libro from "../../assets/libro.png";
 import diplomatura from "../../assets/diplomatura.jpeg";
 
 import { Carousel } from "react-responsive-carousel";

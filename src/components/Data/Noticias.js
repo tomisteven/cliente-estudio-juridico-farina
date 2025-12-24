@@ -2,17 +2,17 @@ import loan from "../../assets/loan.png";
 import loan2 from "../../assets/loan2.jpg";
 import honorarios1 from "../../assets/honorarios1.webp";
 import honorarios2 from "../../assets/honorarios2.jpg";
-import inocente from "../../assets/inocente.JPG";
-import culpable from "../../assets/culpable.JPG";
+import inocente from "../../assets/inocente.jpg";
+import culpable from "../../assets/culpable.jpg";
 import falsasdenuncias from "../../assets/falsasdenuncias.jpg";
 import quehaceabogado from "../../assets/quehaceabogado.jpg";
 import quehaceabogado2 from "../../assets/quehaceabogado2.jpg";
 import legitima from "../../assets/legitima.jpg";
 import estafa1 from "../../assets/estafa1.jpg";
 import estafa2 from "../../assets/estada2.jpg";
-import piramidales1 from "../../assets/piramidales1.jpg";
-import piramidales2 from "../../assets/piramidales2.jpeg";
-import doc from "../../assets/doc.jpg";
+import piramidales1 from "../../assets/piramidales.jpeg";
+import piramidales2 from "../../assets/piramidales2.jpg";
+import doc from "../../assets/piramidales2.jpg";
 import canosa from "../../assets/canosa.webp";
 import logo from "../../assets/camaragessel.jpeg";
 
@@ -429,7 +429,6 @@ const noticias = [
       "https://www.instagram.com/abogado.penalista.farina.balbi/",
     datosContactoMail: "drfarinabalbi@gmail.com",
     imagen2: doc,
-
     imagen: logo,
     link: "https://drive.google.com/file/d/1i7xskoPIvnnzaPBwhV8CvrhmTxsfncZo/view",
     textBtn: "Descargar Guía Cámara Gesell",

@@ -14,6 +14,7 @@ import ButtonWhatsApp from "./components/buttonWhatsApp/ButtonWhatsApp.js";
 import Noticias from "./components/noticias/Noticias.js";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import ImagenConFrase from "./components/imagenConFrase/ImagenConFrase.js";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
         <link rel="canonical" href="https://www.estudiofarinabalbi.com/" />
         <meta property="og:title" content="Abogado Penalista en La Plata | Dr. Julian Farina Balbi" />
         <meta property="og:url" content="https://www.estudiofarinabalbi.com/" />
-        <meta property="og:description" content="Abogado penalista especializado en delitos sexuales y falsas denuncias en La Plata. Atención 24 horas." />
+        <meta property="og:description" content="Abogado penalista especializado en delitos sexuales and falsas denuncias en La Plata. Atención 24 horas." />
       </Helmet>
       <div className="App">
         <Portada />
@@ -54,6 +55,7 @@ function App() {
 
         <ButtonsSociales />
         <ButtonWhatsApp />
+        <Footer />
       </div>
     </>
   );

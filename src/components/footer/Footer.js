@@ -33,7 +33,7 @@ const Footer = () => {
                             <li><a href="#inicio">Inicio</a></li>
                             <li><a href="#acercade">Presentación</a></li>
                             <li><a href="#estudio">El Estudio</a></li>
-                            <li><a href="#">Reseñas</a></li>
+                            <li><a href="#reseñas">Reseñas</a></li>
                         </ul>
                     </div>
 
@@ -63,9 +63,9 @@ const Footer = () => {
                 <div className="footer-bottom">
                     <p className="copyright">&copy; {new Date().getFullYear()} Estudio Jurídico Fariña Balbi. Todos los derechos reservados.</p>
                     <div className="footer-social">
-                        <a href="#" className="social-icon"><i className="fa fa-facebook"></i></a>
-                        <a href="https://x.com/drfarinabalbi" className="social-icon"><i className="fa fa-twitter"></i></a>
-                        <a href="https://www.instagram.com/abogado.penalista.farina.balbi/" className="social-icon"><i className="fa fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/julian.farinabalbi" className="social-icon" target="_blank" rel="noreferrer"><i className="fa fa-facebook"></i></a>
+                        <a href="https://x.com/drfarinabalbi" className="social-icon" target="_blank" rel="noreferrer"><i className="fa fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/abogado.penalista.farina.balbi/" className="social-icon" target="_blank" rel="noreferrer"><i className="fa fa-instagram"></i></a>
                     </div>
                 </div>
             </div>

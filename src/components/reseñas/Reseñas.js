@@ -55,7 +55,7 @@ export default function Reseñas() {
   };
 
   return (
-    <div className="google-reviews-container">
+    <div className="google-reviews-container" id="reseñas">
       <div className="reviews-header">
         <h2>Reseñas de Google</h2>
         <div className="reviews-rating">

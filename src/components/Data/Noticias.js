@@ -15,6 +15,8 @@ import piramidales2 from "../../assets/piramidales2.jpg";
 import doc from "../../assets/piramidales2.jpg";
 import canosa from "../../assets/canosa.webp";
 import logo from "../../assets/camaragessel.jpeg";
+import capturapantalla1 from "../../assets/capturapantalla1.jpeg";
+import capturapantalla2 from "../../assets/capturapantalla2.png";
 
 const noticias = [
   {
@@ -434,6 +436,47 @@ const noticias = [
     textBtn: "Descargar Guía Cámara Gesell",
     id: 20,
     slug: "camara-gesell-en-proceso-penal",
+  },
+  {
+    titulo: "¿Sirve una captura de pantalla como prueba en un proceso penal?",
+    fecha: "3 de marzo de 2026",
+    tituloTexto:
+      "Capturas de pantalla y proceso penal: lo que tenés que saber",
+    descripcion:
+      "Sí, puede servir. Pero no cualquier captura y no de cualquier manera. Gran parte de los conflictos penales se originan o se prueban a través de medios digitales: mensajes de WhatsApp, correos electrónicos, transferencias, redes sociales o aplicaciones.",
+    subDescripcion1:
+      "Sin embargo, uno de los errores más frecuentes —que veo a diario como abogado penalista— es creer que con una simple captura de pantalla 'ya está la prueba'. Y eso no es así. Cuando una prueba digital no se obtiene ni se preserva correctamente, puede ser impugnada, descartada o volverse en contra del propio acusado o denunciante.",
+    subDescripcion2:
+      "En el proceso penal, no alcanza con que una imagen 'parezca real'. La prueba debe cumplir requisitos técnicos y jurídicos que permitan garantizar: su autenticidad, su integridad, su origen, y que no fue alterada ni manipulada. Una captura mal tratada no solo pierde fuerza probatoria, sino que puede generar dudas sobre todo el caso.",
+    subDescripcion3:
+      "❌ Cuándo una captura de pantalla NO sirve como prueba penal. Desde el punto de vista de la defensa penal y la prueba digital, una captura suele ser fácilmente cuestionable cuando: fue impresa en papel, fue reenviada por WhatsApp, no conserva metadatos, no existe cadena de custodia, no puede acreditarse cómo, cuándo y desde qué dispositivo se obtuvo. En estos casos, cualquier abogado penalista con experiencia puede ponerla en crisis en juicio.",
+    subDescripcion4:
+      "✅ Cuándo una captura de pantalla SÍ puede ser una prueba sólida. Una captura de pantalla puede transformarse en evidencia digital válida y defendible cuando: se preserva el archivo original, se documenta el dispositivo y contexto de obtención, se aplica un registro técnico adecuado, se genera un hash que garantice integridad, y existe trazabilidad completa desde su obtención hasta su presentación en el expediente. En esas condiciones, la prueba resiste impugnaciones, puede ser peritada y adquiere verdadero valor procesal.",
+    subDescripcion5:
+      "🚨 Por qué esto es clave si estás involucrado en una causa penal. Si estás atravesando un proceso penal —o temés estarlo—, no saber manejar una prueba digital puede perjudicarte seriamente. Muchas personas llegan al estudio jurídico con capturas que podrían haber sido pruebas clave, pero que ya no sirven por cómo fueron obtenidas o compartidas.",
+    subDescripcion6:
+      "👉 En derecho penal, el detalle técnico importa. Y muchas veces, define el resultado del caso.",
+    subDescripcion7:
+      "🧠 Mi enfoque como abogado penalista especializado en prueba digital. Como abogado penalista, con formación en evidencia digital y proceso penal, mi trabajo no es solo litigar: es anticiparme a los errores, proteger la prueba y darle valor jurídico real. La tranquilidad del cliente empieza cuando entiende que: no todo está perdido, pero tampoco todo sirve, y que hay una estrategia técnica y legal detrás de cada prueba.",
+    subDescripcion8:
+      "📘 Guía básica para preservar capturas de pantalla como prueba penal. Para ayudarte, preparé una guía práctica y clara, pensada para personas sin conocimientos técnicos, que explica: qué debe tener una captura para servir en juicio, qué errores evitar, cómo preservar autenticidad e integridad, y cuándo consultar a un abogado penalista.",
+    subDescripcion9:
+      "💬 Escribime 'GUÍA' y te la comparto. Porque en un proceso penal, una prueba bien preservada puede marcar la diferencia.",
+    datosContactoNombre:
+      "Si tenés consultas o dudas sobre este tipo de casos, contáctame y analizamos juntos tu caso! Dr. Julián Farina Balbi",
+    datosContactoCargo:
+      "Abogado UNLP. Especialista en Prueba Penal por la U. de Castilla La Mancha. Director Legal en Estudio Farina Balbi",
+    datosContactoTelefono:
+      "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
+    datosContactoIG:
+      "https://www.instagram.com/abogado.penalista.farina.balbi/",
+    datosContactoMail: "drfarinabalbi@gmail.com",
+    imagen: capturapantalla1,
+    imagen2: capturapantalla2,
+    id: 21,
+    slug: "captura-de-pantalla-como-prueba-penal",
+    link: "https://wa.me/5492215619155",
+    textBtn: "Solicitar Guía",
   },
 ];
 

@@ -54,7 +54,7 @@ const noticias = [
     datosContactoTelefono:
       "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
     datosContactoIG:
-      "https://www.instagram.com/abogado.penalista.farina.balbi/",
+      "https://www.instagram.com/julianfarinabalbi/",
     datosContactoMail: "drfarinabalbi@gmail.com",
     imagen: loan,
     imagen2: loan2,
@@ -94,7 +94,7 @@ const noticias = [
     datosContactoTelefono:
       "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
     datosContactoIG:
-      "https://www.instagram.com/abogado.penalista.farina.balbi/",
+      "https://www.instagram.com/julianfarinabalbi/",
     datosContactoMail: "drfarinabalbi@gmail.com",
     imagen: honorarios1,
     imagen2: honorarios2,
@@ -139,7 +139,7 @@ const noticias = [
     datosContactoTelefono:
       "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
     datosContactoIG:
-      "https://www.instagram.com/abogado.penalista.farina.balbi/",
+      "https://www.instagram.com/julianfarinabalbi/",
     datosContactoMail: "drfarinabalbi@gmail.com",
     imagen: inocente,
     imagen2: culpable,
@@ -179,7 +179,7 @@ const noticias = [
     datosContactoTelefono:
       "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
     datosContactoIG:
-      "https://www.instagram.com/abogado.penalista.farina.balbi/",
+      "https://www.instagram.com/julianfarinabalbi/",
     datosContactoMail: "drfarinabalbi@gmail.com",
     imagen: falsasdenuncias,
     /* imagen2: culpable, */
@@ -216,7 +216,7 @@ const noticias = [
     datosContactoTelefono:
       "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
     datosContactoIG:
-      "https://www.instagram.com/abogado.penalista.farina.balbi/",
+      "https://www.instagram.com/julianfarinabalbi/",
     datosContactoMail: "drfarinabalbi@gmail.com",
     imagen: quehaceabogado,
 
@@ -253,7 +253,7 @@ const noticias = [
     datosContactoTelefono:
       "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
     datosContactoIG:
-      "https://www.instagram.com/abogado.penalista.farina.balbi/",
+      "https://www.instagram.com/julianfarinabalbi/",
     datosContactoMail: "drfarinabalbi@gmail.com",
     imagen2: quehaceabogado,
 
@@ -294,7 +294,7 @@ const noticias = [
     datosContactoTelefono:
       "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
     datosContactoIG:
-      "https://www.instagram.com/abogado.penalista.farina.balbi/",
+      "https://www.instagram.com/julianfarinabalbi/",
     datosContactoMail: "drfarinabalbi@gmail.com",
     imagen2: estafa2,
 
@@ -342,7 +342,7 @@ const noticias = [
     datosContactoTelefono:
       "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
     datosContactoIG:
-      "https://www.instagram.com/abogado.penalista.farina.balbi/",
+      "https://www.instagram.com/julianfarinabalbi/",
     datosContactoMail: "drfarinabalbi@gmail.com",
     imagen2: piramidales1,
 
@@ -384,7 +384,7 @@ const noticias = [
     datosContactoTelefono:
       "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
     datosContactoIG:
-      "https://www.instagram.com/abogado.penalista.farina.balbi/",
+      "https://www.instagram.com/julianfarinabalbi/",
     datosContactoMail: "drfarinabalbi@gmail.com",
     imagen2: doc,
 
@@ -428,7 +428,7 @@ const noticias = [
     datosContactoTelefono:
       "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
     datosContactoIG:
-      "https://www.instagram.com/abogado.penalista.farina.balbi/",
+      "https://www.instagram.com/julianfarinabalbi/",
     datosContactoMail: "drfarinabalbi@gmail.com",
     imagen2: doc,
     imagen: logo,
@@ -469,7 +469,7 @@ const noticias = [
     datosContactoTelefono:
       "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
     datosContactoIG:
-      "https://www.instagram.com/abogado.penalista.farina.balbi/",
+      "https://www.instagram.com/julianfarinabalbi/",
     datosContactoMail: "drfarinabalbi@gmail.com",
     imagen: capturapantalla1,
     imagen2: capturapantalla2,

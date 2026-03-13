@@ -65,7 +65,7 @@ const Footer = () => {
                     <div className="footer-social">
                         <a href="https://www.facebook.com/julian.farinabalbi" className="social-icon" target="_blank" rel="noreferrer"><i className="fa fa-facebook"></i></a>
                         <a href="https://x.com/drfarinabalbi" className="social-icon" target="_blank" rel="noreferrer"><i className="fa fa-twitter"></i></a>
-                        <a href="https://www.instagram.com/abogado.penalista.farina.balbi/" className="social-icon" target="_blank" rel="noreferrer"><i className="fa fa-instagram"></i></a>
+                        <a href="https://www.instagram.com/julianfarinabalbi/" className="social-icon" target="_blank" rel="noreferrer"><i className="fa fa-instagram"></i></a>
                     </div>
                 </div>
             </div>

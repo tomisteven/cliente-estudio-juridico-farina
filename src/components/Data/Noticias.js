@@ -17,6 +17,7 @@ import canosa from "../../assets/canosa.webp";
 import logo from "../../assets/camaragessel.jpeg";
 import capturapantalla1 from "../../assets/capturapantalla1.jpeg";
 import capturapantalla2 from "../../assets/capturapantalla2.png";
+import testigos from "../../assets/testigos.png";
 
 const noticias = [
   {
@@ -477,6 +478,49 @@ const noticias = [
     slug: "captura-de-pantalla-como-prueba-penal",
     link: "https://wa.me/5492215619155",
     textBtn: "Solicitar Guía",
+  },
+  {
+    titulo:
+      "Prueba testimonial. ¿Cómo controlar lo que dice un testigo en causa penal?",
+    fecha: "18 de Marzo de 2026",
+    tituloTexto: "¿Cómo controlar lo que dice un testigo en causa penal?",
+    descripcion:
+      "En una causa penal, muchas veces una declaración puede parecer determinante. Un testigo habla con seguridad, sostiene su versión y transmite convicción. Sin embargo, hay un punto clave que no se puede pasar por alto: la seguridad al declarar no es sinónimo de verdad.",
+    subDescripcion1:
+      "Si el testimonio no se analiza correctamente, el resultado puede ser serio: decisiones equivocadas, interpretaciones alejadas de la realidad y estrategias de defensa mal planteadas. Por eso, entender cómo se valora un testigo es fundamental para cualquier persona involucrada en un proceso penal.",
+    subDescripcion2:
+      "⚖️ ¿Cómo se controla lo que dice un testigo? La valoración de un testimonio no puede basarse en impresiones o intuiciones. En derecho penal, el análisis debe apoyarse en criterios técnicos y científicos, ya que una prueba testimonial puede ser determinante tanto a favor como en contra de una persona.",
+    subDescripcion3:
+      "Un testigo puede influir directamente en el resultado de una causa, pero eso no significa que todo lo que diga tenga el mismo valor. La clave está en cómo se analiza ese relato.",
+    subDescripcion4:
+      "🧠 El rol de la psicología del testimonio Para evaluar correctamente una declaración, es fundamental recurrir a la psicología del testimonio. Esta disciplina estudia cómo funcionan los recuerdos y cómo las personas reconstruyen lo que creen haber vivido.",
+    subDescripcion5:
+      "Un testigo no reproduce los hechos como una grabación. Por el contrario, reconstruye su recuerdo, y en ese proceso pueden intervenir múltiples factores que afectan su fiabilidad. El equipo legal debe hoy necesariamente manejar esta disciplina.",
+    subDescripcion6:
+      "🔍 Factores que influyen en la credibilidad de un testimonio Uno de los aspectos centrales es la formación del recuerdo. La memoria no es perfecta: puede verse afectada por el paso del tiempo, el estrés o las condiciones en que ocurrieron los hechos. Esto puede generar distorsiones sin que el testigo sea consciente.",
+    subDescripcion7:
+      "También existen influencias externas, como conversaciones con terceros, exposición a redes sociales o intervenciones durante la investigación, que pueden modificar el recuerdo original.",
+    subDescripcion8:
+      "Otro fenómeno relevante son los falsos recuerdos. Una persona puede estar convencida de lo que dice, relatarlo con seguridad y, aun así, estar equivocada. No se trata de mentir, sino de recordar incorrectamente.",
+    subDescripcion9:
+      "Finalmente, es importante analizar la construcción del relato: cómo se cuenta el hecho, el nivel de detalle, el orden de la narración y posibles cambios en distintas declaraciones. Todo esto debe evaluarse con criterio técnico.",
+    subDescripcion10:
+      "🚨 Entonces, ¿cuándo “creerle” a un testigo? Creerle a un testigo no es una cuestión de percepción personal. No se trata solo de lo que dice, sino de las condiciones en las que ese recuerdo fue formado, conservado y expresado. Por eso, un análisis serio del testimonio requiere conocimiento jurídico, herramientas técnicas y una mirada interdisciplinaria.",
+    subDescripcion11:
+      "💡 Un error común que puede costar caro Muchas personas creen que si un testigo habla con seguridad, entonces dice la verdad. En la práctica penal, este error puede llevar a conclusiones equivocadas, defensas débiles o incluso condenas a inocentes. La realidad es que no todo testimonio confiado es un testimonio fiable.",
+    subDescripcion12:
+      "💬 Asesorate Si estás atravesando una causa penal o querés saber cómo puede impactar un testimonio en tu situación, te recomiendo analizarlo de forma estratégica. Contactame y evaluamos tu caso en detalle. Una buena defensa no se improvisa: se construye con conocimiento, técnica y experiencia.",
+    datosContactoNombre: "Julián Farina Balbi",
+    datosContactoCargo:
+      "Abogado UNLP. Especialista en Prueba Penal por la U. de Castilla La Mancha. Director Legal en Estudio Farina Balbi",
+    datosContactoTelefono:
+      "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
+    datosContactoIG:
+      "https://www.instagram.com/julianfarinabalbi/",
+    datosContactoMail: "drfarinabalbi@gmail.com",
+    imagen: testigos,
+    id: 22,
+    slug: "prueba-testimonial-control-testigos-causa-penal",
   },
 ];
 

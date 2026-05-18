@@ -18,8 +18,10 @@ import pruebapericial from "../../assets/pruebapericial.jpeg";
 import analista from "../../assets/analista.jpeg";
 import edificio from "../../assets/edificio.png";
 import lizy from "../../assets/lizy.jpeg";
-import libro from "../../assets/libro.png";
+/* import libro from "../../assets/libro.png"; */
+import libro2 from "../../assets/libro2.jpeg";
 import diplomatura from "../../assets/diplomatura.jpeg";
+import presentacionLibro from "../../assets/IMG_0234.jpg";
 
 import { Carousel } from "react-responsive-carousel";
 
@@ -198,7 +200,7 @@ export default function Noticias() {
         "En noviembre de 2025 ha sido publicado por la prestigiosa editorial Ad Hoc el nuevo libro del Dr. Farina Balbi titulado `El peso de la prueba como grantía`. La obra aporta herramientas fundamentales para tabajar con la prueba en los proceso penales, y asesgurar estándares mínimos de racionalidad en las decisiones. Podes adquirirlo en la pagina de la editorial con evio gratis a todo el pais",
       link: "https://editorialadhoc.com/producto/el-peso-de-la-prueba-como-garantia/",
       fecha: "01/12/2025",
-      imagen: libro,
+      imagen: libro2,
       id: 18,
     },
     {
@@ -210,6 +212,15 @@ export default function Noticias() {
       fecha: "11/12/2025",
       imagen: diplomatura,
       id: 19,
+    },
+    {
+      titulo: "Presentación del libro 'El peso de la prueba como garantía'",
+      descripcion:
+        "El pasado 6 de mayo, el Dr. Julián Farina Balbi, presentó su libro \"El peso de la prueba como garantía\" en la Biblioteca de Ciencias Penales de La Plata. Evento acompañado de diversos actores del sistema penal, y declarado de Interés Público por el Concejo Deliberante de la ciudad de La Plata.",
+      link: "https://www.instagram.com/reels/DYFMbX_R-6q/",
+      fecha: "06/05/2026",
+      imagen: presentacionLibro,
+      id: 20,
     },
   ];
 

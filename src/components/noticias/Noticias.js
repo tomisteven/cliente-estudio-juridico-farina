@@ -22,6 +22,7 @@ import lizy from "../../assets/lizy.jpeg";
 import libro2 from "../../assets/libro2.jpeg";
 import diplomatura from "../../assets/diplomatura.jpeg";
 import presentacionLibro from "../../assets/IMG_0234.jpg";
+import asocacion from "../../assets/asociacion.jpeg";
 
 import { Carousel } from "react-responsive-carousel";
 
@@ -222,6 +223,16 @@ export default function Noticias() {
       imagen: presentacionLibro,
       id: 20,
     },
+    {
+      titulo:
+        "Disertación en la Asociación Argentina de Profesores de Derecho Procesal Penal",
+      descripcion:
+        "El Dr. Julián Farina Balbi ha sido invitado a disertar en la Asociación Argentina de Profesores de Derecho Procesal Penal sobre materia de prueba en el proceso penal. Es una distinción para el Director de la firma y todo el Estudio, un reconocimiento académico de esta envergadura.",
+      link: "",
+      fecha: "27/05/2026",
+      imagen: asocacion,
+      id: 21,
+    },
   ];
 
   return (
@@ -294,15 +305,17 @@ export default function Noticias() {
 
                 <p className="info-p">{noticia.descripcion}</p>
 
-                <button
-                  class="button"
-                  onClick={() => window.open(noticia.link, "_blank")}
-                >
-                  <span class="button_lg">
-                    <span class="button_sl"></span>
-                    <span class="button_text">Ver Noticia</span>
-                  </span>
-                </button>
+                {noticia.link && (
+                  <button
+                    class="button"
+                    onClick={() => window.open(noticia.link, "_blank")}
+                  >
+                    <span class="button_lg">
+                      <span class="button_sl"></span>
+                      <span class="button_text">Ver Noticia</span>
+                    </span>
+                  </button>
+                )}
               </div>
               <div className="noticias-img">
                 <img

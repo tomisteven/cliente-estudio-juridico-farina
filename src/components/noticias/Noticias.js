@@ -18,7 +18,6 @@ import pruebapericial from "../../assets/pruebapericial.jpeg";
 import analista from "../../assets/analista.jpeg";
 import edificio from "../../assets/edificio.png";
 import lizy from "../../assets/lizy.jpeg";
-/* import libro from "../../assets/libro.png"; */
 import libro2 from "../../assets/libro2.jpeg";
 import diplomatura from "../../assets/diplomatura.jpeg";
 import presentacionLibro from "../../assets/IMG_0234.jpg";
@@ -32,7 +31,7 @@ export default function Noticias() {
       id: 1,
       titulo: "Castilla",
       descripcion:
-        "La Universidad de Castilla La Mancha (Toledo, España), reconoció al Dr. Julián Farina Balbi como “Especialista en Prueba Penal” y extendió la invitación para formalizar una investigación autónoma por el profesional en su sede en Toledo.",
+        "La Universidad de Castilla La Mancha (Toledo, España), reconoció al Dr. Julián Farina Balbi como Especialista en Prueba Penal y extendió la invitación para formalizar una investigación autónoma por el profesional en su sede en Toledo.",
       link: "https://www.instagram.com/p/CaShJ4ruQXB/",
       fecha: "22/02/2022",
       imagen: castilla,
@@ -41,7 +40,7 @@ export default function Noticias() {
       id: 2,
       titulo: "Diario Capital",
       descripcion:
-        "El Dr. Julián Farina Balbi fue entrevistado por Diario Capital.24 sobre el caso “Jey Mammón”. En la nota el especialista aporta claridad sobre la discusión referente a Inocencia y Prescripción.",
+        "El Dr. Julián Farina Balbi fue entrevistado por Diario Capital.24 sobre el caso Jey Mammon. En la nota el especialista aporta claridad sobre la discusión referente a Inocencia y Prescripción.",
       link: "https://capital24.com.ar/contenido/5836/el-caso-jey-mammon-podemos-decir-que-es-inocente",
       fecha: "24/04/2024",
       imagen: diarioCapital,
@@ -50,8 +49,8 @@ export default function Noticias() {
       titulo: "Diplomatura en Cibercrimen y Evidencia Digital",
       id: 3,
       descripcion:
-        "En el marco de la Diplomatura en Cibercrimen y Evidencia Digital, organizada por el Colegio de la Abogacia de La Plata, el Dr. Julián Farina Balbi, en su calidad de docente, disertó sobre “Prueba, evidencia digital, y garantías”.",
-      link: "En el marco de la Diplomatura en Cibercrimen y Evidencia Digital, organizada por el Colegio de la Abogacia de La Plata, el Dr. Julián Farina Balbi, en su calidad de docente, disertó sobre “Prueba, evidencia digital, y garantías”.",
+        "En el marco de la Diplomatura en Cibercrimen y Evidencia Digital, organizada por el Colegio de la Abogacia de La Plata, el Dr. Julián Farina Balbi, en su calidad de docente, disertó sobre Prueba, evidencia digital, y garantías.",
+      link: "",
       fecha: "02/06/2023",
       imagen: disertacion,
     },
@@ -76,7 +75,7 @@ export default function Noticias() {
     {
       titulo: "Portacion de Armas de Guerra",
       descripcion:
-        "En resonante caso caratulado como “Amenazas y Portación de Armas de Guerra”, seguido en base a hechos ocurridos en las afueras de la ciudad de La Plata, el Dr. Julián Farina Balbi representó al imputado en las jornadas de debate oral, obteniendo en sentencia firme su plena libertad.",
+        "En resonante caso caratulado como Amenazas y Portación de Armas de Guerra, seguido en base a hechos ocurridos en las afueras de la ciudad de La Plata, el Dr. Julián Farina Balbi representó al imputado en las jornadas de debate oral, obteniendo en sentencia firme su plena libertad.",
       link: "https://www.instagram.com/p/Cif8M1cvjX3/?utm_source=ig_web_copy_link",
       fecha: "14/09/2022",
       imagen: portacionarmas,
@@ -95,149 +94,181 @@ export default function Noticias() {
       titulo:
         "Disertación en la Presentación de Proyectos de Investigación 2024-2025",
       descripcion:
-        "En el marco del inicio del ciclo de las actividades de investigación 2024-2025 de la Facultad de Derecho de la Universidad del Este, el Dr. Julián Farina Balbi presentó ante la comunidad universitaria el proyecto que lo tiene como director titulado “La Razonabilidad de la Duda en la Casación Bonaerense”, que apunta desde el estudio jurisprudencial del Tribunal Casatorio, determinar con precisión el uso que en la práctica se aplica sobre el estándar de condena conocido como más allá de toda duda razonable.  ",
+        "En el marco del inicio del ciclo de las actividades de investigación 2024-2025 de la Facultad de Derecho de la Universidad del Este, el Dr. Julián Farina Balbi presentó ante la comunidad universitaria el proyecto que lo tiene como director titulado La Razonabilidad de la Duda en la Casación Bonaerense.",
       link: "",
-      fecha: "05/07/2024 ",
+      fecha: "05/07/2024",
       imagen: investigacion,
-      id: 7,
+      id: 8,
     },
     {
       titulo: "Patrocinio Juridico en Cibercrimen y Evidencia Digital",
       descripcion:
-        "El Dr. Julián Farina Balbi fué invitado a Radio FM La Redonda el pasado 6 de julio, donde explicó la importancia de contar con un patrocinio jurídico experto en materia de cibercrimen y evidencia digital. ",
+        "El Dr. Julián Farina Balbi fué invitado a Radio FM La Redonda el pasado 6 de julio, donde explicó la importancia de contar con un patrocinio jurídico experto en materia de cibercrimen y evidencia digital.",
       link: "https://www.instagram.com/reel/C84XZ1IsofT/?utm_source=ig_web_copy_link",
-      fecha: "14/07/2024 ",
+      fecha: "14/07/2024",
       imagen: radio,
-      id: 8,
+      id: 9,
     },
     {
       titulo: "Innocence Project Argentina",
       descripcion:
-        "una de las Ong más importantes y reconocidas a nivel mundial en la lucha contra las condenas a inocentes  y abusos del poder penal, recibió al Dr. Julián Farina Balbi para que expusiera y explicara en modo de Seminario a sus integrantes, las conclusiones de su investigación en materia de prueba penal ",
+        "Una de las ONG más importantes y reconocidas a nivel mundial en la lucha contra las condenas a inocentes y abusos del poder penal, recibió al Dr. Julián Farina Balbi para que expusiera en modo Seminario las conclusiones de su investigación en materia de prueba penal.",
       link: "https://www.instagram.com/p/C9Pbcn2RKkh/?utm_source=ig_web_copy_link",
-      fecha: "14/07/2024 ",
+      fecha: "14/07/2024",
       imagen: proyect,
-      id: 9,
+      id: 10,
     },
     {
-      titulo: "Obtención del Título de Magister en Derecho Penal ",
+      titulo: "Obtención del Título de Magister en Derecho Penal",
       descripcion:
-        "El Dr. Julián Faria Balbi, defendió su tesis con la mayor calificación ante el prestigioso jurado constituido por los Dres. Leonardo Filippini, Carolina Maglione y Agustina Emiliossi en la Universidad de Palermo, obteniendo el título de Magister en Derecho Penal y la distinción SUMA CUM LAUDE.",
+        "El Dr. Julián Farina Balbi, defendió su tesis con la mayor calificación ante el prestigioso jurado constituido por los Dres. Leonardo Filippini, Carolina Maglione y Agustina Emiliossi en la Universidad de Palermo, obteniendo el título de Magister en Derecho Penal y la distinción SUMA CUM LAUDE.",
       link: "",
-      fecha: "24/07/2024 ",
+      fecha: "24/07/2024",
       imagen: titulo,
-      id: 10,
+      id: 11,
     },
     {
       titulo: "Secretario del Instituto de Derecho Penal",
       descripcion:
-        "El Dr. Julian Farina Balbi, ha sido distinguido como autoridad del Area Académica del Colegio de Abogado de La Plata, como Secretario del Instituto de Derecho Penal, a cargo de la Secretaría de Cibercrimen.",
+        "El Dr. Julian Farina Balbi, ha sido distinguido como autoridad del Área Académica del Colegio de Abogados de La Plata, como Secretario del Instituto de Derecho Penal, a cargo de la Secretaría de Cibercrimen.",
       link: "https://www.calp.org.ar/derecho-penal/",
-      fecha: "14/09/2024 ",
+      fecha: "14/09/2024",
       imagen: autoridad,
-      id: 11,
+      id: 12,
     },
     {
       titulo: "Disertación en la Universidad Católica de La Plata",
       descripcion:
-        "La Universidad Católica de La Plata ha invitado al Dr. Julián Farina Balbi a disertar en la VIII Diplomatura Internacional de Derecho Penal. La exposición a realizarse el 7 de noviembre de 2024 se titula “Evidencia Digital y Admisibilidad Probatoria a la luz de la teoría del caso”. Es un verdadero honor participar de tan prestigioso evento.",
+        "La Universidad Católica de La Plata ha invitado al Dr. Julián Farina Balbi a disertar en la VIII Diplomatura Internacional de Derecho Penal. La exposición se titula Evidencia Digital y Admisibilidad Probatoria a la luz de la teoría del caso.",
       link: "https://www.ucalp.edu.ar/viii-diplomatura-internacional-en-derecho-penal/",
-      fecha: "21/10/2024 ",
+      fecha: "21/10/2024",
       imagen: disertacion2,
-      id: 12,
-    },
-    {
-      titulo:
-        "Instructor del cuerpo de Instrucción de la Secretaría Permanente del Jurado de Enjuiciamiento de Magistrados y Funcionarios de la Pcia. De Buenos Aires",
-      descripcion:
-        "El Dr. Julián Farina Balbi, en su calidad de Instructor del cuerpo de Instrucción de la Secretaría Permanente del Jurado de Enjuiciamiento de Magistrados y Funcionarios de la Pcia. De Buenos Aires, participó en el Salón Dorado del Honorable Senado provincial, en el marco de su función, de la audiencia de admisión de la acusación.",
-      link: "",
-      fecha: "21/10/2024 ",
-      imagen: instructor,
       id: 13,
     },
     {
-      titulo: " Derecho penal y prueba pericial",
+      titulo: "Instructor del Jurado de Enjuiciamiento de Magistrados",
       descripcion:
-        "El Dr. Juliàn Farina Balbi participó como disertante de la Jornada sobre prueba pericial en el proceso penal y civil. En ese marco aportó reflexiones desde la práctica de la defensa penal y el trabajo del abogado penalista en relaciòn a las pericias. ",
-      link: "https://www.calp.org.ar/events/pericias-mecanicas-e-informaticas-perspectivas-penal-y-civil/",
-      fecha: "13/12/2024 ",
-      imagen: pruebapericial,
+        "El Dr. Julián Farina Balbi, en su calidad de Instructor del cuerpo de Instrucción de la Secretaría Permanente del Jurado de Enjuiciamiento de Magistrados de la Pcia. de Buenos Aires, participó en el Salón Dorado del Honorable Senado provincial en la audiencia de admisión de la acusación.",
+      link: "",
+      fecha: "21/10/2024",
+      imagen: instructor,
       id: 14,
+    },
+    {
+      titulo: "Derecho penal y prueba pericial",
+      descripcion:
+        "El Dr. Julián Farina Balbi participó como disertante de la Jornada sobre prueba pericial en el proceso penal y civil. En ese marco aportó reflexiones desde la práctica de la defensa penal y el trabajo del abogado penalista en relación a las pericias.",
+      link: "https://www.calp.org.ar/events/pericias-mecanicas-e-informaticas-perspectivas-penal-y-civil/",
+      fecha: "13/12/2024",
+      imagen: pruebapericial,
+      id: 15,
     },
     {
       titulo: "Falsas denuncias en el proceso penal",
       descripcion:
-        "El Dr. Farina Balbi ha sido convocado por El Analista a disertar sobre derecho penal y falsas denuncias",
+        "El Dr. Farina Balbi ha sido convocado por El Analista a disertar sobre derecho penal y falsas denuncias.",
       link: "https://elanalista.com.ar/asuntos-academicos/",
       fecha: "07/02/2025",
       imagen: analista,
-      id: 15,
-    },
-    {
-      titulo:
-        "El Estudio Jurídico Penal abre nuevas oficinas en la Ciudad de la Plata",
-      descripcion:
-        "En este 2025 inaguramos un espacio nuevo y renovado en Plaza Paso Nro 159 de la ciudad de la plata. Nuestro estudio Juridico Penal, cuenta con nuevas oficinas para atender todas las consultas penales en pleno centro de la ciudad",
-      link: "https://www.google.com/maps/place/Pl.+Paso+159+Piso+5to.+%E2%80%9CB,+B1900+La+Plata,+Provincia+de+Buenos+Aires/@-34.9164618,-57.9607995,3a,75y,119.84h,102.84t/data=!3m7!1e1!3m5!1s-b-LK9spJLznwQWGtkoy4g!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-12.842077813937863%26panoid%3D-b-LK9spJLznwQWGtkoy4g%26yaw%3D119.83531932747559!7i16384!8i8192!4m13!1m7!3m6!1s0x95a2e634a32c953f:0x69b24e7686cd3513!2sPl.+Paso+159+Piso+5to.+%E2%80%9CB,+B1900+La+Plata,+Provincia+de+Buenos+Aires!3b1!8m2!3d-34.9164745!4d-57.9604985!3m4!1s0x95a2e634a32c953f:0x69b24e7686cd3513!8m2!3d-34.9164745!4d-57.9604985?entry=ttu&g_ep=EgoyMDI1MDQwOC4wIKXMDSoASAFQAw%3D%3D",
-      fecha: "",
-      imagen: edificio,
       id: 16,
     },
     {
       titulo:
-        "Derecho Penal y casos mediaticos; Entrevista al Dr. Juliàn Farina Balbi",
+        "El Estudio Jurídico Penal abre nuevas oficinas en La Plata",
       descripcion:
-        "El Dr. Julián Farina Balbi fué entevistado en Diario Capital 24 sobre el derech penal y los casos mediaticos. En este caso, el abogado penalista explicó la situación penal del caso Viviana Canosa y Lizy Tagliani, en relación a los delitos de falsa denuncia, calumnia e injurias.",
-      link: "https://estudiofarinabalbi.com/diario/canosa-vs-lizy-tagliani",
-      fecha: "",
-      imagen: lizy,
+        "En este 2025 inauguramos un espacio nuevo y renovado en Plaza Paso Nro 159 de la ciudad de La Plata. Nuestro Estudio Jurídico Penal cuenta con nuevas oficinas para atender todas las consultas penales en pleno centro de la ciudad.",
+      link: "https://www.google.com/maps/place/Farina+Balbi+%7C+Estudio+Jur%C3%ADdico+Penal/",
+      fecha: "2025",
+      imagen: edificio,
       id: 17,
     },
     {
       titulo:
-        "El Dr. Farina Balbi publicó nuevo libro en materia penal",
+        "Derecho Penal y casos mediáticos — Entrevista al Dr. Julián Farina Balbi",
       descripcion:
-        "En noviembre de 2025 ha sido publicado por la prestigiosa editorial Ad Hoc el nuevo libro del Dr. Farina Balbi titulado `El peso de la prueba como grantía`. La obra aporta herramientas fundamentales para tabajar con la prueba en los proceso penales, y asesgurar estándares mínimos de racionalidad en las decisiones. Podes adquirirlo en la pagina de la editorial con evio gratis a todo el pais",
-      link: "https://editorialadhoc.com/producto/el-peso-de-la-prueba-como-garantia/",
-      fecha: "01/12/2025",
-      imagen: libro2,
+        "El Dr. Julián Farina Balbi fue entrevistado en Diario Capital 24 sobre el derecho penal y los casos mediáticos. En esta ocasión explicó la situación penal del caso Viviana Canosa y Lizy Tagliani en relación a los delitos de falsa denuncia, calumnia e injurias.",
+      link: "https://estudiofarinabalbi.com/diario/canosa-vs-lizy-tagliani",
+      fecha: "2025",
+      imagen: lizy,
       id: 18,
     },
     {
-      titulo:
-        "Mención académcia como Profesor Invitado en Diplomatura Internacional en Derecho Penal - UCALP",
+      titulo: "El Dr. Farina Balbi publicó nuevo libro en materia penal",
       descripcion:
-        " El Dr. Julian Farina Balbi ha sido distinguido por su participación como Profesor Invitado en la IX Diplomatura Internacional en Derecho Penal de la Universidad Catolica de La Plata.",
+        "En noviembre de 2025 ha sido publicado por la prestigiosa editorial Ad Hoc el nuevo libro del Dr. Farina Balbi titulado \"El peso de la prueba como garantía\". La obra aporta herramientas fundamentales para trabajar con la prueba en los procesos penales y asegurar estándares mínimos de racionalidad en las decisiones.",
+      link: "https://editorialadhoc.com/producto/el-peso-de-la-prueba-como-garantia/",
+      fecha: "01/12/2025",
+      imagen: libro2,
+      id: 19,
+    },
+    {
+      titulo:
+        "Profesor Invitado en Diplomatura Internacional en Derecho Penal — UCALP",
+      descripcion:
+        "El Dr. Julian Farina Balbi ha sido distinguido por su participación como Profesor Invitado en la IX Diplomatura Internacional en Derecho Penal de la Universidad Católica de La Plata.",
       link: "https://www.ucalp.edu.ar/diplo-delito-caso-penal/",
       fecha: "11/12/2025",
       imagen: diplomatura,
-      id: 19,
+      id: 20,
     },
     {
       titulo: "Presentación del libro 'El peso de la prueba como garantía'",
       descripcion:
-        "El pasado 6 de mayo, el Dr. Julián Farina Balbi, presentó su libro \"El peso de la prueba como garantía\" en la Biblioteca de Ciencias Penales de La Plata. Evento acompañado de diversos actores del sistema penal, y declarado de Interés Público por el Concejo Deliberante de la ciudad de La Plata.",
+        "El pasado 6 de mayo, el Dr. Julián Farina Balbi presentó su libro \"El peso de la prueba como garantía\" en la Biblioteca de Ciencias Penales de La Plata. Evento declarado de Interés Público por el Concejo Deliberante de la ciudad de La Plata.",
       link: "https://www.instagram.com/reels/DYFMbX_R-6q/",
       fecha: "06/05/2026",
       imagen: presentacionLibro,
-      id: 20,
+      id: 21,
     },
     {
       titulo:
         "Disertación en la Asociación Argentina de Profesores de Derecho Procesal Penal",
       descripcion:
-        "El Dr. Julián Farina Balbi ha sido invitado a disertar en la Asociación Argentina de Profesores de Derecho Procesal Penal sobre materia de prueba en el proceso penal. Es una distinción para el Director de la firma y todo el Estudio, un reconocimiento académico de esta envergadura.",
+        "El Dr. Julián Farina Balbi ha sido invitado a disertar en la Asociación Argentina de Profesores de Derecho Procesal Penal sobre materia de prueba en el proceso penal. Es un reconocimiento académico de gran envergadura para el Director del Estudio.",
       link: "",
       fecha: "27/05/2026",
       imagen: asocacion,
-      id: 21,
+      id: 22,
     },
   ];
 
+  // Show newest first
+  const noticiasReversed = [...noticias].reverse();
+
+  const ArrowNext = ({ onClickHandler, hasNext, label }) =>
+    hasNext ? (
+      <button
+        type="button"
+        onClick={onClickHandler}
+        title={label}
+        className="carousel-arrow carousel-arrow--next"
+        aria-label="Siguiente noticia"
+      >
+        <i className="fas fa-chevron-right"></i>
+      </button>
+    ) : null;
+
+  const ArrowPrev = ({ onClickHandler, hasPrev, label }) =>
+    hasPrev ? (
+      <button
+        type="button"
+        onClick={onClickHandler}
+        title={label}
+        className="carousel-arrow carousel-arrow--prev"
+        aria-label="Noticia anterior"
+      >
+        <i className="fas fa-chevron-left"></i>
+      </button>
+    ) : null;
+
   return (
-    <section id="blog">
-      <h2 className="titulo-noticias">Noticias Destacadas</h2>
+    <section id="blog" className="noticias-section">
+      <div className="noticias-header">
+        <span className="noticias-eyebrow">Actividad Reciente</span>
+        <h2 className="noticias-title">Noticias Destacadas</h2>
+        <div className="noticias-title-line"></div>
+      </div>
+
       <Carousel
         autoPlay={true}
         infiniteLoop={true}
@@ -245,88 +276,54 @@ export default function Noticias() {
         showStatus={false}
         showThumbs={false}
         stopOnHover={true}
-        thumbWidth={200}
-        interval={5000}
-        renderArrowNext={(onClickHandler, hasNext, label) =>
-          hasNext && (
-            <button
-              type="button"
-              onClick={onClickHandler}
-              title={label}
-              style={{
-                position: "absolute",
-                top: "50%",
-                right: "0",
-                zIndex: "2000",
-
-                backgroundColor: "rgba(0, 0, 0)",
-                border: "none",
-                cursor: "pointer",
-                color: "white",
-                fontSize: "2rem",
-              }}
-            >
-              <i class="fas fa-chevron-right"></i>
-            </button>
-          )
-        }
-        renderArrowPrev={(onClickHandler, hasPrev, label) =>
-          hasPrev && (
-            <button
-              type="button"
-              onClick={onClickHandler}
-              title={label}
-              style={{
-                position: "absolute",
-                top: "50%",
-                left: "0",
-                zIndex: "2",
-
-                backgroundColor: "rgba(0, 0, 0)",
-                border: "none",
-                cursor: "pointer",
-                color: "white",
-                fontSize: "2rem",
-              }}
-            >
-              <i class="fas fa-chevron-left"></i>
-            </button>
-          )
-        }
-        className="container-noticias"
+        interval={6000}
+        transitionTime={600}
+        renderArrowNext={(onClickHandler, hasNext, label) => (
+          <ArrowNext onClickHandler={onClickHandler} hasNext={hasNext} label={label} />
+        )}
+        renderArrowPrev={(onClickHandler, hasPrev, label) => (
+          <ArrowPrev onClickHandler={onClickHandler} hasPrev={hasPrev} label={label} />
+        )}
+        className="noticias-carousel"
       >
-        {noticias
-          .map((noticia) => (
-            <div key={noticia.id} className="cont-noticias">
-              <div className="noticias-info">
-                <h1>
-                  {noticia.titulo} - {noticia.fecha}
-                </h1>
+        {noticiasReversed.map((noticia) => (
+          <div key={noticia.id} className="noticia-slide">
+            {/* Image Panel */}
+            <div className="noticia-img-panel">
+              <img
+                className="noticia-img"
+                src={noticia.imagen}
+                alt={noticia.titulo}
+              />
+              <div className="noticia-img-overlay"></div>
+              {noticia.fecha && (
+                <span className="noticia-fecha-badge">{noticia.fecha}</span>
+              )}
+            </div>
 
-                <p className="info-p">{noticia.descripcion}</p>
-
+            {/* Info Panel */}
+            <div className="noticia-info-panel">
+              <div className="noticia-info-content">
+                <div className="noticia-category-line">
+                  <span className="noticia-category-dot"></span>
+                  <span className="noticia-category-label">Estudio Farina Balbi</span>
+                </div>
+                <h3 className="noticia-slide-title">{noticia.titulo}</h3>
+                <div className="noticia-info-divider"></div>
+                <p className="noticia-slide-desc">{noticia.descripcion}</p>
                 {noticia.link && (
                   <button
-                    class="button"
+                    className="noticia-link-btn"
                     onClick={() => window.open(noticia.link, "_blank")}
                   >
-                    <span class="button_lg">
-                      <span class="button_sl"></span>
-                      <span class="button_text">Ver Noticia</span>
-                    </span>
+                    <span>Ver Noticia</span>
+                    <i className="fas fa-arrow-right"></i>
                   </button>
                 )}
               </div>
-              <div className="noticias-img">
-                <img
-                  className="img-noticia"
-                  src={noticia.imagen}
-                  alt={noticia.descripcion}
-                />
-              </div>
             </div>
-          ))
-          .reverse()}
+          </div>
+        ))}
       </Carousel>
     </section>
   );

@@ -1,167 +1,222 @@
+/* Main Hero Section */
 .portada-principal-p {
+  position: relative;
   background-image: url("../../assets/portadaoscura.png");
-
-  height: 750px; /* Ajusta la altura de la portada */
-  /* Ajusta la imagen de fondo */
+  height: 800px;
   background-size: cover;
-
-  /* Posiciona la imagen en el centro */ /* Ajusta el brillo de la imagen */
+  background-position: center;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: flex-end;
+  /* Align hero card to the right */
+  padding-right: 8%;
+  /* Margin from screen edge */
+  overflow: hidden;
 }
 
-.logo_portada {
-  width: 300px;
-  height: 300px;
+/* Background Overlay for Contrast */
+.portada-principal-p::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg,
+      rgba(10, 10, 10, 0.4) 0%,
+      rgba(10, 10, 10, 0.2) 50%,
+      rgba(10, 10, 10, 0.6) 100%);
+  z-index: 1;
 }
 
+/* Glassmorphic Info Card */
 .container-info-portada-p {
+  position: relative;
+
+
+
+  border-radius: 14px;
+  padding: 45px;
+  max-width: 520px;
+  width: 90%;
   display: flex;
-  justify-content: center;
-  z-index: 1000;
-  margin-top: 10px;
-  align-items: flex-end;
-  width: 80%;
-  height: 500px; /* Ajusta la altura del contenedor */
   flex-direction: column;
-  /* Ajusta el color de fondo del contenedor */
-  transform: translate(-100%);
-  color: #ffffff; /* Ajusta el color del texto */
-  text-align: end; /* Ajusta el alineamiento del texto */
+  align-items: flex-end;
+  text-align: end;
+
+
+  z-index: 2;
+  transform: translateX(50px);
+  opacity: 0;
+  transition: all 1.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
+/* Active State for Entry Animation */
 .container-info-portada-p.scroll {
-  transform: translate(0%);
-  transition: transform 1s;
+  transform: translateX(0);
+  opacity: 1;
 }
 
-.h1{
+/* Tagline / Subtitle */
+.h1 {
   font-family: "Sedan SC", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 18px;
-  width: auto;
-  text-align: end;
-
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #d9c9ba;
+  margin: 0 0 15px 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.title-portada-2-p {
-  font-family: "Sedan SC", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 35px;
-
-  width: auto;
-  text-align: end;
-}
-.subtitulo-portada-p {
-  margin-top: 10px;
-  margin-bottom: 35px;
-  font-family: "Sedan SC", serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 35px;
-  text-align: end;
-  border-bottom: 1px solid #ffffff;
-  padding-bottom: 16px;
-}
-
-.container-info-portada-p p {
-  width: 500px;
-  text-align: end;
-  font-family: "Sedan SC", serif;
-  font-style: normal;
-  letter-spacing: 0.5px;
-  font-size: 16px;
-  margin-top: -10px;
-}
-.btn-portada-p {
+/* Divider with Center Icon */
+.span-p {
   display: flex;
-  justify-content: center;
   align-items: center;
-  width: 160px;
-  height: 40px;
-  background-color: #d9c9ba;
-  color: #000000;
-  border: none;
-  font-family: "Sedan SC", serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 15px;
-  margin-top: 20px;
-  cursor: pointer;
+  gap: 15px;
+  margin-bottom: 25px;
+  width: 100%;
+  justify-content: flex-end;
 }
 
 .span-p img {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  filter: brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(340deg);
+  /* Gold tone */
 }
 
-.span-p {
-  width: 230px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.uno-p {
-  width: 90px;
-  background-color: #ffffff;
+.uno-p,
+.dos-p {
+  width: 70px;
   height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.35));
 }
 
 .dos-p {
-  width: 90px;
-  background-color: #ffffff;
-  height: 1px;
+  background: linear-gradient(270deg, transparent, rgba(255, 255, 255, 0.35));
 }
 
-@media (max-width: 700px) {
+/* Legal Office Name */
+.subtitulo-portada-p {
+  font-family: "Sedan SC", serif;
+  font-size: 20px;
+  color: #e2e8f0;
+  margin: 0;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+/* Main Brand Name */
+.title-portada-2-p {
+  font-family: "Sedan SC", serif;
+  font-size: 46px;
+  color: #ffffff;
+  margin: 5px 0 20px 0;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Paragraph Description */
+.container-info-portada-p p.expertos-p {
+  font-size: 15px;
+  color: #cbd5e1;
+  line-height: 1.6;
+  margin: 0 0 30px 0;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 100%;
+  text-align: end;
+}
+
+/* Button CTA */
+.btn-portada-p {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #d9c9ba;
+  color: #121212;
+  border: none;
+  padding: 12px 36px;
+  font-family: "Sedan SC", serif;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(217, 201, 186, 0.25);
+}
+
+.btn-portada-p:hover {
+  background: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.35);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
   .portada-principal-p {
     background-image: url("../../assets/portadacelular.png");
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-  }
-  .btn-portada-p {
-    width: 50%;
-
-    height: 30px;
-    font-size: 15px;
-    position: relative;
-    bottom: 10px;
-  }
-  .span-p {
-    width: 100%;
+    justify-content: center;
+    padding-right: 0;
   }
 
-  .uno-p {
-    width: 40%;
+  .portada-principal-p::before {
+    background: rgba(10, 10, 10, 0.55);
   }
-  .dos-p {
-    width: 40%;
-  }
+
   .container-info-portada-p {
-    width: 100%;
-    height: 700px;
-    padding: 20px;
-    justify-content: flex-end;
-    align-items: flex-start;
+    width: 90%;
+    max-width: 440px;
+    padding: 30px 20px;
+    align-items: center;
+    text-align: center;
+    transform: translateY(50px);
   }
-  .title-portada-2-p {
-    font-size: 29px;
-    width: 100%;
-    text-align: start;
+
+  .container-info-portada-p.scroll {
+    transform: translateY(0);
+  }
+
+  .h1 {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .span-p {
+    justify-content: center;
+  }
+
+  .uno-p,
+  .dos-p {
+    width: 50px;
   }
 
   .subtitulo-portada-p {
-    font-size: 18px;
-    width: 100%;
-    text-align: start;
+    font-size: 16px;
+    text-align: center;
   }
 
-  .container-info-portada-p p{
+  .title-portada-2-p {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .container-info-portada-p p.expertos-p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+
+  .btn-portada-p {
     width: 100%;
-    text-align: start;
+    box-sizing: border-box;
   }
 }

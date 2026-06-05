@@ -4,15 +4,13 @@
 
 .section-especilizaciones {
   width: 100%;
-  padding: var(--spacing-3xl) var(--spacing-lg);
-  background: linear-gradient(to bottom,
-      var(--color-blanco-soft) 0%,
-      var(--color-beige-light) 100%);
+  padding: 100px 30px;
+  background: #1a1d27;
   position: relative;
   overflow: hidden;
 }
 
-/* Patrón decorativo de fondo */
+/* Subtle background overlay pattern */
 .section-especilizaciones::before {
   content: '';
   position: absolute;
@@ -20,92 +18,81 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image:
-    radial-gradient(circle, rgba(117, 94, 81, 0.05) 1px, transparent 1px);
-  background-size: 40px 40px;
+  background-image: radial-gradient(circle, rgba(181, 157, 131, 0.04) 1px, transparent 1px);
+  background-size: 30px 30px;
   pointer-events: none;
 }
 
+/* Section Title */
 .title-especializaciones {
-  font-family: var(--font-primary);
-  font-size: var(--font-size-4xl);
-  font-weight: var(--font-weight-bold);
+  font-family: "Sedan SC", serif;
+  font-size: 40px;
+  font-weight: 600;
   text-align: center;
-  margin-bottom: var(--spacing-2xl);
-  color: var(--color-negro);
+  margin-bottom: 60px;
+  color: #ffffff;
   position: relative;
-  padding-bottom: var(--spacing-md);
-  z-index: 1;
-  background: var(--gradient-primary);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  padding-bottom: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
+/* Underline border decorative element */
 .title-especializaciones::after {
   content: '';
   position: absolute;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 120px;
-  height: 4px;
-  background: var(--gradient-primary);
-  border-radius: var(--radius-full);
-  box-shadow: var(--shadow-glow);
+  width: 100px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #b59d83, transparent);
 }
 
+/* Grid Layout for Cards */
 .especializaciones {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: var(--spacing-xl);
-  max-width: 1400px;
+  grid-template-columns: repeat(3, 1fr);
+  /* 12 items fit perfectly in 3 columns */
+  gap: 35px;
+  max-width: 1150px;
   margin: 0 auto;
   position: relative;
   z-index: 1;
 }
 
-/* === RESPONSIVE === */
-@media (max-width: 1400px) {
-  .especializaciones {
-    grid-template-columns: repeat(3, 1fr);
-    gap: var(--spacing-lg);
-  }
-}
-
-@media (max-width: 1024px) {
-  .title-especializaciones {
-    font-size: var(--font-size-3xl);
-  }
-
+/* === RESPONSIVE MEDIA QUERIES === */
+@media (max-width: 1100px) {
   .especializaciones {
     grid-template-columns: repeat(2, 1fr);
-    gap: var(--spacing-md);
-  }
-}
-
-@media (max-width: 768px) {
-  .section-especilizaciones {
-    padding: var(--spacing-2xl) var(--spacing-md);
+    gap: 30px;
+    max-width: 800px;
   }
 
   .title-especializaciones {
-    font-size: var(--font-size-2xl);
-    margin-bottom: var(--spacing-xl);
+    font-size: 34px;
+    margin-bottom: 50px;
   }
 
-  .especializaciones {
-    gap: var(--spacing-lg);
+  .section-especilizaciones {
+    padding: 80px 20px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .especializaciones {
     grid-template-columns: 1fr;
-    gap: var(--spacing-md);
+    gap: 25px;
+    max-width: 400px;
   }
 
   .title-especializaciones {
-    font-size: var(--font-size-xl);
+    font-size: 26px;
+    margin-bottom: 35px;
+    letter-spacing: 1.5px;
+  }
+
+  .section-especilizaciones {
+    padding: 60px 15px;
   }
 }

@@ -18,6 +18,8 @@ import logo from "../../assets/camaragessel.jpeg";
 import capturapantalla1 from "../../assets/capturapantalla1.jpeg";
 import capturapantalla2 from "../../assets/capturapantalla2.png";
 import testigos from "../../assets/testigos.png";
+import suspension_juicio_1 from "../../assets/suspension_juicio_1.png";
+import suspension_juicio_2 from "../../assets/suspension_juicio_2.png";
 
 const noticias = [
   {
@@ -521,6 +523,64 @@ const noticias = [
     imagen: testigos,
     id: 22,
     slug: "prueba-testimonial-control-testigos-causa-penal",
+  },
+  {
+    titulo: "¿Puedo evitar un juicio penal?",
+    fecha: "4 de Junio de 2026",
+    tituloTexto:
+      "Suspensión del juicio a prueba (probation): una oportunidad para evitar una condena penal",
+    descripcion:
+      "Recibir una imputación penal suele generar miedo, incertidumbre y muchas preguntas. Una de las consultas más frecuentes que recibimos en el estudio es si existe alguna alternativa para resolver el conflicto sin llegar a un juicio oral ni sufrir una condena. En determinados casos, la respuesta puede encontrarse en una herramienta legal conocida como suspensión del juicio a prueba, también llamada probation.",
+    subDescripcion1: "¿Qué es la suspensión del juicio a prueba?",
+    subDescripcion2:
+      "La suspensión del juicio a prueba es un instituto previsto por la legislación penal argentina que permite suspender el proceso penal antes de la realización del juicio oral. Durante un período determinado por el juez, la persona imputada debe cumplir ciertas reglas de conducta y condiciones establecidas judicialmente.",
+    subDescripcion3:
+      "Si dichas condiciones son cumplidas correctamente, la acción penal se extingue y el proceso finaliza sin que exista una sentencia condenatoria.",
+    subDescripcion4:
+      "En otras palabras, se trata de una alternativa legal que, en determinados casos, permite evitar el avance de una causa penal hacia una condena.",
+    subDescripcion5: "¿Significa reconocer la culpabilidad?",
+    subDescripcion6: "No.",
+    subDescripcion7:
+      "Uno de los aspectos más importantes de la probation es que su solicitud no implica admitir responsabilidad penal ni reconocer la comisión del delito. Tampoco constituye una condena.",
+    subDescripcion8:
+      "La causa queda suspendida mientras la persona cumple las condiciones impuestas por el tribunal. Si el resultado es satisfactorio, el proceso concluye sin que exista una declaración judicial de culpabilidad.",
+    subDescripcion9: "¿Qué obligaciones puede imponer el juez?",
+    subDescripcion10:
+      "Las condiciones pueden variar según cada caso, pero generalmente incluyen: fijar y mantener un domicilio; presentarse periódicamente ante una autoridad de control; abstenerse de consumir alcohol o drogas; realizar tareas comunitarias; participar en tratamientos o programas específicos; cumplir determinadas pautas de conducta; y ofrecer una reparación económica razonable a la víctima cuando corresponda.",
+    subDescripcion11: "¿Cuáles son las ventajas de la probation?",
+    subDescripcion12:
+      "Entre sus principales beneficios se encuentran evitar la realización de un juicio oral, reducir el desgaste emocional y económico del proceso, evitar el riesgo de una condena penal, permitir la extinción de la acción penal al finalizar exitosamente el período de prueba y facilitar una resolución más rápida y eficiente del conflicto.",
+    subDescripcion13: "¿Existen riesgos o consecuencias posteriores?",
+    subDescripcion14:
+      "Sí. La probation no siempre es la mejor alternativa para todos los casos. Antes de solicitarla es fundamental realizar un análisis serio de la evidencia, de la estrategia defensiva y de los objetivos del cliente.",
+    subDescripcion15:
+      "Además, el incumplimiento de las reglas de conducta puede provocar la revocación del beneficio y la reanudación del proceso penal.",
+    subDescripcion16:
+      "Por otra parte, la extinción de la acción penal no necesariamente impide que puedan existir reclamos civiles derivados de los hechos investigados, dependiendo de las circunstancias concretas del caso.",
+    subDescripcion17: "¿El fiscal o la víctima pueden impedir la probation?",
+    subDescripcion18:
+      "Tanto el fiscal como la víctima tienen derecho a expresar su posición respecto del pedido de suspensión del juicio a prueba. Sin embargo, ello no significa automáticamente que su opinión resulte definitiva o inmodificable.",
+    subDescripcion19:
+      "Los jueces conservan facultades para controlar la legalidad y razonabilidad de las posiciones asumidas por las partes. Esto significa que determinadas oposiciones pueden ser analizadas judicialmente para verificar si se encuentran adecuadamente fundadas y ajustadas a derecho.",
+    subDescripcion20: "La importancia de una estrategia de defensa adecuada",
+    subDescripcion21:
+      "La suspensión del juicio a prueba es una herramienta valiosa, pero no debe ser considerada una solución automática. En algunos casos puede representar la mejor salida posible; en otros, una estrategia defensiva orientada a obtener un sobreseimiento o una absolución puede resultar más conveniente.",
+    subDescripcion22:
+      "Por eso es fundamental contar con asesoramiento especializado desde las primeras etapas del proceso.",
+    subDescripcion23:
+      "Si necesitas ayuda con una causa penal, o tenés preguntas sobre tu estrategia, no dudes en consultarme.",
+    datosContactoNombre: "Julián Farina Balbi",
+    datosContactoCargo:
+      "Abogado UNLP. Especialista en Prueba Penal por la U. de Castilla La Mancha. Director Legal en Estudio Farina Balbi",
+    datosContactoTelefono:
+      "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
+    datosContactoIG:
+      "https://www.instagram.com/julianfarinabalbi/",
+    datosContactoMail: "drfarinabalbi@gmail.com",
+    imagen: suspension_juicio_1,
+    imagen2: suspension_juicio_2,
+    id: 23,
+    slug: "puedo-evitar-un-juicio-penal-probation",
   },
 ];
 

@@ -3,13 +3,17 @@ import "./Banner.css";
 import Slider from "react-slick";
 
 export default function Banner() {
-  var settings = {
+  const settings = {
     dots: false,
     infinite: true,
-    speed: 1000,
+    speed: 800,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
+    autoplaySpeed: 5000,
+    cssEase: "ease-in-out",
+    pauseOnHover: false,
+    arrows: false,
   };
 
   return (

@@ -105,14 +105,18 @@ export default function DiarioSlug() {
         <section className="cont-texto-slug">
           <h2 className="titulo-texto-slug">{noticia.tituloTexto}</h2>
           <p className="texto-slug">{noticia.descripcion}</p>
-          {Array.from({ length: 10 }).map((_, index) => {
-            const subDescripcionKey = `subDescripcion${index + 1}`;
-            return noticia[subDescripcionKey] ? (
-              <p key={subDescripcionKey} className="texto-slug">
-                {noticia[subDescripcionKey]}
+          {Object.keys(noticia)
+            .filter((key) => key.startsWith("subDescripcion"))
+            .sort((a, b) => {
+              const numA = parseInt(a.replace("subDescripcion", ""), 10);
+              const numB = parseInt(b.replace("subDescripcion", ""), 10);
+              return numA - numB;
+            })
+            .map((key) => (
+              <p key={key} className="texto-slug">
+                {noticia[key]}
               </p>
-            ) : null;
-          })}
+            ))}
 
           {noticia.link && (
             <a

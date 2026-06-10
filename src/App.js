@@ -30,9 +30,9 @@ function App() {
       <div className="App">
         <Portada />
         <Banner />
+        <Especializaciones />
         <Reseñas />
         <Presentacion />
-        <Especializaciones />
         <Noticias />
         <Estudio />
         <ImagenConFrase />

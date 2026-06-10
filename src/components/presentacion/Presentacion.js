@@ -26,18 +26,25 @@ export default function Presentacion() {
             <span className="presentacion-badge">Trayectoria Académica y Profesional</span>
             <h1 className="presentacion-title">Dr. Julián Farina Balbi</h1>
             <h2 className="presentacion-subtitle">Abogado Especialista en Derecho Penal</h2>
-            
+
             <div className="presentacion-divider"></div>
 
             <p className="presentacion-text">
               El Dr. Julián Farina Balbi es un reconocido abogado penalista de la
               ciudad de La Plata. Es egresado de la Universidad Nacional de La
-              Plata y Magíster en Derecho Penal por la Universidad de Palermo. Su sólida 
+              Plata y Magíster en Derecho Penal por la Universidad de Palermo. Su sólida
               formación académica y compromiso con el ejercicio profesional guían cada defensa.
             </p>
 
             {/* Structured Credentials Grid */}
             <div className="presentacion-credentials">
+              <div className="credential-item">
+                <i className="fas fa-graduation-cap"></i>
+                <div>
+                  <h4>Magister en Derecho Penal</h4>
+                  <p>Universidad de Palermo</p>
+                </div>
+              </div>
               <div className="credential-item">
                 <i className="fas fa-graduation-cap"></i>
                 <div>
@@ -62,8 +69,8 @@ export default function Presentacion() {
             </div>
 
             <p className="presentacion-text">
-              Con más de 20 años de experiencia, defiende de manera proactiva y eficaz los 
-              derechos de personas sometidas al sistema penal en la provincia de Buenos Aires, 
+              Con más de 20 años de experiencia, defiende de manera proactiva y eficaz los
+              derechos de personas sometidas al sistema penal en la provincia de Buenos Aires,
               fuero federal y nacional, acompañado de un equipo interdisciplinario de excelencia.
             </p>
 

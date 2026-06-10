@@ -30,12 +30,12 @@ function App() {
       <div className="App">
         <Portada />
         <Banner />
-        <Especializaciones />
+        <Reseñas />
         <Presentacion />
+        <Especializaciones />
         <Noticias />
         <Estudio />
         <ImagenConFrase />
-        <Reseñas />
         <div className="container-mapa">
           <h5 className="title-ubicacion">Ubicacion</h5>
           <iframe

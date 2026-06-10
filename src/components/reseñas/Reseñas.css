@@ -127,6 +127,22 @@
     flex-shrink: 0;
 }
 
+.reviewer-avatar-placeholder {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    flex-shrink: 0;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    text-transform: uppercase;
+}
+
 .reviewer-info {
     flex: 1;
     min-width: 0;

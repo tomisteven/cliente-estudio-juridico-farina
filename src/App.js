@@ -7,7 +7,7 @@ import Portada from "./components/portada/Portada";
 import Presentacion from "./components/presentacion/Presentacion.js";
 import Banner from "./components/banner/Banner.js";
 import Especializaciones from "./components/especializaciones/Especializaciones.js";
-import Estudio from "./components/estudio/Estudio.js";
+//import Estudio from "./components/estudio/Estudio.js";
 import Reseñas from "./components/reseñas/Reseñas.js";
 import ButtonsSociales from "./components/buttonsSociales/ButtonsSociales.js";
 import ButtonWhatsApp from "./components/buttonWhatsApp/ButtonWhatsApp.js";
@@ -34,7 +34,7 @@ function App() {
         <Reseñas />
         <Presentacion />
         <Noticias />
-        <Estudio />
+        {/*  <Estudio /> */}
         <ImagenConFrase />
         <div className="container-mapa">
           <h5 className="title-ubicacion">Ubicacion</h5>

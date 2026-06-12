@@ -17,10 +17,12 @@
 }
 
 .reviews-header h2 {
+    font-family: "Sedan SC", serif;
     font-size: 2.5rem;
-    font-weight: 800;
-    color: #202124;
+    font-weight: 600;
+    color: #1a1d27;
     margin-bottom: 16px;
+    letter-spacing: 1px;
 }
 
 .reviews-rating {

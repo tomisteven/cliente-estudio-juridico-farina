@@ -15,7 +15,7 @@
 }
 
 /* Individual Slide Layout */
-.cont-banner div {
+.cont-banner .banner-slide {
   display: flex !important; /* Override slick block layout */
   flex-direction: row;
   justify-content: center;
@@ -27,9 +27,9 @@
 }
 
 /* Heading styling inside slide */
-.cont-banner div h1,
-.cont-banner div h2,
-.cont-banner div h3 {
+.cont-banner .banner-slide h1,
+.cont-banner .banner-slide h2,
+.cont-banner .banner-slide h3 {
   font-family: "Sedan SC", serif;
   font-size: 20px;
   font-weight: 500;
@@ -44,9 +44,9 @@
 }
 
 /* Separator between Title and Paragraph on Desktop */
-.cont-banner div h1::after,
-.cont-banner div h2::after,
-.cont-banner div h3::after {
+.cont-banner .banner-slide h1::after,
+.cont-banner .banner-slide h2::after,
+.cont-banner .banner-slide h3::after {
   content: "—";
   margin-left: 15px;
   color: rgba(217, 201, 186, 0.4);
@@ -55,7 +55,7 @@
 }
 
 /* Paragraph styling inside slide */
-.cont-banner div p {
+.cont-banner .banner-slide p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   color: #e2e8f0;
@@ -71,7 +71,7 @@
     height: 110px;
   }
 
-  .cont-banner div {
+  .cont-banner .banner-slide {
     flex-direction: column;
     justify-content: center;
     gap: 6px;
@@ -79,22 +79,22 @@
     padding: 10px 15px;
   }
 
-  .cont-banner div h1,
-  .cont-banner div h2,
-  .cont-banner div h3 {
+  .cont-banner .banner-slide h1,
+  .cont-banner .banner-slide h2,
+  .cont-banner .banner-slide h3 {
     font-size: 15px;
     letter-spacing: 1px;
     text-align: center;
   }
 
   /* Hide separating em-dash when items are stacked vertically */
-  .cont-banner div h1::after,
-  .cont-banner div h2::after,
-  .cont-banner div h3::after {
+  .cont-banner .banner-slide h1::after,
+  .cont-banner .banner-slide h2::after,
+  .cont-banner .banner-slide h3::after {
     display: none;
   }
 
-  .cont-banner div p {
+  .cont-banner .banner-slide p {
     font-size: 12px;
     text-align: center;
     max-width: 90%;

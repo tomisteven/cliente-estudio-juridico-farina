@@ -20,6 +20,8 @@ import capturapantalla2 from "../../assets/capturapantalla2.png";
 import testigos from "../../assets/testigos.png";
 import suspension_juicio_1 from "../../assets/suspension_juicio_1.png";
 import suspension_juicio_2 from "../../assets/suspension_juicio_2.png";
+import abuso_sexual_defensa_1 from "../../assets/abuso_sexual_defensa_1.jpg";
+import abuso_sexual_defensa_2 from "../../assets/abuso_sexual_defensa_2.jpg";
 
 const noticias = [
   {
@@ -581,6 +583,52 @@ const noticias = [
     imagen2: suspension_juicio_2,
     id: 23,
     slug: "puedo-evitar-un-juicio-penal-probation",
+  },
+  {
+    titulo:
+      "Estrategias de Defensa y Control de Calidad de la Evidencia en Casos de Abuso Sexual",
+    fecha: "24 de Junio de 2026",
+    tituloTexto: "La importancia de analizar cómo se construyó la prueba",
+    descripcion:
+      "Las denuncias por delitos contra la integridad sexual presentan una particular complejidad probatoria. La gravedad de los hechos investigados exige un análisis serio, profundo y técnicamente fundado de cada elemento de prueba incorporado al expediente.",
+    subDescripcion1:
+      "En nuestro estudio jurídico, especializado en defense penal y análisis de evidencia compleja, trabajamos junto a profesionales de distintas disciplinas para evaluar la calidad, confiabilidad y fortaleza de la prueba presentada en cada caso.",
+    subDescripcion2:
+      "La pregunta central no es únicamente qué se dijo.\n\nLa pregunta verdaderamente importante es:\n¿Cómo se obtuvo esa información y qué grado de confiabilidad tiene?\n\nA continuación compartimos algunos de los principales aspectos que analizamos en este tipo de investigaciones.",
+    subDescripcion3:
+      "1. Sugestionabilidad infantil\nUno de los primeros factores que evaluamos es la edad del niño y su eventual vulnerabilidad a fenómenos de sugestión. La literatura científica demuestra que los niños pequeños pueden resultar especialmente permeables a influencias externas, preguntas reiteradas o intervenciones de terceros. Por ello analizamos cuidadosamente el contexto en el que surgieron las manifestaciones atribuidas al menor.",
+    subDescripcion4:
+      "2. Posibles fenómenos de contaminación de la memoria\nNuestro equipo presta especial atención a la existencia de entrevistas múltiples, conversaciones posteriores al supuesto hecho, intervenciones familiares o procesos terapéuticos previos. Estos factores pueden impactar en la forma en que un niño recuerda y relata determinados acontecimientos. Por esa razón resulta fundamental reconstruir cronológicamente quién habló con el menor, cuándo lo hizo y bajo qué circunstancias.",
+    subDescripcion5:
+      "3. Calidad metodológica de la Cámara Gesell\nLa Cámara Gesell suele constituir una de las pruebas más importantes dentro de este tipo de procesos. Sin embargo, no basta con que exista una entrevista. También analizamos:\n• Momento en que fue realizada.\n• Protocolo utilizado.\n• Calidad técnica de las preguntas.\n• Existencia de preguntas sugestivas.\n• Coherencia interna del relato.\n• Presencia o ausencia de espontaneidad.",
+    subDescripcion6:
+      "4. Diferenciar relatos clínicos de evidencia forense\nNo toda manifestación posee el mismo valor desde el punto de vista probatorio. Una conversación familiar, una intervención terapéutica o un comentario efectuado en un ámbito escolar cumplen funciones distintas a una entrevista forense. Por ello evaluamos cuidadosamente el origen de cada relato incorporado a la investigación.",
+    subDescripcion7:
+      "5. Influencia de terceros sobre la construcción del relato\nOtro aspecto central consiste en determinar si pudieron existir intervenciones externas capaces de influir —aun involuntariamente— sobre el contenido del relato. En muchos casos la influencia no surge de una intención de manipular, sino de intentos genuinos de ayudar o comprender lo sucedido. Sin embargo, desde una perspectiva probatoria, esos factores deben ser analizados.",
+    subDescripcion8:
+      "6. Búsqueda de corroboración objetiva\nLa calidad de una investigación no depende exclusivamente de la existencia de una declaración. Por ello examinamos si existen elementos independientes que permitan corroborar o descartar la hipótesis acusatoria. Entre otros aspectos analizamos:\n• Informes médicos.\n• Pericias psicológicas.\n• Evidencia digital.\n• Testigos independientes.\n• Registros documentales.\n• Elementos periféricos de corroboración.",
+    subDescripcion9:
+      "7. Contexto familiar y conflictos previos\nToda investigación debe ser evaluada dentro de su contexto. Procesos de separación conflictiva, disputas por cuidado personal, regímenes de comunicación o conflictos familiares prolongados pueden constituir información relevante para comprender la dinámica del caso. Esto no implica descalificar automáticamente una denuncia. Implica analizar integralmente todos los factores presentes en la evidencia.",
+    subDescripcion10:
+      "8. Trabajo interdisciplinario\nLos delitos contra la integridad sexual suelen requerir conocimientos que exceden lo estrictamente jurídico. Por ello trabajamos junto a profesionales especializados en psicología del testimonio, análisis probatorio, evidencia digital y ciencias forenses. El objetivo es construir una evaluación técnica integral de la calidad de la prueba disponible.",
+    subDescripcion11:
+      "Conclusión\nLa defensa penal moderna exige mucho más que el conocimiento de la ley. Exige comprender cómo se producen los recuerdos, cómo se construyen los relatos, cómo se obtiene la evidencia y cuáles son los estándares científicos que permiten valorar su confiabilidad. Por esa razón, cada caso requiere un análisis individualizado, interdisciplinario y técnicamente riguroso.",
+    subDescripcion12:
+      "Descargá un fallo ejemplificativo\nMuchos de los criterios desarrollados en este artículo fueron recientemente abordados por un tribunal en una causa vinculada a una denuncia por abuso sexual infantil. El fallo analiza cuestiones como:\n✔ Sugestionabilidad infantil.\n✔ Contaminación de la memoria.\n✔ Valoración de la Cámara Gesell.\n✔ Influencia de terceros.\n✔ Corroboración de la prueba.\n✔ Contexto de conflictividad familiar.\n\nDescargá el fallo completo y conocé cómo fueron aplicados estos criterios en un caso concreto.",
+    datosContactoNombre: "Julián Farina Balbi",
+    datosContactoCargo:
+      "Abogado UNLP. Especialista en Prueba Penal por la U. de Castilla La Mancha. Director Legal en Estudio Farina Balbi",
+    datosContactoTelefono:
+      "https://api.whatsapp.com/send/?phone=5492214281440&text=Hola+Dr.+Farina+Balbi+necesito+hacer+una+consulta&type=phone_number&app_absent=0",
+    datosContactoIG:
+      "https://www.instagram.com/julianfarinabalbi/",
+    datosContactoMail: "drfarinabalbi@gmail.com",
+    imagen: abuso_sexual_defensa_1,
+    imagen2: abuso_sexual_defensa_2,
+    id: 24,
+    slug: "estrategias-defensa-evidencia-casos-abuso-sexual",
+    link: "https://drive.google.com/file/d/16ej4p8q6l049CD4fLahSgasP89y7MaKv/view?usp=sharing",
+    textBtn: "Solicitar Fallo Completo",
   },
 ];
 

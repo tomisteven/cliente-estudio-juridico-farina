@@ -628,7 +628,7 @@ const noticias = [
     id: 24,
     slug: "estrategias-defensa-evidencia-casos-abuso-sexual",
     link: "https://drive.google.com/file/d/16ej4p8q6l049CD4fLahSgasP89y7MaKv/view?usp=sharing",
-    textBtn: "Solicitar Fallo Completo",
+    textBtn: "Acceder al Fallo Completo",
   },
 ];
 

@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Estudio Farina Balbi",
+  "name": "Estudio Jurídico Farina Balbi",
   "icons": [
     {
       "src": "logoico2.ico",
@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logonegro.png",
+      "src": "logo192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logonegro.png",
+      "src": "logo512.png",
       "type": "image/png",
       "sizes": "512x512"
     }

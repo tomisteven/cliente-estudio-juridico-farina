@@ -1,231 +1,348 @@
-.container-noticias {
-  padding: 30px;
+/* ============================================
+   SECCIÓN DE NOTICIAS DESTACADAS
+   ============================================ */
+
+.noticias-section {
   width: 100%;
-  height: 600px;
+  background-color: #0f1117;
+  padding: 80px 0 60px;
+  overflow: hidden;
 }
-.title-noticias {
-  font-size: 25px;
-  font-weight: bold;
-  font-family: "Sedan SC", serif;
+
+/* Header */
+.noticias-header {
   text-align: center;
-  margin-top: 50px;
   margin-bottom: 50px;
+  padding: 0 20px;
 }
-.cont-noticias {
-  height: 500px;
-  width: 90%;
-  display: flex;
+
+.noticias-eyebrow {
+  font-family: "Sedan SC", serif;
+  font-size: 13px;
+  letter-spacing: 2.5px;
+  color: #b59d83;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.noticias-title {
+  font-family: "Sedan SC", serif;
+  font-size: 38px;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 0 0 18px;
+  letter-spacing: 2px;
+}
+
+.noticias-title-line {
+  width: 70px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #d9c9ba, transparent);
+  margin: 0 auto;
+}
+
+/* ============================================
+   CAROUSEL OVERRIDES
+   ============================================ */
+
+.noticias-carousel {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Hide the default react-responsive-carousel indicator dots */
+.noticias-carousel .carousel .control-dots {
+  bottom: 10px;
+}
+
+.noticias-carousel .carousel .control-dots .dot {
+  background: #d9c9ba;
+  box-shadow: none;
+  opacity: 0.4;
+  width: 8px;
+  height: 8px;
+  transition: all 0.3s ease;
+}
+
+.noticias-carousel .carousel .control-dots .dot.selected {
+  opacity: 1;
+  width: 24px;
+  border-radius: 4px;
+}
+
+/* ============================================
+   SLIDE LAYOUT — Split panel
+   ============================================ */
+
+.noticia-slide {
+  display: flex !important;
   flex-direction: row;
-  margin: auto;
-  margin-bottom: 30px;
-  background-color: rgb(246, 246, 246);
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px 0px #00000051;
-}
-.info-p{
-  text-align: start;
-}
-.noticias-info h1 {
-  font-size: 25px;
-  font-weight: bold;
-  font-family: "Sedan SC", serif;
-  text-align: start;
-}
-.carousel.carousel-slider .control-arrow{
-  background-color: red;
+  height: 500px;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #1a1d27;
+  margin: 0 20px 40px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  text-align: left;
 }
 
-.titulo-noticias{
-  font-size: 25px;
-  font-weight: bold;
-  font-family: "Sedan SC", serif;
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-
-}
-
-.fecha-info {
-  font-size: 18px;
-  border-bottom: 1px solid #5b5b5b;
-  font-family: "Sedan SC", serif;
-  color: #5b5b5b;
-}
-
-.noticias-img {
+/* Image Panel — 45% width */
+.noticia-img-panel {
   width: 45%;
-  height: auto;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+  background: #0a0c12; /* Dark bg visible when image doesn't fill panel */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.noticias-info {
-  width:55%;
-  height: 400px;
+
+.noticia-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Show full image without cropping */
+  object-position: center center;
+  transition: opacity 0.3s ease;
+}
+
+.noticia-slide:hover .noticia-img {
+  opacity: 0.92;
+}
+
+/* Dark gradient over the image */
+.noticia-img-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg,
+      rgba(15, 17, 23, 0.25) 0%,
+      rgba(15, 17, 23, 0.05) 100%);
+  pointer-events: none;
+}
+
+/* Date Badge on Image */
+.noticia-fecha-badge {
+  position: absolute;
+  bottom: 18px;
+  left: 18px;
+  background: rgba(15, 17, 23, 0.88);
+  border: 1px solid rgba(217, 201, 186, 0.3);
+  color: #d9c9ba;
+  font-family: "Sedan SC", serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  backdrop-filter: blur(6px);
+}
+
+/* Info Panel — 55% width */
+.noticia-info-panel {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 40px 45px;
+  background: #1a1d27;
+  border-left: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.noticia-info-content {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-start;
-  padding: 20px;
+  width: 100%;
 }
 
-.img-noticia {
-  width: auto;
-  height: 100%;
-  background-color: #d1010100;
-  object-fit: contain;
+/* Category indicator row */
+.noticia-category-line {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
 }
 
-.button {
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  appearance: none;
-  border: none;
-  background: none;
-  color: #0f1923;
-  cursor: pointer;
-  position: relative;
-  padding: 8px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  font-weight: bold;
+.noticia-category-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #d9c9ba;
+  flex-shrink: 0;
+}
+
+.noticia-category-label {
+  font-family: "Sedan SC", serif;
   font-size: 12px;
-  transition: all 0.15s ease;
+  letter-spacing: 1.5px;
+  color: #b59d83;
+  text-transform: uppercase;
 }
 
-.button::before,
-.button::after {
-  content: "";
-  display: block;
-  position: absolute;
-  right: 0;
-  left: 0;
-  height: calc(50% - 5px);
-  border: 1px solid #7d8082;
-  transition: all 0.15s ease;
+/* Slide Title */
+.noticia-slide-title {
+  font-family: "Sedan SC", serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #f1f5f9;
+  margin: 0 0 16px;
+  line-height: 1.4;
+  letter-spacing: 0.5px;
 }
 
-.button::before {
-  top: 0;
-  border-bottom-width: 0;
+/* Gold Divider */
+.noticia-info-divider {
+  width: 40px;
+  height: 1px;
+  background: #d9c9ba;
+  margin-bottom: 18px;
+  flex-shrink: 0;
 }
 
-.button::after {
-  bottom: 0;
-  border-top-width: 0;
-}
-
-.button:active,
-.button:focus {
-  outline: none;
-}
-
-.button:active::before,
-.button:active::after {
-  right: 3px;
-  left: 3px;
-}
-
-.button:active::before {
-  top: 3px;
-}
-
-.button:active::after {
-  bottom: 3px;
-}
-
-.button_lg {
-  position: relative;
-  display: block;
-  padding: 10px 20px;
-  color: #fff;
-  background-color: #0f1923;
+/* Description */
+.noticia-slide-desc {
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 14px;
+  color: #94a3b8;
+  line-height: 1.65;
+  margin: 0 0 28px;
+  font-weight: 300;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
   overflow: hidden;
-  box-shadow: inset 0px 0px 0px 1px transparent;
 }
 
-.button_lg::before {
-  content: "";
-  display: block;
+/* CTA Link Button */
+.noticia-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: transparent;
+  border: 1px solid rgba(217, 201, 186, 0.4);
+  color: #d9c9ba;
+  font-family: "Sedan SC", serif;
+  font-size: 13px;
+  letter-spacing: 1px;
+  padding: 10px 22px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  align-self: flex-start;
+  text-transform: uppercase;
+}
+
+.noticia-link-btn:hover {
+  background: #d9c9ba;
+  color: #0f1117;
+  border-color: #d9c9ba;
+  transform: translateX(4px);
+}
+
+.noticia-link-btn i {
+  font-size: 11px;
+  transition: transform 0.3s ease;
+}
+
+.noticia-link-btn:hover i {
+  transform: translateX(4px);
+}
+
+/* ============================================
+   CUSTOM ARROW BUTTONS
+   ============================================ */
+
+.carousel-arrow {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 2px;
-  height: 2px;
-  background-color: #0f1923;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid rgba(217, 201, 186, 0.35);
+  background: rgba(15, 17, 23, 0.85);
+  backdrop-filter: blur(6px);
+  color: #d9c9ba;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
 }
 
-.button_lg::after {
-  content: "";
-  display: block;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 4px;
-  height: 4px;
-  background-color: #0f1923;
-  transition: all 0.2s ease;
+.carousel-arrow:hover {
+  background: #d9c9ba;
+  color: #0f1117;
+  border-color: #d9c9ba;
 }
 
-.button_sl {
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: -1px;
-  left: -8px;
-  width: 0;
-  background-color: #ff4655;
-  transform: skew(-15deg);
-  transition: all 0.2s ease;
+.carousel-arrow--next {
+  right: 30px;
 }
 
-.button_text {
-  position: relative;
+.carousel-arrow--prev {
+  left: 30px;
 }
 
-.button:hover {
-  color: #0f1923;
-}
+/* ============================================
+   RESPONSIVE
+   ============================================ */
 
-.button:hover .button_sl {
-  width: calc(100% + 15px);
-}
-
-.button:hover .button_lg::after {
-  background-color: #fff;
-}
-
-/*
- */
-
-
-@media (max-width: 600px){
-  .container-noticias{
-    height: auto;
-    margin-bottom: 100px;
-  }
-  .cont-noticias {
+@media (max-width: 900px) {
+  .noticia-slide {
     flex-direction: column;
     height: auto;
+    margin: 0 12px 40px;
+  }
 
+  .noticia-img-panel {
+    width: 100%;
+    height: 280px;
   }
-  .titulo-noticias{
-    margin-top: 20px;
-    margin-bottom: -20px;
 
+  .noticia-info-panel {
+    padding: 30px 25px;
+    border-left: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
   }
-  .noticias-img {
-    width: 100%;
-    height: 300px;
+
+  .noticias-title {
+    font-size: 30px;
   }
-  .noticias-info {
-    width: 100%;
-    height: auto;
+
+  .carousel-arrow--next {
+    right: 12px;
   }
-  .info-p{
-    text-align: justify;
+
+  .carousel-arrow--prev {
+    left: 12px;
   }
-  .fecha-info {
-    display: none;
+}
+
+@media (max-width: 600px) {
+  .noticias-section {
+    padding: 60px 0 40px;
   }
-  .button {
-    margin: auto;
+
+  .noticias-title {
+    font-size: 26px;
+  }
+
+  .noticia-img-panel {
+    height: 230px;
+  }
+
+  .noticia-slide-title {
+    font-size: 18px;
+  }
+
+  .noticia-info-panel {
+    padding: 24px 18px;
+  }
+
+  .noticia-slide-desc {
+    -webkit-line-clamp: 5;
+    font-size: 13px;
   }
 }

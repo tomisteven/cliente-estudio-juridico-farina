@@ -1,134 +1,243 @@
-.container-section-presentacion {
-  margin-top: 90px;
-  margin-bottom: 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  height: 700px;
+/* Presentacion Section Container */
+.presentacion-section {
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.476);
-}
-.presentacion-descripcion {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-.logo-presentacion {
-  width: 250px;
-  height: 100%;
-  object-fit: contain;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-
-  padding: 10px;
+  padding: 100px 30px;
+  background-color: #ffffff;
   position: relative;
-  top: 10px;
-  left: -40px;
+  overflow: hidden;
 }
 
-/* .title-portada {
-  font-family: "Sedan SC", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 42px;
-
-  border-bottom: 2px solid #00000016;
-  padding-bottom: 9px;
-  text-align: center;
-  width: auto;
+.presentacion-container {
+  max-width: 1150px;
+  margin: 0 auto;
 }
- */
-.cont-img-presentacion {
-  width: 50%;
-  height: 100%;
-  object-fit: contain;
+
+/* Grid Layout */
+.presentacion-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 60px;
+  align-items: center;
+}
+
+/* Image Wrapper with Offset Frame */
+.presentacion-image-wrapper {
+  position: relative;
+  width: 100%;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
 }
 
-.img-presentacion {
+.presentacion-image-frame {
+  position: absolute;
+  top: 20px;
+  left: -20px;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  border: 2px solid #d9c9ba;
+  border-radius: 12px;
+  z-index: 1;
 }
 
-
-.cont-info-presentacion {
-
-  color: rgb(0, 0, 0);
-  width: 50%;
-  padding: 15px;
-  padding-right: 60px;
-
-  margin: 15px;
-
-  text-align: start;
-}
-
-.cont-info-presentacion h1  {
-  font-family: "Sedan SC", serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 35px;
-  margin-top: 10px;
-  text-align: center;
-}
-.cont-info-presentacion h2{
-  font-family: "Sedan SC", serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 20px;
-  margin-top: 10px;
-  text-align: center;
-}
-
-.cont-info-presentacion p {
+.presentacion-img {
   width: 100%;
-  font-weight: 400;
-  text-align: justify;
-  font-style: normal;
-  font-size: 16px;
-  margin-top: 10px;
+  height: auto;
+  max-height: 520px;
+  object-fit: cover;
+  border-radius: 12px;
+  z-index: 2;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  position: relative;
 }
 
-.cont-info-presentacion button {
+/* Info Column */
+.presentacion-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+/* Tagline Badge */
+.presentacion-badge {
   font-family: "Sedan SC", serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 15px;
-  margin-top: 10px;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  background-color: #d9c9ba;
-  color: rgb(0, 0, 0);
-  cursor: pointer;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  color: #b59d83;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  font-weight: 500;
 }
 
-@media (max-width: 600px) {
-  .cont-info-presentacion h1 {
-    font-size: 30px;
+/* Title & Subtitle */
+.presentacion-title {
+  font-family: "Sedan SC", serif;
+  font-size: 42px;
+  color: #111827;
+  margin: 0 0 8px 0;
+  font-weight: 500;
+}
 
-    border-bottom: 1px solid black;
-    text-align: start;
+.presentacion-subtitle {
+  font-family: "Sedan SC", serif;
+  font-size: 18px;
+  color: #b59d83;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
 
-    width: 100%;
+/* Golden Divider */
+.presentacion-divider {
+  width: 60px;
+  height: 2px;
+  background: #d9c9ba;
+  margin-bottom: 24px;
+}
+
+/* Bio Text Paragraphs */
+.presentacion-text {
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 14.5px;
+  color: #4b5563;
+  line-height: 1.7;
+  margin: 0 0 20px 0;
+  font-weight: 300;
+}
+
+/* Credentials Container */
+.presentacion-credentials {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+/* Individual Credential Card */
+.credential-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.credential-item i {
+  color: #b59d83;
+  background: rgba(217, 201, 186, 0.15);
+  border: 1px solid rgba(217, 201, 186, 0.3);
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.credential-item h4 {
+  font-family: "Sedan SC", serif;
+  font-size: 14.5px;
+  color: #111827;
+  margin: 0 0 2px 0;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.credential-item p {
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 13px;
+  color: #6b7280;
+  margin: 0;
+  font-weight: 300;
+}
+
+/* Button CTA */
+.presentacion-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #d9c9ba;
+  color: #121212;
+  border: none;
+  padding: 12px 30px;
+  font-family: "Sedan SC", serif;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 1px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(217, 201, 186, 0.2);
+  margin-top: 10px;
+}
+
+.presentacion-btn:hover {
+  background: #111827;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(17, 24, 39, 0.25);
+}
+
+/* Responsive Media Queries */
+@media (max-width: 992px) {
+  .presentacion-grid {
+    grid-template-columns: 1fr;
+    gap: 50px;
   }
-  .cont-info-presentacion h2{
-    text-align: start;
+  
+  .presentacion-image-wrapper {
+    max-width: 500px;
+    margin: 0 auto;
   }
-  .container-section-presentacion {
-    margin-top: 850px;
-    width: 100%;
-    flex-direction: column;
+
+  .presentacion-image-frame {
+    left: -15px;
+    top: 15px;
   }
-  .cont-img-presentacion {
-    width: 100%;
-  }
-  .cont-info-presentacion {
-    width: 100%;
+  
+  .presentacion-info {
+    align-items: center;
     text-align: center;
   }
 
+  .presentacion-divider {
+    margin: 0 auto 24px auto;
+  }
+
+  .credential-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+  }
+
+  .credential-item i {
+    margin-top: 0;
+  }
+
+  .presentacion-btn {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 600px) {
+  .presentacion-section {
+    padding: 60px 15px;
+  }
+
+  .presentacion-title {
+    font-size: 32px;
+  }
+
+  .presentacion-subtitle {
+    font-size: 16px;
+  }
+
+  .presentacion-text {
+    font-size: 13.5px;
+  }
 }

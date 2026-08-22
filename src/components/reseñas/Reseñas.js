@@ -2,6 +2,64 @@ import React, { useState } from "react";
 import "./Reseñas.css";
 import reseñasData from "./completo_reseñas.json";
 
+function ReviewerAvatar({ src, name }) {
+  const [imageError, setImageError] = React.useState(false);
+
+  // Determinar si es una imagen genérica o no tiene
+  const hasNoImage = !src || src.includes("default-user") || imageError;
+
+  const initials = React.useMemo(() => {
+    if (!name) return "";
+    const parts = name.trim().split(/\s+/);
+    if (parts.length >= 2) {
+      return (parts[0][0] + parts[parts.length - 1][0]).toUpperCase();
+    }
+    return parts[0][0].toUpperCase();
+  }, [name]);
+
+  const avatarColor = React.useMemo(() => {
+    const AVATAR_COLORS = [
+      "#d97706", // amber
+      "#2563eb", // blue
+      "#059669", // emerald
+      "#7c3aed", // violet
+      "#db2777", // pink
+      "#dc2626", // red
+      "#0891b2", // cyan
+      "#4f46e5", // indigo
+      "#16a34a", // green
+      "#ea580c"  // orange
+    ];
+    if (!name) return "#b59d83";
+    let hash = 0;
+    for (let i = 0; i < name.length; i++) {
+      hash = name.charCodeAt(i) + ((hash << 5) - hash);
+    }
+    const index = Math.abs(hash) % AVATAR_COLORS.length;
+    return AVATAR_COLORS[index];
+  }, [name]);
+
+  if (hasNoImage) {
+    return (
+      <div 
+        className="reviewer-avatar-placeholder" 
+        style={{ backgroundColor: avatarColor }}
+      >
+        {initials}
+      </div>
+    );
+  }
+
+  return (
+    <img
+      src={src}
+      alt={name}
+      className="reviewer-photo"
+      onError={() => setImageError(true)}
+    />
+  );
+}
+
 export default function Reseñas() {
   const [currentPage, setCurrentPage] = useState(0);
 
@@ -57,7 +115,7 @@ export default function Reseñas() {
   return (
     <div className="google-reviews-container" id="reseñas">
       <div className="reviews-header">
-        <h2>Reseñas de Google</h2>
+        <h2>Reseñas de Nuestros Clientes</h2>
         <div className="reviews-rating">
           <span className="rating-number">5</span>
           <div className="stars-display">
@@ -83,10 +141,9 @@ export default function Reseñas() {
           {getCurrentPageReviews().map((reseña, index) => (
             <div key={index} className="review-card">
               <div className="review-header">
-                <img
+                <ReviewerAvatar
                   src={reseña["Foto de Perfil del Reseñador"]}
-                  alt={reseña["Nombre del Reseñador"]}
-                  className="reviewer-photo"
+                  name={reseña["Nombre del Reseñador"]}
                 />
                 <div className="reviewer-info">
                   <h3 className="reviewer-name">{reseña["Nombre del Reseñador"]}</h3>

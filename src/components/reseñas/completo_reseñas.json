@@ -1,5 +1,41 @@
 [
   {
+    "Nombre del Reseñador": "Andrea Milne",
+    "Foto de Perfil del Reseñador": "",
+    "Calificación (Max 5)": "5",
+    "Fecha de la Reseña": "Hace 2 horas",
+    "Texto de la Reseña": "Muy buena predisposición para acompañar y brindar información respecto a todo el caso. muy buen trabajo.",
+    "Me Gusta": "0",
+    "Respuesta del Propietario": ""
+  },
+  {
+    "Nombre del Reseñador": "ignacio milne",
+    "Foto de Perfil del Reseñador": "",
+    "Calificación (Max 5)": "5",
+    "Fecha de la Reseña": "Hace 3 horas",
+    "Texto de la Reseña": "Muy bien trabajo. Salió todo como esperaba y en poco tiempo.",
+    "Me Gusta": "0",
+    "Respuesta del Propietario": ""
+  },
+  {
+    "Nombre del Reseñador": "cinthia benitez",
+    "Foto de Perfil del Reseñador": "",
+    "Calificación (Max 5)": "5",
+    "Fecha de la Reseña": "Hace 4 días",
+    "Texto de la Reseña": "Muy agradecida con el Dr. Farina Balbi es una persona confiable que hace muy bien su trabajo, de mi parte estoy muy contenta y satisfecha con el resultado, que Dios te bendiga grandemente por el tiempo y dedicación, de mi parte es totalmente recomendable el Dr farina Balbi",
+    "Me Gusta": "0",
+    "Respuesta del Propietario": ""
+  },
+  {
+    "Nombre del Reseñador": "Fernando Di Massimo",
+    "Foto de Perfil del Reseñador": "",
+    "Calificación (Max 5)": "5",
+    "Fecha de la Reseña": "Hace 2 semanas",
+    "Texto de la Reseña": "Excelente atención, responsabilidad, confianza y dedicación del dr Julián farina. Siempre atento y muy responsable. Muchísimas gracias doctor por todo, muy recomendable, resolvió el caso en 8 meses",
+    "Me Gusta": "0",
+    "Respuesta del Propietario": ""
+  },
+  {
     "Nombre del Reseñador": "juan jose mosca",
     "Foto de Perfil del Reseñador": "",
     "Calificación (Max 5)": "5",

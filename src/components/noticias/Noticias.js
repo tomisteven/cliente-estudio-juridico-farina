@@ -3,6 +3,7 @@ import "./Noticias.css";
 import castilla from "../../assets/castilla.jpg";
 import diarioCapital from "../../assets/diariocapital.jpg";
 import disertacion from "../../assets/disertacion.jpg";
+import disertacionn from "../../assets/disertacionn.jpeg";
 import investigador from "../../assets/investigador.jpg";
 import proyect from "../../assets/proyect.jpg";
 import jurados from "../../assets/jurados.jpg";
@@ -229,6 +230,15 @@ export default function Noticias() {
       fecha: "27/05/2026",
       imagen: asocacion,
       id: 22,
+    },
+    {
+      titulo: "Jornada sobre IA y prueba en juicio",
+      descripcion:
+        "El Dr. Julián Farina Balbi ha sido invitado a disertar en la Jornada organizada por la Universidad Católica de La Plata y el Colegio de Magistrados y Funcionarios de Quilmes sobre un tema de suma actualidad: el impacto y uso probatorio de la IA.",
+      link: "",
+      fecha: "29/10/2026",
+      imagen: disertacionn,
+      id: 23,
     },
   ];
 

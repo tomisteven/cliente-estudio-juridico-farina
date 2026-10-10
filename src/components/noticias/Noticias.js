@@ -23,6 +23,7 @@ import libro2 from "../../assets/libro2.jpeg";
 import diplomatura from "../../assets/diplomatura.jpeg";
 import presentacionLibro from "../../assets/IMG_0234.jpg";
 import asocacion from "../../assets/asociacion.jpeg";
+import akada from "../../assets/akada.jpeg";
 
 import { Carousel } from "react-responsive-carousel";
 
@@ -239,6 +240,16 @@ export default function Noticias() {
       fecha: "29/10/2026",
       imagen: disertacionn,
       id: 23,
+    },
+    {
+      titulo:
+        "El Dr. Julián Farina Balbi participó en la Suprema Corte de Justicia en la Jornada de actualización en Litigio penal por audiencias",
+      descripcion:
+        "La oralidad es una materia que exige a todos los operadores la constante capacitación. En ese marco, el Dr. Julián Farina Balbi participó en la Suprema Corte de Justicia en la Jornada de actualización en Litigio penal por audiencias.",
+      link: "",
+      fecha: "2026",
+      imagen: akada,
+      id: 24,
     },
   ];
 
